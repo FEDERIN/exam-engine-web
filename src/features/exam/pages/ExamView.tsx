@@ -59,18 +59,21 @@ export function ExamView({
   const isLastQuestion =
     currentQuestionNumber === totalQuestions;
 
-  const progress =
-    (currentQuestionNumber / totalQuestions) * 100;
-
-  const answeredQuestions = session.questions.filter(
-    (question) => {
-      const answer = session.answers.find(
-        (item) => item.questionId === question.id,
-      );
-
-      return isAnswered(answer?.selectedAnswer ?? null);
-    },
+  const answeredQuestions = session.answers.filter(
+    (answer) => isAnswered(answer.selectedAnswer),
   ).length;
+
+  // Tracks how much of the exam is actually answered, not how far the
+  // user has navigated. Jumping to the last question without answering
+  // must not report the exam as complete.
+  //
+  // An empty session is not reachable through the UI, but it can be
+  // restored from localStorage, so the division is guarded to keep the
+  // bar width a valid number instead of NaN.
+  const progress =
+    totalQuestions === 0
+      ? 0
+      : (answeredQuestions / totalQuestions) * 100;
 
   const handleFinishExam = () => {
     const examResult = finishExam();
@@ -138,11 +141,12 @@ export function ExamView({
           <div className="mt-6">
             <div className="mb-2 flex items-center justify-between text-sm">
               <span className="text-slate-400">
-                Progress
+                Question {currentQuestionNumber} of{" "}
+                {totalQuestions}
               </span>
 
               <span className="font-medium">
-                {currentQuestionNumber} / {totalQuestions}
+                {answeredQuestions} answered
               </span>
             </div>
 
