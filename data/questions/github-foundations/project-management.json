@@ -1,0 +1,370 @@
+[
+  {
+    "id": "7f6f8b1e-1a4e-4f8a-9b7d-2c0f6e4a1d31",
+    "question": "¿Cómo puede GitHub Projects ayudar a gestionar la colaboración entre equipos multifuncionales que involucra múltiples repositorios dentro de una organización?",
+    "options": [
+      "La colaboración entre repositorios en GitHub Projects requiere la sincronización manual de tableros de proyectos separados para cada repositorio involucrado.",
+      "Los Projects pueden crearse a nivel de organización, lo que permite realizar el seguimiento y gestionar issues y pull requests de múltiples repositorios en un único tablero de proyecto, mejorando la visibilidad de las contribuciones del equipo.",
+      "GitHub Projects está limitado a la gestión de un único repositorio y no puede admitir colaboraciones de equipos multifuncionales que involucren múltiples repositorios.",
+      "GitHub Projects admite colaboraciones entre repositorios únicamente mediante herramientas externas de gestión de terceros que se integran con GitHub."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los Projects pueden utilizarse a nivel de organización para incluir y gestionar elementos de trabajo provenientes de múltiples repositorios. Esto permite que los equipos multifuncionales colaboren de manera más efectiva al realizar el seguimiento y gestionar tareas desde un tablero de proyecto centralizado, proporcionando una visión integral del progreso del proyecto en diferentes repositorios.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "GitHub Projects y colaboración entre repositorios"
+  },
+  {
+    "id": "c2a91d54-7b63-4e2f-8c15-9d04f6a73b82",
+    "question": "¿Cómo se pueden utilizar eficazmente los workflows de proyectos dentro de GitHub Projects para automatizar y agilizar el progreso de las tareas?",
+    "options": [
+      "Los workflows de proyectos están limitados únicamente a actualizaciones manuales y no tienen capacidades de automatización para mover las tareas entre las diferentes etapas.",
+      "Los workflows en GitHub Projects asignan automáticamente tareas a nuevos proyectos, pero no permiten que las tareas avancen a través de las diferentes etapas del proyecto.",
+      "Al configurar workflows automatizados, las tareas pueden moverse automáticamente entre columnas o estados basándose en eventos desencadenantes, como el cierre de un issue o la combinación de un pull request, mejorando la eficiencia y garantizando la consistencia en el progreso del proyecto.",
+      "La automatización dentro de GitHub Projects requiere herramientas externas y scripts que deben ser escritos y mantenidos por el equipo del proyecto, ya que GitHub no admite automatización nativa de workflows."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los workflows automatizados de GitHub Projects pueden mover automáticamente las tareas entre diferentes etapas o columnas según determinados triggers o criterios, como el cierre de un issue o el merge de un pull request. Esto reduce las actualizaciones manuales y ayuda a mantener un progreso consistente dentro del workflow del proyecto.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Workflows de GitHub Projects"
+  },
+  {
+    "id": "e48c2d91-5f07-4a63-b8e2-1c79d04f6a35",
+    "question": "¿Cuál es la función de la pestaña Projects dentro de un repositorio de GitHub y cómo facilita la gestión de proyectos?",
+    "options": [
+      "Funciona como un tablón de anuncios del repositorio para anuncios generales, no para gestionar tareas específicas relacionadas con proyectos.",
+      "La pestaña Projects es donde los equipos pueden crear, visualizar y gestionar GitHub Projects, organizando las tareas mediante tableros o tablas vinculados directamente a los issues y pull requests del repositorio.",
+      "La pestaña Projects es una característica meramente decorativa que proporciona personalización visual de la interfaz del repositorio, sin ninguna función de gestión de proyectos.",
+      "Sirve como acceso directo a herramientas externas de gestión de proyectos y no proporciona funcionalidades internas de gestión de proyectos de GitHub."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La pestaña Projects dentro de un repositorio está diseñada para gestionar proyectos directamente desde GitHub. Permite crear y administrar GitHub Projects, organizar tareas mediante boards o tables y vincularlas con Issues y Pull Requests para facilitar el seguimiento y la coordinación del trabajo.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Pestaña Projects"
+  },
+  {
+    "id": "b91e6a42-3c75-4d08-a2f9-6e14c7b53d26",
+    "question": "¿Qué es GitHub Projects?",
+    "options": [
+      "Una colección de repositorios bajo una misma cuenta u organización de GitHub, sin funcionalidades adicionales de gestión de proyectos.",
+      "Una herramienta visual de gestión de proyectos integrada en GitHub que permite a los usuarios organizar y priorizar su trabajo mediante tableros, similares a los tableros de Kanban o Trello, vinculados directamente a los Issues y Pull Requests de GitHub.",
+      "Una funcionalidad diseñada para gestionar perfiles de redes sociales relacionados con un repositorio.",
+      "Una herramienta de compilación de código dentro de GitHub que automatiza el proceso de build de los proyectos alojados en la plataforma."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub Projects es una herramienta de gestión de proyectos integrada con GitHub. Permite crear boards similares a Kanban o Trello para organizar, priorizar y realizar el seguimiento del trabajo, incluyendo Issues y Pull Requests, y ayuda a los equipos a visualizar su workflow y gestionar sus tareas de desarrollo.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "GitHub Projects"
+  },
+  {
+    "id": "d63f1a85-9c24-4b07-b2e6-5a18c74d93f0",
+    "question": "¿Cómo se pueden agregar y configurar los repositorios de plantilla para utilizarlos en GitHub Projects?",
+    "options": [
+      "Crear un repositorio de plantilla implica clonar manualmente la configuración deseada de un proyecto en un nuevo repositorio para cada inicio de proyecto, sin utilizar una funcionalidad directa de plantillas.",
+      "Los repositorios de plantilla se crean automáticamente en función de las configuraciones de proyectos más utilizadas dentro de una organización, sin que sea necesaria ninguna acción manual.",
+      "Ve a Settings de un repositorio existente, márcalo como plantilla (template) dentro de Options y luego utiliza esta plantilla al crear nuevos repositorios para heredar su estructura, ramas y archivos.",
+      "Los repositorios de plantilla son una funcionalidad exclusiva de GitHub Enterprise, donde los administradores pueden configurar plantillas que los usuarios seleccionan al crear nuevos repositorios."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El proceso consiste en ir a Settings de un repositorio existente, habilitarlo como template repository dentro de Options y utilizarlo posteriormente al crear nuevos repositorios. De esta manera, los nuevos repositorios pueden heredar la estructura, las ramas y los archivos predefinidos de la plantilla.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Template repositories"
+  },
+  {
+    "id": "a74e2c19-6b53-4d08-91f7-3c25e86b10a4",
+    "question": "¿Cómo se pueden utilizar los milestones dentro de GitHub Projects para mejorar el seguimiento y la gestión de hitos del proyecto?",
+    "options": [
+      "El uso de los milestones está limitado a fines de archivo, marcando las fases del proyecto que ya se han completado, sin funcionalidades activas de seguimiento o gestión.",
+      "Los milestones representan puntos específicos en el tiempo o fases del proyecto, agrupando issues y pull requests para realizar un seguimiento del progreso hacia estos objetivos, permitiendo una mejor supervisión de los plazos y entregables del proyecto.",
+      "Los milestones se utilizan exclusivamente para el seguimiento financiero, permitiendo a los equipos controlar los presupuestos y gastos del proyecto.",
+      "Los milestones combinan automáticamente todos los pull requests relacionados cuando se alcanzan, acelerando el proceso de despliegue."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los milestones se utilizan para agrupar Issues y Pull Requests que contribuyen a un objetivo o fase específica del proyecto. Permiten realizar un seguimiento del progreso hacia objetivos definidos, supervisar plazos y entregables y mejorar la planificación y gestión del proyecto. No realizan automáticamente el merge de Pull Requests ni se utilizan exclusivamente para seguimiento financiero.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Milestones"
+  },
+  {
+    "id": "f3a81c27-5e64-4b92-9d17-6c20a4e8b531",
+    "question": "¿Cómo se pueden utilizar los milestones junto con las fechas límite en GitHub Projects?",
+    "options": [
+      "Los milestones son puramente simbólicos en GitHub Projects y no permiten incluir fechas límite para la gestión de plazos.",
+      "Las fechas límite son asignadas automáticamente por GitHub basándose en la complejidad del proyecto y no pueden vincularse a los milestones establecidos por el equipo.",
+      "Los milestones con fechas límite actúan como puntos de control en la línea de tiempo del proyecto, ayudando a los equipos a priorizar tareas y proporcionando objetivos claros para completar las fases del proyecto, facilitando una mejor planificación y gestión del tiempo.",
+      "No se recomienda utilizar fechas límite con milestones, ya que puede generar presión sobre el equipo y ser contraproducente para las prácticas ágiles."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los milestones con fechas límite funcionan como puntos de control importantes dentro de la línea de tiempo del proyecto. Permiten a los equipos planificar su trabajo, priorizar tareas, hacer seguimiento del progreso respecto al cronograma y establecer objetivos claros para completar diferentes fases o funcionalidades. Las fechas límite no son asignadas automáticamente por GitHub según la complejidad del proyecto, sino que pueden ser establecidas por el equipo.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Milestones y fechas límite"
+  },
+  {
+    "id": "c7d42e19-8a53-4f06-b921-5e37d6a14c82",
+    "question": "¿Cómo se pueden personalizar los GitHub Projects para adaptarlos al sistema de etiquetado específico de un proyecto?",
+    "options": [
+      "Se pueden crear y aplicar etiquetas personalizadas a issues y pull requests dentro de GitHub Projects, facilitando la clasificación, priorización y filtrado de tareas según las necesidades específicas del proyecto.",
+      "La personalización de GitHub Projects para adaptarse a un sistema de etiquetado se limita a la codificación por colores, sin impacto en la gestión o categorización de tareas.",
+      "GitHub Projects no se puede personalizar; utiliza un sistema universal de etiquetado que se aplica a todos los proyectos de GitHub.",
+      "La personalización de etiquetas en GitHub Projects requiere funciones adicionales de pago y no está disponible en la versión estándar."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Projects permite crear etiquetas personalizadas que pueden aplicarse a issues y pull requests. Esto facilita la categorización, ordenación, priorización y filtrado de tareas según las necesidades y convenciones específicas de cada proyecto. La personalización de etiquetas no se limita al color ni requiere servicios adicionales de pago según la explicación de la fuente.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Etiquetas personalizadas"
+  },
+  {
+    "id": "a9e61d35-2c74-48f0-b613-7d25e84c91a6",
+    "question": "En el contexto de GitHub Projects, ¿cómo se pueden utilizar los repositorios de plantilla para agilizar la configuración y gestión de proyectos de tipos similares?",
+    "options": [
+      "Los repositorios plantilla generan automáticamente informes semanales de progreso para los proyectos, lo que requiere una personalización manual para cada nuevo proyecto.",
+      "Los repositorios plantilla están diseñados para almacenar fragmentos de código comunes para facilitar su acceso, pero no pueden vincularse directamente a proyectos.",
+      "Los repositorios plantilla proporcionan un punto de partida para nuevos proyectos, permitiendo a los usuarios crear un nuevo repositorio con la misma estructura de directorios, ramas y archivos que la plantilla, garantizando una configuración consistente para proyectos similares.",
+      "El uso de repositorios plantilla está restringido a los administradores de GitHub y ofrece configuraciones de proyecto preconfiguradas que no pueden ser modificadas por usuarios normales."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los repositorios plantilla permiten crear nuevos repositorios partiendo de una estructura previamente definida. El nuevo repositorio puede conservar la estructura de directorios, las ramas y los archivos de la plantilla, proporcionando una base consistente para proyectos similares y agilizando su configuración.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Template repositories"
+  },
+  {
+    "id": "b4c72f18-6e95-43a1-8d27-5f30c91e64b8",
+    "question": "¿Qué información pueden obtener los gerentes de proyecto mediante la función Project Insights de GitHub Projects?",
+    "options": [
+      "Project Insights ofrece visibilidad sobre las tasas de finalización de tareas, los issues activos y los pull requests a lo largo del tiempo, permitiendo a los gerentes de proyecto evaluar el rendimiento del equipo y el progreso del proyecto, ayudando en la asignación de recursos y en los ajustes de las fechas límite.",
+      "Project Insights se limita a visualizar los esquemas de colores utilizados en las etiquetas del proyecto, proporcionando comentarios estéticos pero no datos relevantes para la gestión del proyecto.",
+      "Project Insights realiza exclusivamente el seguimiento del número de commits por colaborador, enfocándose en el volumen de código como métrica principal del progreso del proyecto.",
+      "La función Insights proporciona un seguimiento financiero en tiempo real del presupuesto y los gastos del proyecto, conectándose directamente con software de contabilidad."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Project Insights proporciona datos sobre las tasas de finalización de tareas, los issues activos y los pull requests, así como sobre cómo estas métricas cambian a lo largo del tiempo. Esta información ayuda a evaluar el rendimiento del equipo y el progreso del proyecto y puede apoyar decisiones relacionadas con la asignación de recursos, la priorización y los ajustes de fechas límite.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Project Insights"
+  },
+  {
+    "id": "d8f53a21-7b46-4c90-a315-6e29b84f17c3",
+    "question": "¿Qué opciones de layout están disponibles en GitHub Projects y cómo pueden utilizarse para adaptarse a diferentes estilos de gestión de proyectos?",
+    "options": [
+      "GitHub Projects ofrece múltiples opciones de layout, incluyendo Board para una vista estilo Kanban y Table para una vista similar a una hoja de cálculo, permitiendo a los equipos elegir el formato que mejor se adapte a su estilo de gestión del proyecto.",
+      "La personalización del layout solo está disponible mediante plugins y extensiones de terceros; GitHub Projects no ofrece diferentes opciones de layout por sí mismo.",
+      "Los layouts están limitados a un único estilo para todos los proyectos con el fin de mantener la consistencia entre los repositorios de GitHub.",
+      "La única opción de layout disponible es Timeline, que organiza las tareas y los milestones cronológicamente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Projects ofrece múltiples opciones de visualización. Board proporciona un enfoque estilo Kanban para organizar tareas mediante columnas, mientras que Table presenta los issues y pull requests en un formato similar a una hoja de cálculo. También está disponible Timeline para organizar tareas y milestones cronológicamente. Estas opciones permiten adaptar la visualización a diferentes necesidades de gestión.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Project layouts"
+  },
+  {
+    "id": "e6a94c31-5d72-4f08-b629-1c37e85a20d4",
+    "question": "¿Cómo se pueden integrar GitHub Projects con GitHub Actions para mejorar la automatización de proyectos?",
+    "options": [
+      "La integración se limita a crear automáticamente nuevos proyectos por cada nuevo workflow de Actions iniciado, sin interacción adicional entre ambos.",
+      "GitHub Projects se puede integrar con GitHub Actions para permitir la automatización de workflows, como mover automáticamente tareas a diferentes columnas según las etiquetas de los issues o el estado de los pull requests, mejorando la eficiencia y garantizando consistencia en la gestión del proyecto.",
+      "GitHub Actions no se puede integrar con GitHub Projects, ya que tienen funciones completamente independientes dentro del ecosistema de GitHub.",
+      "La integración de GitHub Projects con GitHub Actions está disponible exclusivamente para usuarios de GitHub Enterprise, ofreciendo únicamente automatizaciones básicas como el envío de correos de notificación."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La integración de GitHub Projects con GitHub Actions permite automatizar diferentes tareas de gestión de proyectos. Entre los ejemplos se incluyen mover tareas entre columnas según su estado, utilizar etiquetas de issues o estados de pull requests como condiciones, asignar issues o desencadenar acciones específicas. Esto reduce el trabajo manual y ayuda a mantener un flujo de trabajo consistente.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "GitHub Projects y GitHub Actions"
+  },
+  {
+    "id": "f3a8c721-4d56-4b92-8e17-1c6a9b35d204",
+    "question": "¿En qué se diferencia el nuevo GitHub Projects de Projects Classic?",
+    "options": [
+      "El nuevo GitHub Projects introduce funciones avanzadas de automatización, flujos de trabajo personalizables y un sistema de seguimiento de issues más integrado, a diferencia de los tableros estáticos de Projects Classic.",
+      "La principal diferencia es el aspecto visual, ya que el nuevo GitHub Projects adopta una apariencia y experiencia más modernas, pero ofrece la misma funcionalidad que Projects Classic.",
+      "Projects Classic ofrecía una interfaz más flexible y personalizable, mientras que el nuevo GitHub Projects está limitado a un único diseño estandarizado para simplificar la experiencia del usuario.",
+      "El nuevo GitHub Projects elimina la posibilidad de vincular issues y pull requests a los tableros de proyectos, simplificando el proceso de gestión de proyectos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El nuevo GitHub Projects mejora las capacidades de gestión de proyectos mediante funciones como opciones avanzadas de automatización, flujos de trabajo personalizables y un sistema de seguimiento de issues más integrado. Esto representa una mejora frente a los tableros relativamente estáticos y menos integrados de Projects Classic. El nuevo GitHub Projects mantiene la capacidad de vincular issues y pull requests y ofrece más flexibilidad y personalización.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "GitHub Projects vs Projects Classic"
+  },
+  {
+    "id": "b6e91f43-2a78-4c05-9d31-7e84a2f6c519",
+    "question": "¿Cómo se pueden utilizar los insights de proyecto en GitHub Projects para monitorear el rendimiento del equipo e identificar áreas de mejora?",
+    "options": [
+      "Los insights proporcionan visibilidad sobre las tasas de finalización de tareas, la actividad de issues y pull requests a lo largo del tiempo y la distribución de la carga de trabajo entre los miembros del equipo, ayudando a evaluar el rendimiento e identificar cuellos de botella o áreas que necesitan mejoras.",
+      "Los insights de proyecto se centran principalmente en realizar un seguimiento de la frecuencia de los commits de código y no ofrecen métricas relacionadas con la finalización de tareas o la distribución de la carga de trabajo.",
+      "La funcionalidad de insights está restringida a los usuarios de GitHub Enterprise, proporcionando métricas básicas del proyecto sin análisis detallados ni recomendaciones para mejorar.",
+      "El uso de los insights de proyecto se limita a representaciones visuales de las líneas de tiempo del proyecto y no ofrece datos analíticos sobre el rendimiento del equipo o el progreso del proyecto."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los Project Insights ofrecen métricas como las tasas de finalización de tareas, la actividad de issues y pull requests y la distribución del trabajo entre los miembros del equipo. Estos datos permiten evaluar el rendimiento, identificar cuellos de botella y detectar áreas que pueden necesitar mayor atención o recursos.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Project Insights"
+  },
+  {
+    "id": "c7d42e18-5b63-4f91-a026-8e35c1b79462",
+    "question": "¿Cómo mejoran las respuestas guardadas (Saved Replies) de GitHub la comunicación y la eficiencia en la gestión de issues y pull requests?",
+    "options": [
+      "Permiten a los usuarios redactar previamente y almacenar respuestas para preguntas o comentarios frecuentes, permitiendo responder de forma rápida y consistente a consultas similares en issues y pull requests.",
+      "Automatizan la resolución de problemas comunes, aplicando correcciones sin intervención del desarrollador.",
+      "Ralentizan significativamente el proceso de gestión del proyecto al requerir aprobación manual para cada uso.",
+      "Solo pueden utilizarse en repositorios privados porque normalmente contienen información confidencial que no es adecuada para ser vista públicamente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las Saved Replies permiten preescribir y guardar respuestas que se utilizan frecuentemente. Facilitan respuestas rápidas y consistentes en issues y pull requests, ahorrando tiempo y mejorando la eficiencia de la comunicación. No automatizan la resolución de issues ni requieren aprobación manual para cada uso.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Saved Replies"
+  },
+  {
+    "id": "d8f53a29-6c74-4e10-b137-9a26d5c48173",
+    "question": "¿De qué manera pueden las reglas de automatización en GitHub Projects afectar la gestión de proyectos?",
+    "options": [
+      "Las reglas de automatización solo son aplicables a tareas administrativas, como archivar proyectos antiguos, y no pueden afectar a los tableros de proyectos activos.",
+      "Las reglas de automatización en GitHub Projects solo están disponibles mediante la API y requieren amplios conocimientos de programación para configurarlas, lo que aumenta la carga administrativa.",
+      "Las reglas automatizadas pueden mover issues y pull requests a través de diferentes etapas del proyecto, aplicar etiquetas y asignar miembros del equipo, reduciendo la gestión manual de tareas y garantizando actualizaciones consistentes del proyecto.",
+      "Las reglas de automatización en GitHub Projects pueden potencialmente introducir errores y, por lo tanto, no se recomienda utilizarlas."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las reglas de automatización permiten reducir la necesidad de supervisión manual al automatizar tareas repetitivas, como mover issues y pull requests a través del workflow, aplicar etiquetas para categorizarlos y asignar miembros del equipo a tareas. Esto ayuda a mantener los tableros actualizados con una intervención manual mínima.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Automation Rules"
+  },
+  {
+    "id": "e9a64b31-7d85-4f20-c248-1b37e6d59284",
+    "question": "¿Cuándo debería un project manager considerar utilizar la interfaz de Projects Classic en lugar del nuevo GitHub Projects?",
+    "options": [
+      "Projects Classic se recomienda para todos los proyectos nuevos porque es la herramienta de gestión de proyectos predeterminada y la única oficialmente compatible en GitHub.",
+      "Los project managers podrían preferir Projects Classic por su interfaz más sencilla al gestionar proyectos pequeños o cuando el equipo está acostumbrado al estilo clásico de tablero Kanban y no necesita funcionalidades adicionales.",
+      "El nuevo GitHub Projects todavía está en fase beta, por lo que debería utilizarse Projects Classic hasta que el nuevo sistema sea completamente operativo y estable.",
+      "Projects Classic debería utilizarse cuando el proyecto requiere funcionalidades avanzadas de automatización e integración que no están disponibles en el nuevo GitHub Projects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Projects Classic puede ser preferible cuando se busca simplicidad, especialmente en proyectos pequeños o cuando los equipos están acostumbrados al estilo clásico de tablero Kanban y no necesitan funcionalidades adicionales. El nuevo GitHub Projects ofrece funcionalidades más avanzadas de automatización e integración.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Projects Classic"
+  },
+  {
+    "id": "fa7b52c4-8e16-4d31-b269-5c93a7e18405",
+    "question": "¿Cómo se pueden crear nuevos proyectos en GitHub Projects para una organización o repositorio?",
+    "options": [
+      "Los proyectos solo pueden ser creados por administradores de GitHub, con configuraciones predeterminadas que no pueden modificarse para garantizar la uniformidad entre los proyectos.",
+      "Los nuevos proyectos se crean automáticamente para cada repositorio, sin requerir configuración manual, y solo se pueden personalizar el nombre y la descripción del proyecto.",
+      "Navega hasta la pestaña Projects dentro de la organización o repositorio deseado, haz clic en New project, elige entre Project o Project Classic y configura inicialmente las columnas y las reglas de automatización según el flujo de trabajo del equipo.",
+      "Crear un nuevo proyecto requiere enviar un formulario de solicitud al soporte de GitHub para su aprobación y configuración."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El proceso consiste en ir a la pestaña Projects de la organización o repositorio, hacer clic en New project, seleccionar Project o Project Classic y configurar inicialmente las columnas y las reglas de automatización para reflejar el workflow del equipo. La creación de proyectos no requiere normalmente una solicitud al soporte de GitHub.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Crear proyectos"
+  },
+  {
+    "id": "c17c5cda-2d74-4080-8fad-718c71810e62",
+    "question": "¿Qué descriptor de un proyecto se guarda automáticamente cuando lo cambias?",
+    "options": [
+      "El nombre del proyecto",
+      "La descripción del proyecto",
+      "El README del proyecto"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El nombre de un proyecto de GitHub es el único descriptor que se guarda automáticamente. Debes seleccionar Guardar después de editar la descripción o el README para guardarlos.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Projects"
+  },
+  {
+    "id": "1032a3a9-0929-4775-8c1d-1e6379085529",
+    "question": "¿Para qué te ayuda un campo de iteración en Projects?",
+    "options": [
+      "Te permite realizar el seguimiento de los distintos cambios realizados en un issue o pull request.",
+      "Te permite revertir los cambios que hiciste en tu proyecto.",
+      "Te permite crear fases secuenciales de tu proyecto y agrupar issues y pull requests según la fase."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un campo de iteración ayuda a ti y a tu equipo a organizar el proyecto en diferentes fases y agrupar issues y pull requests según la fase. El valor del campo permite priorizar qué va primero, de modo que puedes implementar cronogramas para mantenerte al día. No realiza el seguimiento de cambios específicos de un issue o pull request ni revierte cambios.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Iteration Fields"
+  },
+  {
+    "id": "c1058848-0c40-466f-abe9-03c3def00136",
+    "question": "¿Qué campo puedes usar para crear una agrupación de prioridad como Alta, Media y Baja en tu proyecto?",
+    "options": [
+      "Fecha (Date)",
+      "Selección única (Single select)",
+      "Campo de iteración (Iteration field)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El campo de selección única permite crear varios grupos, como una agrupación de prioridad, para ayudarte a organizar y priorizar el proyecto. El campo Fecha asigna una fecha a un issue o pull request, y el campo de iteración construye las fases del proyecto.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Single Select Fields"
+  },
+  {
+    "id": "279c4bab-41e1-4d18-8891-2eb4496c170b",
+    "question": "¿Cuál es la forma más sencilla de agregar automatización a tu proyecto?",
+    "options": [
+      "API de GraphQL",
+      "Automatización integrada (Built-in Automation)",
+      "GitHub Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La automatización integrada de Projects proporciona una forma sencilla de automatizar el proyecto. Aunque GraphQL y GitHub Actions pueden resultar simples para algunos, no son necesariamente la forma más sencilla de agregar automatización.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Automation"
+  },
+  {
+    "id": "e13e2400-70a9-41ed-8423-c3d69ab5ca3a",
+    "question": "¿Cómo se llama la sección donde puedes cambiar la visibilidad de tu proyecto, cerrarlo o eliminarlo?",
+    "options": [
+      "Zona roja (Red zone)",
+      "Visibilidad y acceso (Visibility and Access)",
+      "Zona de peligro (Danger zone)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La zona de peligro es donde puedes cambiar la visibilidad de tu proyecto, cerrarlo o eliminarlo. La sección está delimitada en rojo, pero no se llama zona roja, y Visibilidad es uno de los campos dentro de la zona de peligro.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Danger Zone"
+  },
+  {
+    "id": "3abea7fb-e507-44c6-a08e-baf7ae4cd605",
+    "question": "¿Cuál es el beneficio de convertir los elementos de una lista de verificación en subissues?",
+    "options": [
+      "Permite insertar una lista de verificación dentro de un issue.",
+      "Convierte los elementos de la lista de verificación en issues independientes con estado y metadatos.",
+      "Resuelve automáticamente el issue principal."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los subissues aparecen como elementos separados con su propio seguimiento en Projects, convirtiendo los elementos de la lista de verificación en issues independientes con estado y metadatos. Las listas de verificación ya son compatibles con los issues, y los subissues no cierran automáticamente el issue principal.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Sub-issues"
+  },
+  {
+    "id": "823ce512-e4bc-427c-a5a0-0ca26fe76c06",
+    "question": "¿Dónde puedes ir para habilitar workflows predeterminados en un proyecto?",
+    "options": [
+      "En el editor del README del proyecto",
+      "Desde el menú de tres puntos en la esquina superior derecha de tu proyecto",
+      "En la configuración del repositorio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El menú de tres puntos contiene la opción Workflows, donde se puede configurar la automatización predeterminada. El editor del README es para documentación, y los workflows del proyecto se configuran dentro de la propia vista del proyecto, no en la configuración del repositorio.",
+    "examId": "github-foundations",
+    "categoryId": "project-management",
+    "topic": "Workflows"
+  }
+]

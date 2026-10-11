@@ -1,0 +1,31 @@
+{
+    "id": "react-fundamentals",
+    "name": "React Fundamentals",
+    "categories": [
+        {
+            "id": "introduction-to-react",
+            "name": "Introduction to React",
+            "weight": 20
+        },
+        {
+            "id": "react-components-and-props",
+            "name": "React Components and Props",
+            "weight": 20
+        },
+        {
+            "id": "state-and-lifecycle",
+            "name": "State and Lifecycle",
+            "weight": 20
+        },
+        {
+            "id": "handling-events",
+            "name": "Handling Events",
+            "weight": 20
+        },
+        {
+            "id": "conditional-rendering",
+            "name": "Conditional Rendering",
+            "weight": 20
+        }
+    ]
+}

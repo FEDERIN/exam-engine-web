@@ -1,0 +1,41 @@
+{
+  "id": "github-foundations",
+  "name": "GitHub Foundations",
+  "categories": [
+    {
+      "id": "introduction-to-git-and-github",
+      "name": "Introduction to Git and GitHub",
+      "weight": 27.5
+    },
+    {
+      "id": "working-with-github-repositories",
+      "name": "Working with GitHub Repositories",
+      "weight": 12.5
+    },
+    {
+      "id": "collaboration-features",
+      "name": "Collaboration Features",
+      "weight": 12.5
+    },
+    {
+      "id": "modern-development",
+      "name": "Modern Development",
+      "weight": 12.5
+    },
+    {
+      "id": "project-management",
+      "name": "Project Management",
+      "weight": 7.5
+    },
+    {
+      "id": "privacy-security-and-administration",
+      "name": "Privacy, Security and Administration",
+      "weight": 12.5
+    },
+    {
+      "id": "benefits-of-the-github-community",
+      "name": "Benefits of the GitHub Community",
+      "weight": 7.5
+    }
+  ]
+}

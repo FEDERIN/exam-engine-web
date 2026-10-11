@@ -1,0 +1,434 @@
+[
+  {
+    "id": "11ae0c4a-b45f-4adf-9130-beca0d0cd3f4",
+    "question": "¿Cómo impacta en los desarrolladores participar en proyectos de código abierto en GitHub?",
+    "options": [
+      "Los desarrolladores se benefician principalmente al recibir una compensación económica mediante GitHub Sponsors por cada contribución realizada a proyectos de código abierto.",
+      "La participación proporciona acceso exclusivo a repositorios privados y a versiones anticipadas del software únicamente para los colaboradores.",
+      "La participación puede generar disputas de propiedad intelectual y reducir la visibilidad de los proyectos personales, por lo que generalmente se desaconseja.",
+      "Participar en proyectos de código abierto mejora las habilidades de programación, amplía las redes profesionales y contribuye al desarrollo de tecnologías ampliamente utilizadas, beneficiando a toda la comunidad."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Participar en proyectos de código abierto en GitHub permite a los desarrolladores mejorar sus habilidades de programación mediante la colaboración y la revisión, ampliar sus conexiones profesionales mediante la participación en la comunidad y contribuir al ecosistema tecnológico. Esto beneficia tanto a los desarrolladores, al mejorar su portafolio y visibilidad, como a la comunidad tecnológica mediante la innovación y la resolución colaborativa de problemas.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Participación en proyectos de código abierto"
+  },
+  {
+    "id": "7053c199-e452-4618-9dee-d2e9f777871f",
+    "question": "¿Cómo impactan las funciones de GitHub para descubrir proyectos y organizaciones en la colaboración dentro del ecosistema de código abierto?",
+    "options": [
+      "Funciones como los repositorios en tendencia, las secciones de exploración y las etiquetas de temas permiten encontrar proyectos y organizaciones alineados con los intereses o habilidades de los usuarios, promoviendo la colaboración, el aprendizaje y el intercambio de ideas dentro de la comunidad.",
+      "Las herramientas de descubrimiento de la plataforma fomentan la competencia en lugar de la colaboración, centrándose en clasificar proyectos por popularidad sin facilitar una participación real.",
+      "Las funciones de descubrimiento de GitHub están limitadas a usuarios de pago, lo que dificulta que la comunidad de código abierto encuentre y colabore en proyectos.",
+      "Las funciones de descubrimiento de GitHub se centran principalmente en mostrar proyectos de grandes organizaciones, ofreciendo poco apoyo a mantenedores individuales o proyectos pequeños."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las funciones de descubrimiento de GitHub, como los repositorios en tendencia, las secciones de exploración y las etiquetas de temas, ayudan a los usuarios a encontrar proyectos y organizaciones que coincidan con sus intereses o habilidades. Esto fomenta la participación, el intercambio de conocimientos y el desarrollo colaborativo dentro del ecosistema de código abierto.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Descubrimiento de proyectos y organizaciones"
+  },
+  {
+    "id": "07f57db2-b803-487f-a75f-e07222a5eebc",
+    "question": "¿De qué manera contribuyen las plantillas de pull requests a mantener los estándares de programación en proyectos de código abierto?",
+    "options": [
+      "Los estándares de programación se aplican por separado mediante revisiones manuales de código, por lo que las plantillas de pull requests son irrelevantes para este propósito.",
+      "El uso de plantillas de pull requests tiende a desalentar a los nuevos colaboradores, ya que el cumplimiento estricto de los estándares de programación puede considerarse demasiado exigente.",
+      "Las plantillas de pull requests se utilizan principalmente para cambios cosméticos, como el formato, y tienen poco impacto en los estándares de programación.",
+      "Las plantillas de pull requests guían a los colaboradores mediante listas de verificación o requisitos relacionados con los estándares de programación, las actualizaciones de documentación y las pruebas, asegurando que las contribuciones cumplan las directrices del proyecto antes de enviarse."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las plantillas de pull requests pueden ayudar significativamente a mantener los estándares de programación en proyectos de código abierto. Al incluir secciones para que los colaboradores indiquen cómo cumplieron las directrices de programación, actualizaron la documentación y realizaron pruebas, las plantillas ayudan a garantizar que las contribuciones sean coherentes con los estándares del proyecto. Esto facilita el proceso de revisión y mantiene la calidad de las contribuciones.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Plantillas de pull requests"
+  },
+  {
+    "id": "8ab19ca2-a0e5-4115-befb-cb8271efda6b",
+    "question": "¿De qué manera impacta en los desarrolladores seguir a otras personas en GitHub?",
+    "options": [
+      "Puede provocar una sobrecarga de información y distraer de los propios proyectos, por lo que se desaconseja.",
+      "Esta función se utiliza principalmente para establecer relaciones sociales y tiene poco impacto en el desarrollo profesional o en el descubrimiento de proyectos.",
+      "Permite a los desarrolladores recibir notificaciones sobre las actividades de las personas que siguen, descubrir nuevos proyectos a través de su red y obtener información sobre tecnologías emergentes y buenas prácticas.",
+      "Solo permite a los desarrolladores ver los perfiles de otras personas, sin acceso a actualizaciones en tiempo real sobre actividades o proyectos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Seguir a otros desarrolladores en GitHub puede mejorar significativamente la participación en la comunidad de código abierto. Permite recibir actualizaciones sobre las actividades de las personas seguidas, descubrir nuevos proyectos, conocer tecnologías emergentes y observar buenas prácticas. Esta función favorece el aprendizaje continuo y la creación de redes dentro del ecosistema de código abierto.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Seguimiento de usuarios"
+  },
+  {
+    "id": "9ee9a58b-c64d-47a9-80a1-652659f4360c",
+    "question": "¿Cómo impacta el uso de plantillas de issues en los proyectos de código abierto de GitHub?",
+    "options": [
+      "Las plantillas de issues solo son útiles para repositorios privados, ya que los proyectos de código abierto normalmente no reciben un gran volumen de issues.",
+      "Las plantillas de issues se desaconsejan en proyectos de código abierto porque pueden disuadir a los colaboradores ocasionales de enviar issues.",
+      "Las plantillas de issues se utilizan exclusivamente para informes de errores y no ofrecen utilidad para solicitudes de funcionalidades u otros tipos de comentarios de la comunidad.",
+      "Las plantillas de issues son especialmente beneficiosas cuando un proyecto comienza a recibir una variedad de issues, ya que ayudan a estandarizar el formato de los informes y garantizan que toda la información necesaria se proporcione desde el principio."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las plantillas de issues son especialmente útiles para proyectos de código abierto que reciben issues de una comunidad amplia. Ayudan a mantener un formato estándar para los envíos y garantizan que cada issue contenga los detalles necesarios para que los mantenedores puedan actuar. Esta estandarización facilita la clasificación y respuesta de los issues y hace que el proyecto sea más fácil de gestionar.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Plantillas de issues"
+  },
+  {
+    "id": "8314290d-2c7d-4995-9608-94283e9d9dd7",
+    "question": "¿Qué es InnerSource?",
+    "options": [
+      "Una práctica de programación en la que las organizaciones hacen públicos sus repositorios privados para obtener contribuciones externas.",
+      "Una estrategia mediante la cual las empresas externalizan su desarrollo de software interno a comunidades de código abierto.",
+      "Una práctica que consiste en utilizar software de código abierto externo dentro de proyectos privados para reducir el tiempo de desarrollo.",
+      "Una práctica que adopta los principios del código abierto dentro de una organización, fomentando la colaboración interna mediante el intercambio transparente de proyectos y contribuciones entre equipos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "InnerSource adopta principios del código abierto, como el desarrollo colaborativo, transparente y orientado a la comunidad, y los aplica dentro de una organización. Esto permite que diferentes equipos de una empresa contribuyan a los proyectos de otros equipos y se beneficien de ellos, fomentando una cultura de desarrollo más abierta e innovadora.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "InnerSource"
+  },
+  {
+    "id": "1ff0bfb4-5bf5-4f95-8d07-759855fe278d",
+    "question": "¿Cómo beneficia al usuario marcar con una estrella un repositorio en GitHub?",
+    "options": [
+      "Envía una notificación al propietario del repositorio cada vez que hay un nuevo commit.",
+      "Hace fork automáticamente del repositorio en la cuenta del usuario.",
+      "Le otorga al usuario acceso de escritura al repositorio.",
+      "Marca el repositorio como favorito para acceder fácilmente y ayuda al usuario a realizar un seguimiento de los proyectos que encuentra interesantes."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Marcar un repositorio con una estrella en GitHub funciona como un marcador, permitiendo al usuario encontrar fácilmente y realizar un seguimiento de los repositorios que le interesan o que desea consultar más adelante. Esta función ayuda a gestionar los intereses y seguir el desarrollo de proyectos, pero no envía notificaciones por cada commit, no concede permisos de escritura ni crea un fork automáticamente.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Stars"
+  },
+  {
+    "id": "10990a32-f328-4cd9-899f-a434cfa608ae",
+    "question": "¿Cómo puedes consultar información y análisis de un repositorio de GitHub, como los datos de tráfico y las actividades de contribución?",
+    "options": [
+      "Usando la función Star para acceder a un panel de análisis oculto.",
+      "Ejecutando un flujo de trabajo especial de GitHub Actions.",
+      "A través de la pestaña Insights disponible en la barra de navegación del repositorio.",
+      "Solicitando a GitHub Support un informe mensual de actividad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La pestaña Insights de la barra de navegación del repositorio proporciona acceso a diferentes análisis y estadísticas, incluidos los datos de tráfico, las actividades de contribución y otros indicadores. Esta función ayuda a los propietarios de los repositorios a comprender cómo interactúan los usuarios con su repositorio y cuál es el impacto de su trabajo.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Insights"
+  },
+  {
+    "id": "53b8c033-4595-4050-ab75-b89a697f6b45",
+    "question": "¿Cómo puede un usuario encontrar y utilizar plantillas de repositorios en GitHub para crear un nuevo repositorio?",
+    "options": [
+      "Copiando manualmente el contenido de un repositorio plantilla a un nuevo repositorio.",
+      "Solicitando una plantilla a GitHub Support por correo electrónico.",
+      "Seleccionando el botón Use this template en la página principal de un repositorio designado como plantilla.",
+      "Usando el comando git clone con una opción especial para plantillas."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub permite a los propietarios designar sus repositorios como plantillas para que otros usuarios puedan utilizarlos al crear nuevos repositorios. El botón Use this template de la página principal del repositorio plantilla permite generar rápidamente un nuevo repositorio con la misma estructura de directorios y archivos. No es necesario solicitar la plantilla a GitHub Support ni utilizar un indicador especial de git clone.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Repository Templates"
+  },
+  {
+    "id": "39551dc6-686f-424b-b4cd-568082876b68",
+    "question": "¿Cómo puedes utilizar GitHub para clonar un repositorio existente en tu máquina local?",
+    "options": [
+      "Enviando una solicitud por correo electrónico al propietario del repositorio para obtener acceso directo.",
+      "Descargando el repositorio como un archivo .ZIP y extrayéndolo.",
+      "Usando el comando git clone con la URL del repositorio",
+      "Copiando y pegando los archivos del repositorio desde la interfaz web."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El método estándar para clonar un repositorio existente de GitHub en una máquina local consiste en utilizar el comando git clone seguido de la URL del repositorio. Este comando crea una copia local completa del repositorio, incluyendo sus ramas y su historial. Descargar un ZIP, copiar archivos desde la interfaz web o solicitar acceso por correo no equivale a clonar el repositorio con su historial y estructura de Git.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "git clone"
+  },
+  {
+    "id": "57b6059e-e976-4bea-88a3-e8f70a948f2c",
+    "question": "¿Qué componentes son esenciales para un archivo README completo en un repositorio de GitHub?",
+    "options": [
+      "Solo el nombre del proyecto y una breve descripción.",
+      "Nombre del proyecto, descripción, instrucciones de instalación, uso, pautas de contribución, licencia e información de contacto.",
+      "Únicamente documentación detallada de la API.",
+      "Lista de todos los colaboradores del proyecto y sus direcciones de correo electrónico."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un archivo README completo normalmente incluye el nombre del proyecto, una descripción detallada, instrucciones de instalación, ejemplos de uso, pautas de contribución, información sobre la licencia e información de contacto o enlaces a recursos adicionales. Estos componentes garantizan que el proyecto esté bien documentado y facilitan que los usuarios puedan comprenderlo, utilizarlo y contribuir.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "README"
+  },
+  {
+    "id": "83ff2871-4d5c-4707-bf28-77d8e96088fa",
+    "question": "¿Cómo afectan de manera diferente las plantillas de issues y las plantillas de pull requests al proceso de contribución en proyectos de código abierto en GitHub?",
+    "options": [
+      "Las plantillas de issues están diseñadas principalmente para recopilar comentarios detallados y estructurados sobre errores o solicitudes de funcionalidades, mientras que las plantillas de pull requests guían a los colaboradores al enviar cambios de código que cumplen con los estándares del proyecto, facilitando un proceso de revisión e integración más eficiente.",
+      "Las plantillas de issues se utilizan para desalentar contribuciones innecesarias, mientras que las plantillas de pull requests buscan fomentar envíos espontáneos de código sin directrices.",
+      "Tanto las plantillas de issues como las de pull requests tienen propósitos idénticos en el proceso de contribución y no ofrecen ventajas diferenciadas.",
+      "El único impacto de las plantillas de issues y pull requests es sobre la estética del repositorio, sin ningún efecto práctico en el proceso de contribución o la gestión del proyecto."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las plantillas de issues y de pull requests cumplen funciones diferentes pero complementarias. Las plantillas de issues ayudan a estandarizar el envío de informes de errores o solicitudes de funcionalidades al solicitar detalles específicos, lo que facilita una clasificación y resolución más rápidas. Las plantillas de pull requests guían a los colaboradores para preparar sus cambios de código de acuerdo con las directrices de contribución del proyecto, asegurando una revisión e integración más fluidas.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Issue Templates y Pull Request Templates"
+  },
+  {
+    "id": "f29fffa7-ef0a-4224-a627-4a7866f535dc",
+    "question": "¿Cómo apoya específicamente el programa GitHub Sponsors a los mantenedores de proyectos populares de código abierto para sostener sus esfuerzos de desarrollo?",
+    "options": [
+      "Otorga trofeos a los proyectos de código abierto más populares, sin proporcionar apoyo financiero.",
+      "Proporciona principalmente apoyo de marketing y visibilidad a los proyectos de código abierto, sin contribuciones financieras directas.",
+      "Permite que desarrolladores y organizaciones apoyen financieramente a los mantenedores de código abierto directamente mediante contribuciones mensuales, permitiéndoles centrarse más en el desarrollo del proyecto y menos en las preocupaciones de financiación.",
+      "Ofrece acceso exclusivo a funciones avanzadas de GitHub para proyectos patrocinados, pero no incluye ningún tipo de apoyo financiero."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub Sponsors está diseñado para facilitar el apoyo financiero directo de la comunidad a los mantenedores de proyectos de código abierto. Este apoyo ayuda a los mantenedores a dedicar más tiempo y recursos a sus proyectos, haciendo potencialmente que el desarrollo open source sea más sostenible y fomentando la innovación y el mantenimiento continuo de software valioso.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "GitHub Sponsors"
+  },
+  {
+    "id": "99a67b8c-fbcc-4846-8e07-482bf526bea8",
+    "question": "¿Cómo pueden las personas aprovechar GitHub para contribuir a proyectos de código abierto más allá de las contribuciones directas de código?",
+    "options": [
+      "Las personas pueden contribuir únicamente participando en la promoción de proyectos de código abierto en redes sociales, lo cual es reconocido en GitHub como una contribución directa.",
+      "Las contribuciones que no son de código, como las suscripciones de membresía con acceso exclusivo y el diseño de productos del proyecto, son contribuciones clave facilitadas por GitHub para la sostenibilidad del proyecto.",
+      "Las personas pueden contribuir mediante el reporte de issues, la participación en discusiones, la mejora de la documentación y el patrocinio de proyectos o mantenedores mediante GitHub Sponsors.",
+      "GitHub reconoce contribuciones como la creación de listas de reproducción de contenido relacionado con el proyecto y la creación de fan art como contribuciones válidas que no son de código al repositorio."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Existen múltiples formas de contribuir a proyectos de código abierto en GitHub más allá del código. Reportar errores o ideas, participar en discusiones para aportar comentarios o ideas, mejorar la documentación y apoyar financieramente a proyectos o mantenedores mediante GitHub Sponsors son formas valiosas de participación que contribuyen al éxito y la sostenibilidad de los proyectos.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Contribuciones Open Source"
+  },
+  {
+    "id": "0274dedd-c22b-4d87-a874-be4a2085e4f2",
+    "question": "¿Qué implica hacer un fork de un repositorio?",
+    "options": [
+      "Crea una copia directa del proyecto de otra persona en tu cuenta para permitir un desarrollo independiente, lo cual resulta útil para proponer cambios o agregar funcionalidades antes de enviar un pull request al repositorio original.",
+      "Crea una copia privada del proyecto para uso personal, sin intención de contribuir al proyecto original.",
+      "Fusiona dos repositorios no relacionados para crear un nuevo proyecto, utilizado principalmente para consolidar bases de código.",
+      "Está reservado para los administradores de GitHub y se utiliza para crear copias de seguridad de repositorios importantes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hacer fork de un repositorio en GitHub implica crear una copia exacta del proyecto en tu propia cuenta. Esto permite trabajar en el proyecto de forma independiente, experimentar con cambios o desarrollar nuevas funcionalidades sin afectar la base de código original. Es especialmente útil cuando se planea contribuir al proyecto original mediante pull requests, ya que permite comparar y fusionar los cambios fácilmente.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Forks"
+  },
+  {
+    "id": "7be7c75b-de70-413f-a6fe-0ef6c3b5cdf2",
+    "question": "¿Cómo facilita GitHub el avance de los proyectos de código abierto?",
+    "options": [
+      "GitHub ofrece únicamente funciones básicas de control de versiones, sin soporte específico para proyectos de código abierto o colaboración comunitaria.",
+      "GitHub apoya los proyectos de código abierto exclusivamente mediante repositorios privados, sin ofrecer repositorios públicos ni herramientas de colaboración.",
+      "Mediante funciones como el seguimiento de issues, pull requests, paneles de proyectos y Actions, GitHub proporciona un conjunto completo de herramientas diseñadas para mejorar la colaboración, agilizar los flujos de desarrollo y fomentar la participación de la comunidad en proyectos de código abierto.",
+      "La plataforma restringe el uso de funciones avanzadas, como Actions y los paneles de proyectos, a los repositorios privados para fomentar la inversión en el desarrollo de software propietario."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub cuenta con diversas funciones orientadas al desarrollo de código abierto, como el seguimiento de issues para gestionar tareas y solicitudes, los pull requests para facilitar la revisión y colaboración de código, los paneles de proyectos para organizar y seguir los flujos de trabajo y Actions para automatizar procesos de desarrollo. En conjunto, estas herramientas apoyan a la comunidad open source al facilitar una gestión eficiente, mejorar la calidad del código y fomentar la participación y la innovación.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "GitHub para Open Source"
+  },
+  {
+    "id": "3ed8c4ee-6009-4608-963b-8683a933722b",
+    "question": "¿Qué ventaja ofrece el enfoque InnerSource a las empresas?",
+    "options": [
+      "Ofrece a las empresas la posibilidad de aislar completamente los proyectos de colaboradores externos, garantizando una alta seguridad y confidencialidad.",
+      "Permite a las organizaciones aprovechar metodologías de código abierto internamente, fomentando la colaboración entre equipos, mejorando la reutilización del código e impulsando la innovación mediante procesos de desarrollo transparentes e inclusivos.",
+      "Ofrece a las empresas la posibilidad de competir directamente con proyectos externos de código abierto, alejando a los colaboradores de la comunidad open source global.",
+      "Desalienta la colaboración entre equipos, centrándose en el desarrollo individual de proyectos para proteger la información propietaria."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Adoptar prácticas de InnerSource dentro de una organización incorpora los aspectos colaborativos, transparentes y orientados a la comunidad del desarrollo open source en los proyectos internos. Este enfoque promueve la colaboración entre equipos, mejora la reutilización del código y fomenta una cultura de innovación abierta, lo que puede conducir a software de mayor calidad y a una innovación más rápida dentro de la empresa.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "InnerSource"
+  },
+  {
+    "id": "5e61579c-06a2-4b94-9642-321f3675d946",
+    "question": "¿Qué estrategias deberían emplear los mantenedores de proyectos de código abierto para aumentar la visibilidad y la participación de la comunidad mediante GitHub?",
+    "options": [
+      "Utilizar archivos README para proporcionar información completa del proyecto, interactuar rápidamente con los issues y pull requests, y aprovechar funciones sociales como las estrellas y los seguimientos.",
+      "Evitar la documentación para animar a la comunidad a explorar el código base de forma independiente, fomentando una comprensión más profunda del proyecto.",
+      "Mantener sus proyectos privados para generar curiosidad y animar a los usuarios a solicitar acceso para obtener más información.",
+      "Se recomienda a los mantenedores de código abierto limitar la interacción con la comunidad para garantizar que el desarrollo del proyecto siga la visión original sin influencia externa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Utilizar un README detallado, interactuar activamente con issues y pull requests, y aprovechar funciones sociales como las estrellas y los seguimientos son estrategias eficaces para aumentar la visibilidad y la participación de la comunidad. Estas prácticas ayudan a proporcionar claridad sobre los objetivos del proyecto, facilitar las contribuciones y construir una comunidad activa.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "GitHub y Open Source"
+  },
+  {
+    "id": "92dcf2f2-3d0d-49d9-a1b3-657e446077a1",
+    "question": "¿Cómo puede afectar el uso de plantillas de issues en proyectos de GitHub a la gestión del proyecto y a la interacción con la comunidad?",
+    "options": [
+      "Las plantillas de issues aumentan la complejidad de enviar issues, lo que probablemente reduce el volumen de interacciones de la comunidad.",
+      "Al estandarizar el formato y la información requerida para nuevos issues, las plantillas pueden mejorar la eficiencia de su clasificación, conducir a resoluciones más rápidas y mejorar la claridad de las comunicaciones entre los mantenedores del proyecto y los colaboradores.",
+      "Las plantillas de issues son beneficiosas únicamente para proyectos grandes con un alto volumen de issues, teniendo poco impacto en proyectos pequeños o comunidades menos activas.",
+      "La función principal de las plantillas de issues es automatizar la resolución de issues, requiriendo una interacción mínima entre los mantenedores y la comunidad."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las plantillas de issues ayudan a estandarizar el proceso de envío para nuevos issues, asegurando que toda la información necesaria se proporcione de antemano. Esto facilita una clasificación más eficiente, permitiendo resoluciones más rápidas y efectivas. Además, mejora la comunicación entre mantenedores y colaboradores al aclarar expectativas y requisitos para el reporte de issues, mejorando la gestión general del proyecto y la interacción con la comunidad.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "GitHub y Open Source"
+  },
+  {
+    "id": "62aa0aa5-5fd5-45e6-a8e3-ddb77b5e1452",
+    "question": "¿Cómo se relaciona GitHub Marketplace con los proyectos de código abierto y sus ecosistemas?",
+    "options": [
+      "Sirve como un centro donde los proyectos de código abierto pueden descubrir e integrar Actions y aplicaciones que mejoran la productividad, automatizan flujos de trabajo y apoyan la gestión de proyectos, beneficiando directamente a la comunidad de código abierto.",
+      "Es exclusivamente para software comercial y no incluye herramientas o servicios relevantes para proyectos de código abierto.",
+      "Restringe sus listados a herramientas propietarias de GitHub, limitando la variedad de herramientas disponibles para proyectos de código abierto.",
+      "Solo ofrece herramientas premium y de pago, haciéndolo inaccesible para proyectos de código abierto que operan con financiación limitada."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Marketplace es una plataforma donde los desarrolladores pueden encontrar una amplia variedad de herramientas, Actions y aplicaciones que pueden integrarse en sus proyectos para automatizar flujos de trabajo, mejorar la productividad y facilitar la gestión de proyectos. Muchas de estas herramientas están disponibles de forma gratuita o cuentan con niveles gratuitos, haciéndolas accesibles para proyectos de código abierto y contribuyendo al ecosistema al proporcionar recursos valiosos a mantenedores y colaboradores.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "GitHub y Open Source"
+  },
+  {
+    "id": "828feda0-689f-4fdf-bae3-a4f1f39634ee",
+    "question": "¿Cuáles son los componentes clave de un repositorio fácil de descubrir en GitHub?",
+    "options": [
+      "La capacidad de descubrimiento está determinada exclusivamente por el número de estrellas que tiene un repositorio, mientras que los demás componentes tienen un impacto mínimo en su visibilidad.",
+      "Un repositorio fácil de descubrir solo requiere un archivo README bien definido, ya que el resto de la documentación es opcional e innecesaria.",
+      "Los componentes incluyen un archivo README completo, directrices claras para contribuir, plantillas de issues y etiquetas de temas relevantes, haciendo que el repositorio sea accesible y atractivo para posibles colaboradores.",
+      "Un repositorio fácil de descubrir debe formar parte de una GitHub Organization, ya que los repositorios de usuarios individuales no admiten funciones mejoradas de descubribilidad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un repositorio fácil de descubrir en GitHub suele contar con varios componentes clave que ayudan a su visibilidad y accesibilidad. Un README detallado proporciona información esencial del proyecto, las directrices de contribución ayudan a los posibles colaboradores a entender cómo participar, las plantillas de issues guían el envío de información detallada y las etiquetas de temas relevantes ayudan a encontrar el repositorio mediante las búsquedas. En conjunto, estos elementos crean un entorno accesible que facilita la participación y la colaboración.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "GitHub y Open Source"
+  },
+  {
+    "id": "eb7d0158-4415-4809-b270-80d4f5e384f2",
+    "question": "¿Cómo pueden las organizaciones medir el éxito y el impacto de sus iniciativas para aplicar principios de código abierto mediante InnerSource?",
+    "options": [
+      "El éxito de InnerSource se determina por el volumen de contribuciones externas a los proyectos de la empresa, lo que indicaría una desalineación con los principios de InnerSource.",
+      "Las organizaciones pueden medir el éxito mediante un aumento de la colaboración entre equipos, mejoras en la calidad del código, ciclos de innovación más rápidos y una mayor participación de los empleados en el desarrollo de proyectos.",
+      "Es imposible medir la eficacia de las iniciativas de InnerSource porque están enfocadas internamente y no afectan los resultados externos ni la productividad de la organización.",
+      "El éxito se mide exclusivamente por la reducción de los costos de desarrollo de software, siendo irrelevantes otras métricas en el contexto de InnerSource."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El impacto de las iniciativas de InnerSource puede evaluarse mediante diversas métricas, como una mayor colaboración entre equipos, mejoras en la calidad del código, aceleración de los ciclos de innovación y mayor participación de los empleados en el desarrollo. Estos indicadores reflejan los beneficios de adoptar prácticas de código abierto internamente, incluyendo un mejor aprovechamiento de los recursos, una resolución de problemas más eficiente y una cultura empresarial más abierta y colaborativa.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "InnerSource"
+  },
+  {
+    "id": "45ef4e04-2718-46db-908b-d6342504df75",
+    "question": "¿Cómo afecta la implementación de prácticas de integración continua y entrega continua (CI/CD) mediante GitHub Actions a los proyectos de código abierto?",
+    "options": [
+      "Implementar CI/CD con GitHub Actions permite realizar pruebas y despliegues automatizados, mejorar la calidad del código, simplificar el proceso de contribución y garantizar que los cambios se integren y desplieguen de forma confiable, beneficiando tanto a mantenedores como a colaboradores.",
+      "Las prácticas de CI/CD son en gran medida irrelevantes para los proyectos de código abierto, ya que no se alinean con los flujos de trabajo habituales del desarrollo impulsado por voluntarios.",
+      "El uso de prácticas de CI/CD complica la gestión del proyecto, dificultando la participación de nuevos colaboradores en proyectos de código abierto.",
+      "Los proyectos de código abierto utilizan exclusivamente herramientas externas para CI/CD, ya que GitHub Actions no admite estas prácticas para repositorios públicos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integrar prácticas de CI/CD mediante GitHub Actions en proyectos de código abierto aporta numerosos beneficios, como la automatización de las pruebas y los procesos de despliegue. Esto garantiza que las contribuciones cumplan los estándares de calidad antes de fusionarse y agiliza el flujo de trabajo, facilitando que los colaboradores envíen cambios y que los mantenedores gestionen el proyecto de forma eficiente.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Visibilidad y participación de la comunidad"
+  },
+  {
+    "id": "098c7c83-26bd-4d73-b10a-55168e3bd2fd",
+    "question": "¿Cuál es el mejor lugar de un repositorio de GitHub para encontrar en qué puedes ayudar a un proyecto?",
+    "options": [
+      "El archivo README.",
+      "La lista de issues.",
+      "La barra de búsqueda.",
+      "El archivo LICENSE."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La lista de issues reúne las tareas y problemas existentes del proyecto, y suelen etiquetarse según la ayuda que se necesita, por lo que es el mejor lugar para saber en qué contribuir. El README explica cómo usar el proyecto, la barra de búsqueda permite encontrar repositorios y temas en GitHub, y el archivo LICENSE describe cómo puedes usar, redistribuir y modificar el proyecto.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Contribuciones a proyectos de código abierto"
+  },
+  {
+    "id": "67961353-6ec2-48ee-82c1-bb3f472facf0",
+    "question": "¿Cuál es la forma preferida de pedir ayuda o revisiones en un pull request?",
+    "options": [
+      "Enviar un comentario negativo o irrespetuoso a los mantenedores del proyecto a través de redes sociales.",
+      "Crear un issue.",
+      "Agregar un comentario en el pull request.",
+      "Enviar un correo electrónico a un colaborador cualquiera del proyecto."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Puedes solicitar directamente una revisión o agregar un comentario a tu pull request para tratar cualquier tema relacionado con él. Crear un issue es útil para abrir un debate sobre un tema nuevo o reportar un bug, pero el pull request ya es el lugar adecuado para eso. Contactar a los mantenedores por redes sociales o por su correo privado no es una forma eficaz de comunicarse; usa siempre los canales públicos indicados por el proyecto.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Contribuciones a proyectos de código abierto"
+  },
+  {
+    "id": "f5c3459a-5fc0-4979-ae1b-f13806e74cbf",
+    "question": "¿Qué se necesita antes de poder crear un pull request en GitHub?",
+    "options": [
+      "Enviar un archivo de parche a los mantenedores por correo electrónico.",
+      "Clonar un repositorio, hacer commit de los cambios y hacer force push.",
+      "Ser aceptado como miembro del equipo.",
+      "Hacer fork de un repositorio, clonarlo, hacer commit de los cambios y hacer push a tu fork."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aunque puedes clonar cualquier repositorio público de GitHub, de forma predeterminada no tienes derecho a hacer push de modificaciones. Haz primero un fork del repositorio para crear tu propia copia y luego clónala, haz commit de tus cambios y haz push a tu fork. No necesitas ser miembro del equipo del proyecto, y enviar parches por correo o hacer force push no es la forma adecuada de contribuir.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "Contribuciones a proyectos de código abierto"
+  },
+  {
+    "id": "62e48d30-89ac-4576-b66a-f25a2cc09d36",
+    "question": "¿Cuál de las siguientes opciones describe mejor la relación entre los programas de código abierto (open source) y los programas de InnerSource?",
+    "options": [
+      "Cualquier persona puede ofrecer una contribución a un programa de código abierto, mientras que los programas de InnerSource solo aceptan contribuciones de los miembros del equipo propietario del repositorio.",
+      "Los programas de InnerSource son fork de programas de código abierto que las organizaciones usan y mantienen únicamente de forma privada de ahí en adelante.",
+      "Los programas de InnerSource son fundamentalmente iguales que los de código abierto, salvo que su acceso está limitado a las personas dentro de su organización."
+    ],
+    "correctAnswer": 2,
+    "explanation": "InnerSource ofrece todos los beneficios de los patrones tradicionales de código abierto, pero a una audiencia limitada para proteger la propiedad intelectual. Tanto los programas de InnerSource como los de código abierto están diseñados para aceptar contribuciones de personas ajenas al equipo propietario del repositorio. Aunque en ocasiones se hace fork de un programa de código abierto para crear uno de InnerSource, esa distinción no define realmente su relación.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "InnerSource"
+  },
+  {
+    "id": "c4e4afd5-c978-4d52-aa6b-72aaf7504724",
+    "question": "Supongamos que tu equipo ha estado recibiendo reportes de bugs de baja calidad, sin suficiente información para diagnosticarlos correctamente. ¿Cuál de las siguientes opciones es la mejor forma de abordar el problema?",
+    "options": [
+      "Usar GitHub Script para agregar una acción de flujo de trabajo que rechace automáticamente cualquier issue con una descripción de menos de 200 caracteres.",
+      "Agregar un archivo `ISSUE_TEMPLATE.md` que incluya campos para pasos de reproducción, propiedades del sistema e instrucciones para generar e incluir registros (logs) importantes.",
+      "Agregar un archivo `CONTRIBUTING.md` que explique claramente qué incluir en un reporte de bug. Por ejemplo, pasos de reproducción, propiedades del sistema e instrucciones para generar e incluir registros importantes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El archivo `ISSUE_TEMPLATE.md` garantiza que cualquier persona que reporte un bug sepa qué incluir en el reporte en el momento en que lo escribe, y está integrado en la propia experiencia de creación de issues. Rechazar automáticamente issues por su longitud no garantiza obtener toda la información necesaria, y aunque `CONTRIBUTING.md` es valioso, supone que todos lo leerán y cumplirán.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "InnerSource"
+  },
+  {
+    "id": "8bb1fe23-c22d-478f-ba90-0307c0952773",
+    "question": "Supongamos que tu equipo ha estado registrando datos de todo tipo desde que su programa de InnerSource entró en funcionamiento hace tres meses. ¿Cuál de las siguientes métricas indica que tu programa es un gran éxito?",
+    "options": [
+      "Un aumento drástico de los pull requests que solucionan bugs en tu software.",
+      "Una tasa creciente de reportes de bugs que se cierran rápidamente porque no se pueden reproducir.",
+      "Una disminución constante de nuevos issues."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un aumento de los pull requests que solucionan bugs indica que más personas están motivadas a mejorar la calidad de tu software y hacen la inversión por sí mismas. Una mayor tasa de bugs cerrados por no poder reproducirse no implica necesariamente que la calidad mejore, y una disminución de nuevos issues podría reflejar satisfacción o, por el contrario, poca confianza en que reportar issues genere avances; esta métrica por sí sola no basta para inferir éxito.",
+    "examId": "github-foundations",
+    "categoryId": "benefits-of-the-github-community",
+    "topic": "InnerSource"
+  }
+]

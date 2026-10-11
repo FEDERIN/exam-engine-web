@@ -1,0 +1,257 @@
+[
+  {
+    "id": "9978be5c-891b-4dac-8bbb-7fb747aaa930",
+    "question": "¿Qué son las plantillas de repositorios?",
+    "options": [
+      "Scripts automatizados para formatear y validar código",
+      "Repositorios configurados con un conjunto específico de archivos y estructuras de directorios que pueden utilizarse como punto de partida para nuevos proyectos",
+      "Flujos de trabajo de GitHub Actions preconstruidos para integración y entrega continuas",
+      "Fragmentos de código predefinidos que pueden insertarse en los archivos del proyecto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las plantillas de repositorios de GitHub son repositorios diseñados con un conjunto específico de archivos, estructuras de directorios y otros elementos que pueden utilizarse como punto de partida para nuevos proyectos. Esto ayuda a agilizar la configuración y mantener la consistencia entre proyectos similares.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Repository Templates"
+  },
+  {
+    "id": "05b5d7da-99c2-43b4-acee-3505ad809634",
+    "question": "¿Cómo agregas un archivo a un repositorio en GitHub sin utilizar la línea de comandos?",
+    "options": [
+      "Enviar el archivo como archivo adjunto en un issue",
+      "Enviar el archivo por correo electrónico al soporte de GitHub solicitando que lo agreguen al repositorio",
+      "Utilizar la función Star para cargar archivos indirectamente",
+      "Utilizar el botón Upload files en la página principal del repositorio"
+    ],
+    "correctAnswer": 3,
+    "explanation": "GitHub proporciona una opción mediante la interfaz web, el botón Upload files, ubicado en la página principal del repositorio. Esto permite agregar nuevos archivos directamente desde el navegador sin utilizar la línea de comandos.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Uploading Files"
+  },
+  {
+    "id": "77a75d66-fcf0-4c48-9584-d8f6b1bf8343",
+    "question": "¿Cómo puede un usuario habilitar o deshabilitar las vistas previas de funcionalidades de GitHub?",
+    "options": [
+      "A través del menú Feature Preview en la configuración de la cuenta del usuario",
+      "Las vistas previas de funcionalidades no se pueden habilitar ni deshabilitar manualmente; se aplican automáticamente a todas las cuentas",
+      "Enviando una solicitud mediante la API de GitHub para cambiar el acceso a las funcionalidades",
+      "Modificando el archivo .gitconfig del repositorio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub permite a los usuarios activar o desactivar las vistas previas de funcionalidades mediante el menú Feature Preview de la configuración de su cuenta. Esto permite probar nuevas funcionalidades antes de que se publiquen para toda la comunidad de GitHub.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Feature Preview"
+  },
+  {
+    "id": "14ad3299-0285-4b3b-8e36-ff912369ea88",
+    "question": "¿Qué archivo de un repositorio de GitHub se utiliza normalmente para indicar las directrices para contribuir al proyecto?",
+    "options": [
+      "LICENSE.md",
+      "CODE_OF_CONDUCT.md",
+      "README.md",
+      "CONTRIBUTING.md"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El archivo CONTRIBUTING.md se utiliza convencionalmente para comunicar cómo pueden contribuir otras personas al proyecto. Suele incluir directrices para realizar pull requests, reportar issues y otra información importante para los colaboradores.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Contributing Guidelines"
+  },
+  {
+    "id": "d37d2e4c-8888-4ff0-8f51-838062364cc7",
+    "question": "¿Qué acción realiza la función Watch de GitHub para un repositorio?",
+    "options": [
+      "Envía al usuario notificaciones por correo electrónico cada vez que hay una nueva versión.",
+      "Notifica al usuario sobre todas las discusiones, pull requests e issues que ocurren en el repositorio observado.",
+      "Marca el repositorio para acceder rápidamente a él, pero no envía notificaciones.",
+      "Hace fork automáticamente del repositorio en la cuenta del usuario para su visualización privada."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La función Watch de GitHub permite suscribirse a notificaciones sobre discusiones, pull requests, issues y otras actividades dentro de un repositorio. Esto permite mantenerse al día con los cambios y conversaciones de los proyectos de interés.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Watching Repositories"
+  },
+  {
+    "id": "7dc836ad-d7c1-42b8-9c36-84bf1cf14034",
+    "question": "¿Cuál es el beneficio de utilizar plantillas de repositorios al crear un nuevo repositorio de GitHub?",
+    "options": [
+      "Ofrecen capacidades de despliegue continuo integradas sin configuración adicional.",
+      "Proporcionan un conjunto preconfigurado de archivos y carpetas, lo que facilita estandarizar y acelerar la configuración del proyecto.",
+      "Otorgan acceso inmediato a una comunidad más grande de desarrolladores.",
+      "Marcan automáticamente con Star el nuevo repositorio para aumentar su visibilidad."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las plantillas de repositorios proporcionan un conjunto preconfigurado de archivos y carpetas. Esto hace que sea más rápido y sencillo iniciar nuevos proyectos, seguir buenas prácticas y mantener la consistencia entre proyectos similares. Una plantilla puede incluir elementos como README, LICENSE, directrices CONTRIBUTING e incluso archivos de configuración, pero no proporciona capacidades de despliegue continuo integradas sin configuración adicional.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Repository Templates"
+  },
+  {
+    "id": "7cc66ca2-0e4f-433c-a939-d9a476ff7c9d",
+    "question": "¿Qué función cumplen los Repository Insights en la gestión de repositorios de GitHub y qué tipo de información proporcionan a los maintainers?",
+    "options": [
+      "Proporcionan análisis detallados del tráfico, como clones y vistas, actividades de contribución como pull requests e issues, y cómo cambia el contenido con el tiempo, ayudando a los maintainers a tomar decisiones informadas sobre el proyecto.",
+      "Insights solo está disponible para repositorios privados y se centra exclusivamente en métricas financieras relacionadas con la financiación y el patrocinio del repositorio.",
+      "Repository Insights se utiliza principalmente para la personalización estética de los gráficos del repositorio y no tiene utilidad práctica en la gestión.",
+      "La función Insights está diseñada para supervisar la actividad personal de los usuarios dentro del repositorio, como el tiempo empleado y los archivos accedidos, con fines de auditoría de seguridad."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Repository Insights proporciona a los maintainers análisis sobre distintos aspectos de la actividad del repositorio. Incluye estadísticas de tráfico, como cuántas veces se ha clonado o visto el repositorio, detalles de las contribuciones y una visión de cómo cambia el contenido con el tiempo. Estos datos ayudan a evaluar el uso y la participación del proyecto y a tomar decisiones informadas sobre su desarrollo.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Repository Insights"
+  },
+  {
+    "id": "1973eda6-86ba-42cd-bb6d-562ed30dd9ee",
+    "question": "¿Qué función debe utilizarse cuando quieres guardar repositorios interesantes en GitHub para consultarlos en el futuro?",
+    "options": [
+      "Seguir el repositorio",
+      "Marcar el repositorio con Star",
+      "Hacer fork del repositorio",
+      "Observar el repositorio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Marcar un repositorio con Star permite guardarlo como un proyecto de interés para encontrarlo fácilmente más adelante, de forma similar a guardar un marcador en un navegador. Watch se utiliza para recibir notificaciones sobre la actividad del repositorio, mientras que Fork crea una copia del repositorio en la cuenta del usuario.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Stars"
+  },
+  {
+    "id": "c8a4f409-c740-484a-a6e9-348e1ed70e27",
+    "question": "Al mantener un repositorio de GitHub, ¿qué función es crucial para comprender cómo interactúan otras personas con tu proyecto a lo largo del tiempo?",
+    "options": [
+      "La función GitHub Pages para alojar sitios web del proyecto.",
+      "La pestaña Insights, que proporciona estadísticas sobre contribuciones, tráfico y más.",
+      "La pestaña Actions para configurar pipelines de CI/CD.",
+      "La pestaña Security para supervisar actualizaciones y vulnerabilidades de dependencias."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La pestaña Insights ofrece una visión amplia de cómo otras personas interactúan con el proyecto a lo largo del tiempo, incluyendo estadísticas sobre contribuciones, tráfico, issues y pull requests. GitHub Pages se utiliza para alojar sitios web y documentación; Actions para integración y despliegue continuo; y Security para aspectos relacionados con vulnerabilidades y dependencias.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Repository Insights"
+  },
+  {
+    "id": "c3f7a921-2d84-4b6e-9a53-71e8d5c204bf",
+    "question": "¿Qué función de GitHub permite ver diversas estadísticas como el tráfico, la actividad de clones y cómo las personas encuentran tu repositorio?",
+    "options": [
+      "GitHub Codespaces",
+      "GitHub Actions",
+      "Repository Insights",
+      "GitHub Projects"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Repository Insights proporciona diversas estadísticas, incluyendo tráfico, actividad de clones, vistas y cómo los visitantes encuentran el repositorio. Ayuda a comprender el alcance y la participación del repositorio.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Repository Insights"
+  },
+  {
+    "id": "a82e5c17-4b39-46d0-91f3-7e6a2b584c10",
+    "question": "¿Cómo puedes visualizar insights y análisis para un repositorio de GitHub, como datos de tráfico y actividades de contribución?",
+    "options": [
+      "Solicitando un informe mensual de actividad al soporte de GitHub",
+      "Utilizando la función Estrella para acceder a un panel de análisis oculto",
+      "Ejecutando un flujo de trabajo especial de GitHub Actions",
+      "A través de la pestaña de Insights disponible en la barra de navegación del repositorio"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\"A través de la pestaña de Insights disponible en la barra de navegación del repositorio\" es correcto. La pestaña de Insights en la barra de navegación del repositorio en GitHub ofrece acceso a diversas analíticas y estadísticas, incluyendo datos de tráfico, actividades de contribución y más. Esta función ayuda a los propietarios de repositorios a entender cómo interactúan los usuarios con su repositorio y el impacto de su trabajo.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Repository Insights"
+  },
+  {
+    "id": "f1d6a843-9c27-4e52-b718-3a6f0d925c81",
+    "question": "¿Cómo beneficia al usuario marcar con Star un repositorio en GitHub?",
+    "options": [
+      "Le da al usuario acceso de escritura al repositorio.",
+      "Envía una notificación al propietario del repositorio cada vez que hay un nuevo commit.",
+      "Hace fork automáticamente del repositorio en la cuenta del usuario.",
+      "Guarda el repositorio como marcador para acceder fácilmente y ayuda al usuario a realizar un seguimiento de los proyectos que considera interesantes."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Marcar un repositorio con Star funciona como un marcador, permitiendo al usuario encontrar fácilmente y realizar un seguimiento de los repositorios que le interesan. Star no concede permisos adicionales, no envía notificaciones por cada commit y no hace fork automáticamente.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Stars"
+  },
+  {
+    "id": "b7e8a1c4-3f52-4d91-9a76-2c5e8f104b63",
+    "question": "¿Cuáles son los beneficios de agregar un archivo CODEOWNERS a un repositorio de GitHub?",
+    "options": [
+      "Realiza un seguimiento de la propiedad de archivos individuales a lo largo del tiempo.",
+      "Cifra el contenido del repositorio para aumentar la seguridad.",
+      "Combina automáticamente los pull requests sin revisión.",
+      "Especifica las personas o equipos responsables del código en rutas específicas, requiriendo su revisión en los pull requests."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El archivo CODEOWNERS se utiliza para definir las personas o equipos responsables de partes específicas del repositorio. Cuando un pull request afecta código en esas rutas, las revisiones de los code owners designados se requieren automáticamente, lo que ayuda a agilizar el proceso de revisión y garantiza que los cambios sean comprobados por las personas con el conocimiento adecuado.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "CODEOWNERS"
+  },
+  {
+    "id": "d3c91f72-6a84-4b15-8e29-5170ab63c4f1",
+    "question": "¿Cómo puede un usuario crear un nuevo repositorio en GitHub?",
+    "options": [
+      "Ejecutando el comando git init en la terminal",
+      "A través de la opción New Repository en la interfaz de usuario de GitHub",
+      "Clonando un repositorio existente y cambiándole el nombre",
+      "Enviando una solicitud por correo electrónico al soporte de GitHub para crear manualmente el repositorio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los usuarios pueden crear un nuevo repositorio en GitHub accediendo a su cuenta de GitHub y utilizando la opción New Repository de la interfaz de usuario, que proporciona un formulario para completar detalles del repositorio como nombre, descripción, visibilidad y opciones de inicialización.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Creating Repositories"
+  },
+  {
+    "id": "4a6f2e83-91b7-45cd-a052-7381e9f64b20",
+    "question": "¿Cuál es el propósito de agregar un archivo LICENSE a un repositorio de GitHub?",
+    "options": [
+      "Detallar el proceso y las directrices para contribuir al proyecto",
+      "Especificar las restricciones sobre la distribución del contenido de un repositorio privado",
+      "Indicar claramente los términos bajo los cuales se puede utilizar, compartir o modificar el código del proyecto",
+      "Proporcionar información de contacto de los mantenedores del repositorio"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El archivo LICENSE de un repositorio de GitHub establece explícitamente los términos bajo los cuales se puede utilizar, compartir o modificar el código del proyecto. Es un componente fundamental de los proyectos de código abierto, ya que aclara los permisos y restricciones legales para colaboradores y usuarios.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Licensing"
+  },
+  {
+    "id": "8c14b5e7-2d63-49af-b381-6e920ac573d4",
+    "question": "¿Qué pasos se deben seguir para crear una nueva rama en un repositorio de GitHub utilizando la interfaz web?",
+    "options": [
+      "Enviar un correo electrónico al soporte de GitHub para solicitar la creación de una nueva rama.",
+      "Ir a la pestaña Settings y seleccionar Branches para agregar una nueva rama.",
+      "Utilizar el botón New pull request y seleccionar la opción para crear una nueva rama.",
+      "Ir a la página principal del repositorio, hacer clic en el menú desplegable de ramas, introducir el nombre de la nueva rama y presionar Enter."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Para crear una nueva rama en un repositorio de GitHub mediante la interfaz web, se debe ir a la página principal del repositorio, hacer clic en el menú desplegable de ramas (normalmente muestra el nombre de la rama actual), introducir el nombre de la nueva rama en el campo disponible y presionar Enter. Esta acción crea una nueva rama basada en el punto del historial que se está visualizando.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Creating Branches"
+  },
+  {
+    "id": "f52d7a19-84c3-4e61-b905-2a7f1638cd50",
+    "question": "¿Cuál es el primer paso que se debe realizar cuando se desea comenzar a trabajar en un proyecto alojado en GitHub?",
+    "options": [
+      "Clonar el repositorio",
+      "Marcar el repositorio con Star",
+      "Hacer fork del repositorio",
+      "Crear una nueva rama"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El primer paso es clonar el repositorio, lo que permite obtener una copia local del proyecto alojado en GitHub y comenzar a trabajar con él.",
+    "examId": "github-foundations",
+    "categoryId": "working-with-github-repositories",
+    "topic": "Cloning Repositories"
+  }
+]

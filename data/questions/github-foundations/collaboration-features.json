@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "9181aaf8-2d8f-4bbd-aee3-ca623582388c",
+    "question": "¿Qué paso se debe seguir para utilizar palabras clave en un issue de GitHub y cerrar automáticamente los issues relacionados al hacer merge de un pull request?",
+    "options": [
+      "Incluir las palabras clave y el número del issue en el primer mensaje de commit del pull request.",
+      "Escribir las palabras clave en un comentario después de abrir el pull request.",
+      "Agregar las palabras clave relevantes al título del pull request.",
+      "Mencionar las palabras clave seguidas del número del issue en la descripción del pull request."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Para vincular un pull request con un issue y asegurarse de que el issue se cierre automáticamente cuando se haga merge del pull request, se deben utilizar palabras clave específicas, como “fixes” o “closes”, seguidas del número del issue en la descripción del pull request. El título del pull request no es analizado por GitHub para realizar este cierre automático. Tampoco es suficiente colocar las palabras clave en el primer commit o en un comentario del pull request.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación de issues y pull requests"
+  },
+  {
+    "id": "993d9b35-d1f0-4347-987a-dd3075551a47",
+    "question": "¿Qué opciones tienen los usuarios de GitHub para recibir notificaciones sobre actividades en los repositorios que les interesan?",
+    "options": [
+      "Los usuarios pueden elegir recibir notificaciones por correo electrónico, web o móvil y personalizar sus preferencias para cada repositorio.",
+      "Los usuarios deben revisar manualmente el registro de actividad de cada repositorio, ya que GitHub no ofrece servicios de notificación personalizados.",
+      "Las notificaciones solo pueden recibirse mediante notificaciones de escritorio a través de GitHub Desktop.",
+      "Todas las notificaciones se publican automáticamente en las cuentas de redes sociales vinculadas del usuario."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub permite a los usuarios elegir cómo recibir las notificaciones de las actividades de los repositorios que les interesan. Las opciones incluyen actualizaciones por correo electrónico, notificaciones mediante la interfaz web o a través de la aplicación móvil de GitHub. Estas preferencias pueden configurarse individualmente para cada repositorio.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Notificaciones"
+  },
+  {
+    "id": "1a5f09c7-fdf2-4a6e-a4e6-e7cd1c6ff99b",
+    "question": "¿Cómo pueden las GitHub Discussions mejorar la participación de la comunidad en comparación con utilizar únicamente Issues y Pull Requests para la comunicación dentro de un proyecto?",
+    "options": [
+      "Las Discussions reemplazan la necesidad de Issues y Pull Requests al consolidar toda la comunicación del proyecto en un único formato.",
+      "Las Discussions proporcionan un espacio estructurado pero flexible para una variedad de conversaciones, desde preguntas y respuestas hasta mostrar proyectos, que no necesariamente encajan con la naturaleza más orientada a tareas de Issues y Pull Requests.",
+      "Solo las Discussions pueden vincularse a commits de código, lo que las convierte en la herramienta principal para conversaciones técnicas detalladas.",
+      "Las Discussions permiten publicar de forma anónima, fomentando una mayor participación de usuarios que prefieren no revelar su identidad."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub Discussions ofrece una plataforma versátil para la participación de la comunidad que complementa el enfoque orientado a tareas de Issues y Pull Requests. Puede utilizarse para preguntas y respuestas, intercambio de ideas, encuestas y presentación de proyectos. Las Discussions no reemplazan a Issues ni Pull Requests, sino que funcionan como una herramienta adicional. GitHub tampoco admite publicaciones anónimas en Discussions, Issues ni Pull Requests.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Discussions"
+  },
+  {
+    "id": "7db0fd5b-8e59-4c11-9c05-9c317d15798e",
+    "question": "¿Cómo pueden los colaboradores indicar que su pull request depende de que otro pull request se fusione primero?",
+    "options": [
+      "Mencionando el pull request que debe completarse primero en la descripción o en los comentarios del pull request dependiente para informar a los revisores.",
+      "Configurando un bloqueo de merge en el pull request dependiente hasta que se fusione el pull request prerequisite.",
+      "GitHub detecta y administra automáticamente las dependencias entre pull requests basándose en las relaciones entre ramas.",
+      "Utilizando palabras clave en la descripción del pull request para aplicar automáticamente el orden de merge según las dependencias."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub no dispone de un mecanismo integrado para administrar automáticamente las dependencias entre pull requests. Los colaboradores pueden indicar manualmente una dependencia mencionando el pull request prerequisite en la descripción o en los comentarios del pull request dependiente. Esto informa a los revisores sobre el orden en que deben considerarse y posiblemente fusionarse los pull requests.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Dependencias entre pull requests"
+  },
+  {
+    "id": "ccbf9f4f-92f1-4139-a160-8b37b5bd9192",
+    "question": "¿Qué acción se debe realizar para vincular un commit específico a una issue dentro de un pull request de GitHub?",
+    "options": [
+      "Adjuntar un archivo de parche del commit a la issue como comentario.",
+      "Crear una nueva rama para cada issue para vincular directamente el commit con ella.",
+      "Utilizar la API de GitHub para asociar manualmente el commit con la issue.",
+      "Mencionar el número de la issue precedido por un hashtag en el mensaje del commit."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mencionar el número de la issue precedido por un hashtag (por ejemplo, #123) en el mensaje del commit crea un hipervínculo hacia la issue dentro de GitHub, vinculando el commit con la issue. Esta asociación proporciona contexto y facilita el seguimiento de los cambios relacionados con determinadas discusiones o solicitudes.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación de commits e issues"
+  },
+  {
+    "id": "99d8a19e-6766-4b75-8a80-11e88f6ad4ab",
+    "question": "¿Cómo puede un usuario comentar líneas de código específicas dentro de un pull request en GitHub?",
+    "options": [
+      "Utilizando el comando @comment seguido del número de línea en la sección de comentarios generales del pull request.",
+      "Descargando el código, comentando en la copia local y luego subiéndola como archivo adjunto a un comentario general.",
+      "Haciendo clic en el número de línea en la pestaña Files changed para abrir un cuadro de comentario para esa línea específica de código.",
+      "Enviando por correo electrónico al autor del pull request los comentarios y los números de línea correspondientes."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub permite proporcionar comentarios específicos sobre un pull request haciendo clic en el número de línea dentro de la pestaña Files changed. Esto abre un cuadro de comentario donde se pueden dejar comentarios o sugerencias relacionados directamente con esa línea.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Comentarios en pull requests"
+  },
+  {
+    "id": "5b588060-e7b9-482a-b177-43ee24e775c1",
+    "question": "¿Cuáles son las mejores prácticas para moderar eficazmente las GitHub Discussions y garantizar una participación comunitaria productiva y respetuosa?",
+    "options": [
+      "Los moderadores deben priorizar las discusiones de colaboradores experimentados sobre las de los recién llegados para mantener un debate técnico avanzado.",
+      "Para fomentar un entorno de discusión saludable, los moderadores deben hacer cumplir un código de conducta, abordar rápidamente las infracciones del código de conducta y animar a los colaboradores a mantenerse dentro del tema y proporcionar comentarios constructivos.",
+      "Los moderadores deben permitir todas las formas de diálogo sin intervenir para fomentar una comunicación completamente abierta propia del código abierto.",
+      "Las mejores prácticas incluyen exigir que todos los participantes de las discusiones presenten ejemplos de código para su validación técnica antes de participar en las conversaciones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Una moderación eficaz de GitHub Discussions implica mantener un código de conducta que garantice un diálogo respetuoso y constructivo. Los moderadores deben abordar rápidamente cualquier infracción y animar a los colaboradores a mantenerse dentro del tema y proporcionar comentarios útiles. Todos los colaboradores, independientemente de su nivel de experiencia, deben tener la oportunidad de participar.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Moderación de GitHub Discussions"
+  },
+  {
+    "id": "07c87759-2b20-4921-9009-16437e918a70",
+    "question": "¿Cuál de las siguientes es la mejor manera para que un usuario administre sus suscripciones de notificaciones para un repositorio completo, en lugar de un solo hilo?",
+    "options": [
+      "Utilizando el botón Unsubscribe dentro de los correos electrónicos recibidos por cada notificación.",
+      "Navegando hasta el repositorio o issue/hilo y haciendo clic en el botón Notifications para personalizar la configuración de suscripción.",
+      "Enviando directamente un correo electrónico al soporte de GitHub para cambiar las preferencias de notificación de cada repositorio o hilo.",
+      "Ajustando únicamente la configuración en las preferencias globales de su cuenta de GitHub."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub permite administrar las suscripciones de notificaciones directamente dentro de cada repositorio o en issues/hilos específicos. El usuario puede utilizar el botón Notifications para ajustar la configuración de suscripción, eligiendo cómo y cuándo desea recibir notificaciones.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Suscripciones de notificaciones"
+  },
+  {
+    "id": "34a4a4bb-08be-45c5-a3b2-3d4d47f3ccd4",
+    "question": "¿Cuál es el propósito de vincular un pull request a una issue en GitHub y cómo puede esta práctica mejorar el seguimiento y la gestión de un proyecto?",
+    "options": [
+      "El propósito principal es cerrar automáticamente las issues vinculadas una vez que se hace merge del pull request, pero no proporciona otros beneficios para la gestión del proyecto.",
+      "Esta práctica se desaconseja, ya que puede generar confusión y duplicación del trabajo, debido a que varios pull requests podrían vincularse potencialmente a la misma issue.",
+      "Vincular pull requests a issues es simplemente un requisito formal y no tiene beneficios prácticos para el seguimiento del proyecto.",
+      "Al vincular un pull request con una issue correspondiente, se crea una conexión rastreable entre un issue reportado o una funcionalidad solicitada y los cambios de código implementados, mejorando así la transparencia y el seguimiento del progreso de los objetivos del proyecto."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Vincular los pull requests con sus issues correspondientes ayuda a crear un camino claro y rastreable desde un issue o una funcionalidad solicitada hasta su solución. Esta conexión facilita la gestión del proyecto al mostrar qué pull requests abordan issues específicas, mejorando la transparencia y permitiendo realizar un seguimiento más eficiente del progreso de los objetivos del proyecto.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación de pull requests e issues"
+  },
+  {
+    "id": "5081ff43-e733-4d72-ac3b-82245f9f79ac",
+    "question": "¿Cómo se pueden asignar issues a miembros específicos de un equipo dentro de un repositorio de GitHub?",
+    "options": [
+      "A través de la barra lateral de la issue, seleccionando un usuario o equipo en la sección Assignees.",
+      "Utilizando la función @mention dentro del comentario de la issue para notificar al asignado.",
+      "Arrastrando y soltando la issue en el perfil de un miembro del equipo.",
+      "La asignación de issues se realiza automáticamente mediante GitHub en función de la propiedad del código."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las issues de un repositorio de GitHub pueden asignarse a personas o equipos específicos desde la barra lateral de la issue. La sección Assignees permite al creador de la issue o a los mantenedores del repositorio seleccionar entre los colaboradores o equipos disponibles, delegando así la responsabilidad de resolver la issue.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Asignación de issues"
+  },
+  {
+    "id": "259fcb35-2acd-45a6-8aea-6ef553d4ee9c",
+    "question": "¿Cómo se pueden vincular actividades, como issues u otros pull requests, dentro de un pull request en GitHub?",
+    "options": [
+      "Utilizando la API de GitHub para vincular actividades mediante programación.",
+      "Mencionando el número de la issue o del pull request precedido por un hashtag en la descripción o en los comentarios del pull request.",
+      "La vinculación de actividades no es compatible con GitHub; las actividades deben referenciarse manualmente en la documentación.",
+      "Creando un archivo especial en el repositorio que mapee todas las actividades relacionadas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mencionar el número de una issue o pull request con un hashtag (por ejemplo, #123) en la descripción o en los comentarios de un pull request crea un hipervínculo hacia la actividad referenciada. Esto permite realizar un seguimiento directo de las actividades relacionadas dentro de la conversación o documentación del pull request.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación de actividades"
+  },
+  {
+    "id": "604d25d9-57c2-4650-86a6-6e6343c8c3ca",
+    "question": "¿Qué función cumplen los checks en el proceso de revisión de pull requests en GitHub?",
+    "options": [
+      "Proporcionan una plataforma para la interacción social y el networking entre los colaboradores del proyecto.",
+      "Permiten el despliegue automatizado del código del pull request a un entorno de producción.",
+      "Funcionan como una lista de verificación manual que el autor del pull request debe completar antes de solicitar revisiones.",
+      "Validan los cambios del pull request frente a flujos de trabajo definidos por el proyecto, como scripts de compilación y pruebas, para garantizar la calidad y funcionalidad."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los checks dentro del proceso de revisión de un pull request, como los implementados mediante GitHub Actions, son tareas automatizadas que validan los cambios. Pueden ejecutar compilaciones, pruebas y verificaciones de estándares de código para garantizar que el código cumple con los criterios de calidad del proyecto antes de fusionarlo con la base de código principal.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Comprobaciones de pull requests"
+  },
+  {
+    "id": "1b8bef2a-48d2-4b27-ae7c-12d7c7f541e2",
+    "question": "¿Cuál es el propósito de asignar issues en un repositorio de GitHub?",
+    "options": [
+      "Asignar la responsabilidad de resolver la issue a personas o equipos específicos.",
+      "Resolver automáticamente la issue sin necesidad de intervención adicional.",
+      "Programar una issue para que se resuelva en un momento específico.",
+      "Dar prioridad a la issue sobre otras issues que no tengan colaboradores asignados."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Asignar una issue en un repositorio de GitHub sirve para asignar la responsabilidad de investigar, trabajar o resolver esa issue a personas o equipos específicos. Esto ayuda a organizar el flujo de trabajo y garantiza que las issues sean atendidas por los colaboradores apropiados.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Asignación de issues"
+  },
+  {
+    "id": "5a7df60b-a3db-4da7-a54e-068acf7f7ca0",
+    "question": "En el sistema de notificaciones de GitHub, ¿cómo pueden los usuarios distinguir entre las notificaciones generadas por sus propias actividades y las que son provocadas por otros colaboradores?",
+    "options": [
+      "GitHub no diferencia entre estos tipos de notificaciones; los usuarios deben determinar manualmente su origen.",
+      "El panel de notificaciones del usuario separa las actividades en las secciones “Your Activity” y “Others’ Activity”.",
+      "Las notificaciones causadas por las propias acciones del usuario aparecen marcadas con un icono especial.",
+      "GitHub envía automáticamente las notificaciones autogeneradas a una carpeta de correo electrónico separada."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Según el material, el sistema actual de notificaciones de GitHub no diferencia explícitamente en el panel entre las notificaciones generadas por las propias acciones del usuario y aquellas provocadas por otros colaboradores. Los usuarios reciben actualizaciones, según sus preferencias de suscripción, sobre repositorios, issues, pull requests y Discussions, sin una indicación específica del origen de cada notificación.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Notificaciones"
+  },
+  {
+    "id": "a51e1688-f2e1-4047-8e4c-206e0215bd26",
+    "question": "¿Cómo afecta la integración de plantillas de issues en un repositorio de GitHub al proceso de contribución del proyecto?",
+    "options": [
+      "Desalienta a los nuevos colaboradores a enviar issues debido a una mayor complejidad.",
+      "Agiliza el proceso de envío al proporcionar indicaciones específicas, lo que genera issues más detalladas y accionables.",
+      "Resuelve automáticamente las issues comunes al momento de enviarlas, sin intervención humana.",
+      "Ralentiza significativamente el proceso de envío de issues, ya que requiere aprobación manual para cada issue."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Integrar plantillas de issues en un repositorio de GitHub puede agilizar significativamente el proceso de contribución. Las plantillas proporcionan indicaciones y estructuras predefinidas para enviar issues, ayudando a los colaboradores a proporcionar todos los detalles necesarios desde el principio. Esto produce issues más detalladas y accionables, mejorando la eficiencia en el proceso de clasificación y resolución de issues.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Plantillas de issues"
+  },
+  {
+    "id": "6d8f997a-b819-43a9-8e9a-4c8bf92f2af6",
+    "question": "¿Qué beneficio ofrecen las discusiones fijadas dentro del espacio comunitario de un repositorio de GitHub?",
+    "options": [
+      "Reservan espacio del servidor para garantizar que la discusión permanezca accesible durante períodos de alto tráfico.",
+      "Restringen los nuevos comentarios, preservando la conversación original sin aportes adicionales.",
+      "Proporcionan un archivo temporal de conversaciones que se eliminará automáticamente después de 30 días.",
+      "Destacan anuncios importantes o recursos en la parte superior de la lista de discusiones para facilitar el acceso a los miembros nuevos y recurrentes de la comunidad."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Fijar discusiones en el espacio comunitario de un repositorio de GitHub permite destacar conversaciones importantes, como anuncios clave, directrices o recursos. Esto hace que la información sea fácilmente accesible desde la parte superior de la lista de discusiones, tanto para los miembros nuevos como para los que regresan a la comunidad. Las discusiones fijadas no se eliminan automáticamente y no restringen los nuevos comentarios.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Discusiones fijadas"
+  },
+  {
+    "id": "c4528fc5-f558-41fd-bb7c-f22e14c3a5fc",
+    "question": "¿Cómo se pueden asignar issues a personas específicas en un repositorio de GitHub?",
+    "options": [
+      "Mencionando el nombre de usuario de la persona en el título de la issue.",
+      "Solo enviando un correo electrónico directamente a los usuarios que se desean asignar.",
+      "Utilizando una palabra clave especial @assign en la descripción de la issue.",
+      "A través de la interfaz de creación o edición de la issue, seleccionando un usuario en la sección Assignees."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las issues pueden asignarse a personas específicas mediante la interfaz de creación o edición de la issue. En la sección Assignees, se puede seleccionar uno o más usuarios, asignándoles así la responsabilidad de la issue. Mencionar el nombre de usuario en el título no asigna formalmente la issue y no existe una palabra clave especial @assign para realizar la asignación.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Asignación de issues"
+  },
+  {
+    "id": "c2d02c34-1a40-4a7d-9ad9-28c2e9727fe9",
+    "question": "¿Cómo pueden los colaboradores editar una página wiki existente en un repositorio de GitHub?",
+    "options": [
+      "Las ediciones de las páginas wiki deben enviarse por correo electrónico al propietario del repositorio para realizar actualizaciones manuales.",
+      "Los cambios en las páginas wiki se proponen mediante pull requests, de forma similar a los cambios de código en el repositorio.",
+      "Los colaboradores pueden editar directamente las páginas wiki desde la pestaña Wiki del repositorio, utilizando el editor en línea proporcionado por GitHub.",
+      "Editar páginas wiki requiere clonar la wiki localmente, realizar los cambios y volver a enviarlos al repositorio."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub permite editar directamente las páginas wiki existentes desde la pestaña Wiki del repositorio. Al navegar hasta la página deseada, el usuario puede seleccionar Edit y utilizar el editor de Markdown en línea para realizar los cambios, que se guardan directamente en la wiki.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Edición de wikis"
+  },
+  {
+    "id": "3c0fa237-b70a-45b9-a4a8-6057f946ef4a",
+    "question": "¿Cómo pueden los colaboradores crear, editar y eliminar páginas wiki en un repositorio de GitHub?",
+    "options": [
+      "Las páginas wiki solo pueden editarse sin conexión y luego cargarse como un archivo en la sección Wiki del repositorio.",
+      "Solo el propietario del repositorio puede crear, editar o eliminar páginas wiki.",
+      "Crear, editar y eliminar páginas wiki requiere acceso directo al servidor del repositorio.",
+      "Los colaboradores pueden crear y editar páginas wiki navegando a la pestaña Wiki y utilizando la interfaz proporcionada; la eliminación está restringida a los propietarios del repositorio."
+    ],
+    "correctAnswer": 3,
+    "explanation": "En los repositorios donde las wikis están habilitadas, los colaboradores pueden crear y editar páginas directamente desde la pestaña Wiki del repositorio utilizando la interfaz de GitHub. Sin embargo, la capacidad de eliminar páginas wiki puede estar restringida a los propietarios del repositorio o a usuarios con derechos administrativos, dependiendo de la configuración del repositorio.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Wikis"
+  },
+  {
+    "id": "e9142d07-7c48-4422-89e5-901b5abed66b",
+    "question": "¿Cuáles son las diferentes opciones de configuración de notificaciones disponibles para los usuarios en GitHub para personalizar cómo reciben actualizaciones sobre las actividades del proyecto?",
+    "options": [
+      "Los usuarios solo pueden elegir entre recibir todas las notificaciones por correo electrónico o desactivar completamente las notificaciones.",
+      "La configuración de notificaciones es fija según la configuración del repositorio y no puede ser personalizada por los usuarios individuales.",
+      "Las opciones de configuración incluyen seleccionar el método de notificación preferido (por ejemplo, correo electrónico, web o móvil), los tipos de actividades sobre los que recibir notificaciones y si desean recibir actualizaciones en tiempo real o en un resumen diario.",
+      "Las notificaciones de GitHub solo pueden configurarse a nivel de organización, no para usuarios individuales."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub ofrece diferentes opciones de configuración de notificaciones que permiten a los usuarios personalizar la forma en que reciben actualizaciones. Pueden elegir el método de notificación preferido, como correo electrónico, web o la aplicación móvil de GitHub. También pueden especificar los tipos de actividades y seleccionar si quieren recibirlas inmediatamente o mediante un resumen periódico.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Configuración de notificaciones"
+  },
+  {
+    "id": "6bb3303b-2fee-4fe9-9ba5-996b33dbb71c",
+    "question": "¿Cuál es la ventaja de utilizar plantillas de issues en un repositorio de GitHub?",
+    "options": [
+      "Restringen la creación de issues únicamente a los administradores del repositorio.",
+      "Precompletan los nuevos issues con información específica, fomentando reportes estandarizados y detallados.",
+      "Resuelven automáticamente los issues comunes sin intervención humana.",
+      "Asignan automáticamente los issues a los colaboradores más activos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las plantillas de issues proporcionan una estructura predeterminada para los nuevos issues. Ayudan a que los usuarios proporcionen información estandarizada y detallada, mejorando la calidad de los reportes y facilitando que los mantenedores comprendan y solucionen los issues.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Plantillas de issues"
+  },
+  {
+    "id": "7e2c5347-e6fa-4771-b025-306c1dedec0e",
+    "question": "¿Cómo pueden los participantes de una GitHub Discussion marcar un comentario específico como respuesta a una pregunta dentro de la discusión?",
+    "options": [
+      "El autor de la discusión o los mantenedores del repositorio pueden seleccionar la opción “Mark as answer” en el comentario correspondiente.",
+      "Los comentarios se marcan automáticamente como respuestas mediante la IA de GitHub basándose en el análisis de palabras clave.",
+      "Todos los participantes votan los comentarios y, después de 24 horas, el comentario con más votos se marca como respuesta.",
+      "Los participantes pueden votar el comentario para marcarlo automáticamente como respuesta al alcanzar un determinado umbral."
+    ],
+    "correctAnswer": 0,
+    "explanation": "En GitHub Discussions, especialmente en el formato Q&A, el autor de la discusión o los mantenedores del repositorio pueden marcar un comentario específico como respuesta. Esto permite destacar soluciones o aportes valiosos y facilita que otros usuarios encuentren las respuestas.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Discussions"
+  },
+  {
+    "id": "ff224db8-2011-4e7f-a710-2d0c04fd688b",
+    "question": "¿Qué determina la visibilidad de una página de Wiki de GitHub asociada a un repositorio público?",
+    "options": [
+      "La visibilidad de las páginas de Wiki refleja directamente la visibilidad del repositorio; si el repositorio es público, las páginas del Wiki también lo son.",
+      "Las páginas del Wiki siempre son privadas, independientemente de la configuración de visibilidad del repositorio.",
+      "El propietario del repositorio debe configurar manualmente las páginas del Wiki como públicas o privadas, independientemente de la visibilidad del repositorio."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Según el material de la pregunta, la visibilidad de las páginas de Wiki está alineada con la visibilidad del repositorio. Si el repositorio es público y la función Wiki está habilitada, sus páginas también son accesibles públicamente.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Visibilidad de Wikis"
+  },
+  {
+    "id": "1c37a2c3-234c-4ade-95a2-2074f9e13445",
+    "question": "¿Cómo pueden los usuarios de GitHub filtrar los issues por etiquetas dentro de un repositorio?",
+    "options": [
+      "Enviando un correo al soporte de GitHub para solicitar un filtro personalizado basado en etiquetas.",
+      "Seleccionando las etiquetas deseadas desde el menú desplegable en la pestaña Issues.",
+      "Desplazándose manualmente por todos los issues e identificando aquellos que tienen etiquetas específicas.",
+      "Escribiendo el nombre de la etiqueta en la barra de búsqueda del repositorio."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los usuarios pueden filtrar issues por etiquetas seleccionando las etiquetas deseadas desde el menú desplegable disponible en la pestaña Issues. Esto permite encontrar rápidamente issues categorizados con etiquetas como “bug”, “feature request” o etiquetas personalizadas.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Filtrado de issues por etiquetas"
+  },
+  {
+    "id": "e265cdd2-61e2-4cbd-bc46-12d52de579b9",
+    "question": "¿Qué funcionalidad proporciona GitHub para facilitar una revisión colaborativa de los cambios de un pull request mediante comentarios?",
+    "options": [
+      "La opción de dejar comentarios línea por línea directamente en la vista del diff de los archivos modificados.",
+      "Traducción automática de los comentarios de código al idioma preferido del revisor.",
+      "Una función de chat integrada que inicia conversaciones en tiempo real con el autor del pull request.",
+      "La posibilidad de adjuntar documentos externos y hojas de cálculo con comentarios a cada archivo modificado."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub permite a los revisores dejar comentarios directamente sobre líneas específicas en la vista diff de los archivos modificados de un pull request. Esto facilita una comunicación precisa y contextual durante la revisión colaborativa del código.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Comentarios en pull requests"
+  },
+  {
+    "id": "f89b493f-1426-428c-898e-4d245161dac1",
+    "question": "En el contexto de los pull requests, ¿qué implica el estado de revisión “Request Changes” en GitHub?",
+    "options": [
+      "Los cambios del pull request se implementan automáticamente en un entorno de staging para realizar más pruebas.",
+      "El revisor ha identificado problemas que deben solucionarse antes de que el pull request pueda fusionarse.",
+      "El pull request ha sido revisado y puede cerrarse inmediatamente sin fusionarlo.",
+      "El pull request está aprobado para fusionarse sin necesidad de una revisión adicional."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cuando un revisor selecciona “Request Changes” durante una revisión, indica que ha encontrado problemas o tiene feedback que requiere acción. El autor debe realizar los ajustes necesarios o discutir los comentarios antes de que el pull request pueda avanzar hacia la aprobación y el merge.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Estados de revisión de pull requests"
+  },
+  {
+    "id": "dceed549-4f59-46df-9935-eea471b4d599",
+    "question": "¿Cuáles son los posibles estados de revisión que puede recibir un pull request en GitHub durante el proceso de code review?",
+    "options": [
+      "Initialized, In Progress, Completed, Archived",
+      "Comment, Approve, Request Changes",
+      "Open, Closed, Merged, Draft, Conflict",
+      "Pending, Reviewed, Accepted, Rejected"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Durante el proceso de code review en GitHub, los revisores pueden dar al pull request uno de estos tres resultados: “Comment” para dejar comentarios sin aprobar ni solicitar cambios, “Approve” para indicar que los cambios están listos para fusionarse y “Request Changes” para indicar que se necesitan modificaciones antes del merge.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Resultados de code review"
+  },
+  {
+    "id": "e7551c6c-d7d3-4b00-a014-75bed4de7093",
+    "question": "¿Cómo pueden los usuarios de GitHub utilizar la función Watch para gestionar su participación en las notificaciones de un repositorio?",
+    "options": [
+      "Para recibir notificaciones de todas las actividades dentro del repositorio, incluyendo issues, pull requests y discussions.",
+      "Para filtrar automáticamente las notificaciones para incluir únicamente merges de pull requests y cierres de issues.",
+      "Solo para notificar al usuario sobre nuevos releases, ya que no incluye issues ni pull requests.",
+      "Los usuarios deben seleccionar manualmente cada tipo de actividad que desean observar; la función no permite una suscripción general a todas las actividades del repositorio."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elegir “Watch” en un repositorio de GitHub significa optar por recibir notificaciones sobre las actividades del repositorio, incluyendo issues, pull requests, discussions y otras actualizaciones. GitHub también ofrece opciones más granulares para controlar las notificaciones.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Watch y notificaciones"
+  },
+  {
+    "id": "54f7c639-b188-4c7c-b337-87666b10974d",
+    "question": "¿Qué función cumple fijar (pinning) un issue en un repositorio de GitHub?",
+    "options": [
+      "Resuelve automáticamente el issue sin necesidad de más discusión.",
+      "Fija el issue en la parte superior de la lista de issues para aumentar su visibilidad.",
+      "Marca el issue como favorito únicamente para el propietario del repositorio.",
+      "Archiva el issue para almacenamiento a largo plazo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fijar un issue coloca el issue en la parte superior de la lista, aumentando su visibilidad para los colaboradores y visitantes del repositorio. Es útil para destacar discusiones importantes, directrices o issues que requieren atención.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Issues fijados"
+  },
+  {
+    "id": "33894af2-04dd-4e1e-9372-2917280f7890",
+    "question": "¿Qué distingue a los Announcements de otros tipos de discusiones dentro del foro de la comunidad de un repositorio de GitHub?",
+    "options": [
+      "Están diseñados para compartir noticias y actualizaciones importantes, y los mantenedores pueden destacarlos para aumentar su visibilidad.",
+      "Solo los propietarios del repositorio pueden crear Announcements, mientras que los demás tipos de discusiones están abiertos a cualquier miembro de la comunidad.",
+      "Los Announcements son el único tipo de discusión que permite votaciones de la comunidad para medir interés o acuerdo.",
+      "Los Announcements se eliminan automáticamente después de 30 días para mantener el foro actualizado únicamente con las noticias más recientes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los Announcements tienen un propósito específico dentro de GitHub Discussions: permiten compartir noticias, actualizaciones o información importante con la comunidad. Los mantenedores pueden destacarlos o fijarlos para aumentar su visibilidad.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Announcements"
+  },
+  {
+    "id": "d23aab65-6272-4e49-b30c-be6ec51e8d63",
+    "question": "¿Cómo se puede vincular un pull request (PR) con un issue dentro de GitHub?",
+    "options": [
+      "Enviando un correo al soporte de GitHub para vincular manualmente el pull request con el issue.",
+      "Cambiando el nombre del pull request para que coincida exactamente con el título del issue.",
+      "Mencionando el número del issue en el título del pull request.",
+      "Utilizando palabras clave específicas en la descripción del pull request, seguidas del número del issue."
+    ],
+    "correctAnswer": 3,
+    "explanation": "GitHub permite vincular un pull request con un issue mediante palabras clave como “fixes”, “closes” o “resolves”, seguidas del número del issue en la descripción del pull request. Esta vinculación puede cerrar automáticamente el issue cuando el pull request se fusiona.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación de pull requests e issues"
+  },
+  {
+    "id": "bc22ed61-a718-44c4-ab71-8e6247bb64cc",
+    "question": "¿Cuáles son los posibles estados que puede tener un pull request en GitHub y cómo informan sobre el proceso de revisión?",
+    "options": [
+      "Active, Inactive, Completed, Rejected y Pending, que guían las acciones del equipo de revisión.",
+      "Ready for Review, Under Review, Approved, Changes Requested y Archived, que determinan el flujo de la revisión de código.",
+      "Open, Draft y Closed, que representan las etapas de envío inicial, trabajo en progreso y resolución final.",
+      "Open, Closed, Merged, Draft y Conflicted, cada uno indicando la etapa actual de revisión e integración."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Según el material, GitHub clasifica los pull requests con estados como Open, Draft y Closed. “Open” indica un pull request activo que espera revisión; “Draft” indica trabajo en progreso que aún no está listo para una revisión final; y “Closed” representa una resolución o finalización del pull request.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Estados de pull requests"
+  },
+  {
+    "id": "358fa993-52e0-4c2f-8ec2-5383d5b1e687",
+    "question": "¿Cómo pueden los colaboradores utilizar los draft pull requests para facilitar la obtención de feedback temprano en GitHub?",
+    "options": [
+      "Los colaboradores pueden utilizar draft pull requests para evitar el proceso habitual de revisión de código y fusionar directamente los cambios en la rama principal.",
+      "Los draft pull requests notifican automáticamente por correo electrónico a los colaboradores cuando llega el momento de solicitar feedback.",
+      "Los draft pull requests restringen el feedback únicamente a los codeowners del repositorio, reduciendo el alcance de las revisiones iniciales.",
+      "Al marcar sus pull requests como “draft”, los colaboradores indican que su código aún no es definitivo, invitando a revisiones preliminares y comentarios del equipo."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Marcar un pull request como draft indica que el trabajo todavía está en progreso y no está listo para una revisión final. Esto permite recibir feedback y sugerencias tempranas del equipo antes de finalizar el pull request.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Draft pull requests"
+  },
+  {
+    "id": "55f2234d-f817-4dcd-9cea-3829307f62f6",
+    "question": "¿Cuál es el propósito principal de un draft pull request en GitHub?",
+    "options": [
+      "Proporcionar un espacio para recibir feedback temprano y colaborar sobre un trabajo que todavía no está terminado.",
+      "Restringir la visibilidad del pull request únicamente al propietario del repositorio.",
+      "Indicar que el pull request está completo y listo para un despliegue inmediato.",
+      "Fusionar automáticamente el código sin revisión cuando se considera que está listo."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los draft pull requests se utilizan para indicar que el código todavía está en progreso y no está listo para una revisión final o merge. Permiten recibir feedback y colaborar sobre los cambios antes de finalizarlos.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Propósito de draft pull requests"
+  },
+  {
+    "id": "96683ceb-e562-4b84-819d-73c0b0b5d5b1",
+    "question": "¿Cuáles son los pasos para crear un GitHub Gist para compartir fragmentos de código o texto con otras personas?",
+    "options": [
+      "Escribir el fragmento de código en el archivo README.md de un repositorio y etiquetarlo como Gist.",
+      "Enviar el fragmento de código al soporte de GitHub para que ellos creen el Gist.",
+      "Los Gists solo pueden crearse mediante la API de GitHub y no desde la interfaz web.",
+      "Navegar a la página principal de Gist, hacer clic en New Gist, introducir el código o texto y elegir si el Gist será público o privado antes de guardarlo."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Para crear un GitHub Gist se debe navegar a la página de Gist, hacer clic en “New Gist”, introducir el código o texto, opcionalmente indicar una extensión de archivo para el resaltado de sintaxis, elegir si será público o privado y guardarlo.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Gists"
+  },
+  {
+    "id": "58feb5b7-eefe-450c-9806-41a12c1ccfe1",
+    "question": "¿Cómo se pueden utilizar las asignaciones de issues para gestionar la carga de trabajo entre los colaboradores de un proyecto de GitHub?",
+    "options": [
+      "Asignar issues ayuda a distribuir equitativamente la carga de trabajo entre los miembros del equipo y aclara quién es responsable de resolver tareas o bugs específicos.",
+      "Las asignaciones impiden que otros colaboradores comenten o vean el issue, enfocando la comunicación.",
+      "GitHub asigna automáticamente los issues al colaborador que haya estado más activo recientemente en el repositorio.",
+      "Las asignaciones de issues se utilizan principalmente con fines estadísticos, para realizar un seguimiento del número de issues cerrados por cada colaborador."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Asignar issues a colaboradores o equipos ayuda a distribuir la carga de trabajo y deja claro quién es responsable de investigar, trabajar o resolver tareas o bugs específicos. La asignación no impide que otros colaboradores vean o comenten el issue.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Gestión de carga de trabajo mediante asignación de issues"
+  },
+  {
+    "id": "8e26fc28-a4a4-4f97-9e2e-136e4d227e0e",
+    "question": "¿Cómo pueden los usuarios configurar GitHub para recibir únicamente notificaciones sobre actividades de alta prioridad, como menciones directas o cambios en asignaciones?",
+    "options": [
+      "Utilizando la API de GitHub para crear un filtro de notificaciones personalizado basado en tipos de actividad.",
+      "Personalizando la configuración de notificaciones a nivel del repositorio para recibir únicamente notificaciones de menciones directas, asignaciones y otras actividades seleccionadas.",
+      "Cancelando manualmente la suscripción a todas las notificaciones excepto aquellas que consideren de alta prioridad.",
+      "Estableciendo el nivel de notificaciones como “High Priority” en la configuración de la cuenta, lo que filtra todas las notificaciones excepto menciones directas y cambios de asignación."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub no ofrece una configuración predefinida llamada “High Priority” que aplique automáticamente esos filtros. Los usuarios pueden personalizar sus preferencias de notificación para centrarse en tipos de actividades seleccionados, como menciones directas y asignaciones.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Filtrado de notificaciones por actividad"
+  },
+  {
+    "id": "2ff4dfe3-c8c7-41fa-9b05-0dec53fdc22c",
+    "question": "¿Qué opciones están disponibles para filtrar las notificaciones en GitHub y ayudar a los usuarios a centrarse en las actualizaciones relevantes?",
+    "options": [
+      "Las notificaciones no se pueden filtrar; los usuarios deben buscar manualmente en toda la lista.",
+      "Filtrar por la fecha y hora en que se recibieron las notificaciones es la única opción disponible.",
+      "Las notificaciones solo se pueden filtrar según si están leídas o no leídas.",
+      "Los filtros incluyen el nombre del repositorio, el motivo de la notificación (por ejemplo, una mención @), el tipo (Issue, Pull Request) y si están leídas o no."
+    ],
+    "correctAnswer": 3,
+    "explanation": "GitHub ofrece filtros para las notificaciones basados en distintos criterios, como el nombre del repositorio, el motivo de la notificación, el tipo de actividad y el estado de lectura. Estos filtros ayudan a priorizar y gestionar las notificaciones de forma más eficiente.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Filtros de notificaciones"
+  },
+  {
+    "id": "eb7b5aa1-2766-4e5a-ad8f-b782d455a4dc",
+    "question": "¿Cómo pueden los participantes de GitHub Discussions votar en las encuestas (polls) creadas dentro de los foros de discusión?",
+    "options": [
+      "Utilizando los emojis de reacción que aparecen debajo de cada opción de la encuesta para emitir su voto.",
+      "Comentando con la opción elegida, ya que GitHub no admite votaciones directamente en las encuestas.",
+      "Utilizando herramientas de encuestas de terceros vinculadas que realizan la votación externamente.",
+      "Enviando un mensaje directo al creador de la discusión con su voto."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dentro de GitHub Discussions, las encuestas permiten a los participantes votar seleccionando los emojis de reacción asociados con las opciones presentadas. Esto proporciona una forma integrada de participar directamente desde la interfaz de la discusión.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Polls en GitHub Discussions"
+  },
+  {
+    "id": "12f74458-10e4-44f7-98aa-ca01ca530160",
+    "question": "¿De qué manera se pueden personalizar las plantillas de Issues de GitHub para mejorar el proceso de creación de Issues para los colaboradores?",
+    "options": [
+      "Incluir preguntas específicas o casillas de verificación dentro de la plantilla para recopilar información detallada.",
+      "Limitar la creación de Issues a usuarios que tengan al menos un Pull Request combinado.",
+      "Establecer un responsable predeterminado para todos los nuevos Issues creados mediante la plantilla.",
+      "Cerrar automáticamente los Issues que no sigan las directrices de la plantilla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las plantillas de Issues de GitHub pueden personalizarse para incluir preguntas específicas, instrucciones o casillas de verificación. Esto ayuda a guiar a los colaboradores para que proporcionen todos los detalles necesarios, haciendo que el Issue sea más accionable y que el proceso de resolución sea más eficiente. GitHub no permite establecer automáticamente un responsable predeterminado basándose en la plantilla utilizada, ni limitar la creación de Issues según el historial de Pull Requests o cerrarlos automáticamente por no seguir las directrices de la plantilla.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Plantillas de issues"
+  },
+  {
+    "id": "cc4e3719-7429-4d3b-aa0a-e0572f1d7cdc",
+    "question": "¿Cuál es la diferencia entre las plantillas de Issues y los formularios de Issues en GitHub?",
+    "options": [
+      "No existe ninguna diferencia; las plantillas de Issues y los formularios de Issues son términos intercambiables en GitHub.",
+      "Los formularios de Issues permiten enviar código directamente, mientras que las plantillas se utilizan exclusivamente para reportar errores.",
+      "Las plantillas de Issues son archivos de texto plano que prellenan el cuerpo del Issue, mientras que los formularios de Issues proporcionan una interfaz de formulario personalizable para enviar un Issue.",
+      "Las plantillas de Issues pueden cerrar automáticamente los Issues según las respuestas del usuario, mientras que los formularios de Issues no pueden."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las plantillas de Issues son archivos Markdown o de texto plano que prellenan el cuerpo de un nuevo Issue con contenido previamente definido y ayudan a guiar al usuario sobre la información que debe proporcionar. Los formularios de Issues ofrecen una interfaz más interactiva y estructurada, donde los mantenedores pueden definir campos que los colaboradores deben completar. Ninguno está diseñado para enviar código directamente y no son términos intercambiables.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Plantillas y formularios de issues"
+  },
+  {
+    "id": "de006263-bfe6-42d8-a9b2-da75ae8fa2ea",
+    "question": "¿Cómo puedes crear un nuevo Pull Request en GitHub?",
+    "options": [
+      "Editando directamente un archivo en el repositorio para generar automáticamente un Pull Request.",
+      "Enviando un correo electrónico al soporte de GitHub con los cambios adjuntos.",
+      "Clonando el repositorio en tu máquina local y ejecutando el comando `git request-pull`.",
+      "Utilizando el botón New pull request en la pestaña Pull Requests del repositorio."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El método estándar para crear un nuevo Pull Request en GitHub consiste en ir a la pestaña Pull Requests del repositorio y seleccionar New pull request. Esto permite seleccionar las ramas base y compare, describir los cambios y enviar el Pull Request para su revisión. Editar directamente un archivo no genera automáticamente un Pull Request completo, el correo electrónico no crea Pull Requests y `git request-pull` genera un resumen de cambios locales, pero no crea un Pull Request en GitHub.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Creación de pull requests"
+  },
+  {
+    "id": "d94ce4ab-1ca3-4c8a-a4d5-29665a10d64c",
+    "question": "¿Qué opciones están disponibles para categorizar las Discussions en un repositorio de GitHub?",
+    "options": [
+      "Announcements, Ideas, Polls, Q&A y Show and Tell.",
+      "Pull Requests, Issues, Wikis y Actions.",
+      "Documentation, Tutorials, Style Guides y Best Practices.",
+      "Bug Reports, Feature Requests, User Manuals y Code Reviews."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Discussions admite varias categorías para diferentes tipos de participación de la comunidad: Announcements para compartir noticias, Ideas para propuestas o lluvia de ideas, Polls para recopilar opiniones, Q&A para preguntas y respuestas, y Show and Tell para compartir trabajos o logros. Estas categorías ayudan a organizar las Discussions según su propósito y facilitan la navegación y participación.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Discussions"
+  },
+  {
+    "id": "c4bbc2ef-a3e9-4ab9-a739-1bb8c4ae695b",
+    "question": "¿Cómo se puede agregar o actualizar contenido en una página Wiki de GitHub?",
+    "options": [
+      "Las actualizaciones del contenido de la Wiki deben realizarse enviando los cambios como Pull Requests para que sean revisados por los mantenedores del repositorio.",
+      "Los cambios en las páginas Wiki son generados automáticamente por GitHub basándose en el código del repositorio y no pueden editarse manualmente.",
+      "Los colaboradores pueden agregar o actualizar contenido accediendo a la sección Wiki de un repositorio, seleccionando una página, haciendo clic en Edit, realizando cambios en el editor de Markdown y guardando la página.",
+      "La edición de una página Wiki está restringida a los administradores de GitHub y no puede ser realizada por colaboradores generales."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Contribuir a una Wiki de GitHub implica navegar hasta la sección Wiki del repositorio, seleccionar la página que se desea editar, hacer clic en Edit, realizar los cambios en el editor de Markdown y guardar la página. Las actualizaciones de la Wiki normalmente se realizan directamente en la Wiki y no mediante Pull Requests. El contenido tampoco se genera automáticamente a partir del código del repositorio.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Wikis"
+  },
+  {
+    "id": "52efbc0a-9231-4d89-a780-1fd0780de1d5",
+    "question": "¿Cómo puedes crear una branch directamente desde un Issue de GitHub?",
+    "options": [
+      "Utilizando la opción Create branch disponible en la interfaz del Issue.",
+      "Las branches solo pueden crearse desde Pull Requests, no desde Issues.",
+      "Agregando una etiqueta especial al Issue que cree automáticamente una branch.",
+      "Mencionando el número del Issue en el mensaje de un commit."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub proporciona una opción Create branch dentro de la interfaz del Issue, permitiendo a los mantenedores y colaboradores iniciar una nueva branch relacionada directamente con ese Issue. Mencionar el número de un Issue en un mensaje de commit puede vincular el commit con el Issue, pero no crea una nueva branch. Las etiquetas tampoco crean automáticamente branches.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Branches e issues"
+  },
+  {
+    "id": "d975cd55-10bc-4ea7-a0d1-0bc8c03660a0",
+    "question": "¿Qué funcionalidad proporciona fijar (pinning) un Issue a los mantenedores de un proyecto en GitHub?",
+    "options": [
+      "Destaca el Issue en la parte superior de la lista de Issues del repositorio, llamando la atención sobre discusiones o información importante.",
+      "Eleva automáticamente su nivel de prioridad, moviéndolo a la parte superior del tablero del proyecto.",
+      "Bloquea el Issue, impidiendo nuevos comentarios o cambios hasta que se quite la fijación.",
+      "Archiva el Issue, eliminándolo de la lista activa pero conservando su historial."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fijar un Issue en un repositorio de GitHub hace que aparezca en la parte superior de la lista de Issues, dándole mayor visibilidad. Es útil para destacar Issues importantes o discusiones en curso. Fijar un Issue no cambia automáticamente su prioridad, no lo bloquea y no lo archiva.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Issues fijados"
+  },
+  {
+    "id": "d25666e3-9d4d-4258-be72-810dd9be40e9",
+    "question": "¿Qué pasos están involucrados en la creación de un nuevo Issue en un repositorio de GitHub?",
+    "options": [
+      "Enviar un correo electrónico al propietario del repositorio solicitando la creación de un Issue.",
+      "Publicar un comentario en el archivo README del repositorio indicando el deseo de abrir un Issue.",
+      "Utilizar el comando `git issue create` en la terminal.",
+      "Abrir el repositorio, ir a la pestaña Issues y hacer clic en New issue."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El método estándar para crear un nuevo Issue en un repositorio de GitHub consiste en abrir el repositorio, navegar a la pestaña Issues y hacer clic en New issue. Después se puede completar el título, la descripción y cualquier label o assignee relevante. Los Issues se crean directamente desde la interfaz de GitHub, no mediante correo electrónico, comentarios en el README ni un comando estándar `git issue create`.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Creación de issues"
+  },
+  {
+    "id": "804519ce-8723-44a9-8fcf-d3e9b28c621c",
+    "question": "¿Qué paso debe realizar un usuario para cancelar las notificaciones de un Issue o Pull Request específico en GitHub?",
+    "options": [
+      "Enviar una solicitud al propietario del repositorio para que lo elimine de la lista de notificaciones de ese Issue o Pull Request.",
+      "Hacer clic en el botón Unsubscribe ubicado en la barra lateral derecha de la página del Issue o Pull Request.",
+      "Cambiar la configuración de su cuenta para desactivar todas las notificaciones de GitHub.",
+      "Eliminar el Issue o Pull Request de su repositorio de GitHub para dejar de recibir notificaciones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub proporciona un botón Unsubscribe en la barra lateral derecha de las páginas de Issues y Pull Requests. Al hacer clic en él, el usuario deja de recibir notificaciones de ese elemento específico. No es necesario solicitar al propietario del repositorio que intervenga ni desactivar todas las notificaciones de la cuenta.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Suscripciones de notificaciones"
+  },
+  {
+    "id": "60bd7426-b550-4b1d-b1c7-73aea14c8e9e",
+    "question": "¿De qué maneras se puede vincular la actividad dentro de un Pull Request con otras entidades de GitHub, mejorando la trazabilidad y el contexto?",
+    "options": [
+      "Etiquetando el Pull Request con labels que coincidan con Issues o Discussions relacionadas.",
+      "All of these answers.",
+      "Mencionando Issues, Pull Requests o commits relacionados mediante su número en los comentarios o en la descripción del Pull Request.",
+      "Asignando el Pull Request a un GitHub Project específico para realizar seguimiento del progreso."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub proporciona varias formas de vincular Pull Requests con otras entidades de la plataforma. Se puede asignar el Pull Request a un GitHub Project para realizar seguimiento del progreso, mencionar Issues, Pull Requests o commits mediante sus identificadores en comentarios o descripciones, y utilizar labels relacionadas. Todos estos mecanismos ayudan a integrar el Pull Request con el flujo de trabajo y la documentación del proyecto, mejorando la trazabilidad y el contexto.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación de actividades"
+  },
+  {
+    "id": "f853648a-e475-4105-8f22-3be14462be45",
+    "question": "¿Cómo se habilita GitHub Pages para un repositorio con el objetivo de alojar un sitio web o la documentación de un proyecto?",
+    "options": [
+      "Activando GitHub Pages desde la pestaña Settings del repositorio, en la sección Pages, seleccionando una branch o carpeta como fuente.",
+      "Creando una branch especial `gh-pages` y subiendo contenido HTML a ella.",
+      "GitHub Pages solo puede ser habilitado por el soporte de GitHub previa solicitud para cada repositorio.",
+      "Subiendo un archivo `.zip` con los archivos HTML, CSS y JavaScript del sitio directamente a la sección Releases del repositorio."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Pages se activa desde la pestaña Settings del repositorio, en la sección Pages, seleccionando una source branch o folder. Se puede seleccionar una branch como main o gh-pages, o una carpeta como docs, según dónde esté ubicado el contenido del sitio. Crear una branch gh-pages puede formar parte de la configuración, pero la activación se realiza mediante la configuración de Pages. No es necesario contactar al soporte ni subir un archivo .zip a Releases.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Pages"
+  },
+  {
+    "id": "250878bf-15b9-483f-9775-f1693d1208ee",
+    "question": "¿Cómo puede un mantenedor de un proyecto gestionar eficazmente un gran volumen de Pull Requests para garantizar revisiones y merges oportunos, manteniendo al mismo tiempo la calidad del código?",
+    "options": [
+      "Los mantenedores deberían hacer merge de los Pull Requests en el orden en que se reciben, sin revisarlos, para gestionar eficientemente un volumen elevado.",
+      "Los mantenedores del proyecto deberían limitar el número de Pull Requests cerrando todas las solicitudes que superen un determinado límite.",
+      "Utilizar herramientas de automatización como GitHub Actions para realizar comprobaciones iniciales de calidad del código, establecer directrices claras de contribución, involucrar a la comunidad en revisiones por pares y priorizar los Pull Requests según las necesidades del proyecto son formas efectivas de gestionar el flujo manteniendo la calidad.",
+      "Solo deberían revisarse y considerarse para merge los Pull Requests de colaboradores que tengan cierto nivel de reputación dentro de la comunidad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Para gestionar un volumen elevado de Pull Requests sin sacrificar la calidad se pueden combinar varias estrategias: utilizar herramientas automatizadas como GitHub Actions para comprobaciones iniciales de calidad, establecer directrices claras de contribución, involucrar a la comunidad en revisiones por pares y priorizar los Pull Requests según las necesidades del proyecto. Hacer merge sin revisión, cerrar solicitudes por superar un límite o excluir a colaboradores nuevos por su reputación no garantiza la calidad y puede desalentar contribuciones valiosas.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Gestión de pull requests"
+  },
+  {
+    "id": "0d76f560-e16c-42d1-84e0-f342a8e515be",
+    "question": "¿Qué beneficio aporta el archivo CODEOWNERS al proceso de revisión de Pull Requests en GitHub?",
+    "options": [
+      "Cifrar archivos en los Pull Requests para proteger cambios de código sensibles.",
+      "Resolver automáticamente los conflictos de merge en los Pull Requests.",
+      "Asignar automáticamente revisores a los Pull Requests según las rutas de los archivos modificados.",
+      "Garantizar que los Pull Requests sean revisados únicamente por colaboradores con acceso de escritura al repositorio."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El archivo CODEOWNERS permite especificar qué personas o equipos son responsables de determinadas partes del código. Cuando un Pull Request modifica archivos que pertenecen a alguna de las rutas definidas en CODEOWNERS, GitHub puede solicitar automáticamente una revisión a los Code Owners correspondientes. CODEOWNERS no cifra archivos, no resuelve conflictos de merge y su función principal es asignar revisores según el área del código, no simplemente según el nivel de acceso.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "CODEOWNERS"
+  },
+  {
+    "id": "c32e7c70-1791-4f41-8d29-de841c44d47f",
+    "question": "¿Cómo pueden los mantenedores de un repositorio utilizar eficazmente la función de fijar (pinning) Discussions dentro de su espacio comunitario en GitHub?",
+    "options": [
+      "Fijando exclusivamente Discussions relacionadas con contribuciones de código para priorizar el desarrollo sobre las conversaciones generales.",
+      "Fijando anuncios importantes, directrices o preguntas frecuentes en la parte superior de la página de Discussions para facilitar su acceso.",
+      "Fijando cada nueva Discussion para garantizar la misma visibilidad para todos los temas.",
+      "Fijando Discussions desactualizadas para archivarlas eficazmente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fijar Discussions que contienen anuncios importantes, directrices o preguntas frecuentes permite a los mantenedores destacar información relevante y mantenerla fácilmente accesible para la comunidad. Fijar todas las Discussions reduciría la utilidad de la función y fijar contenido desactualizado no sirve para archivarlo. El pinning tampoco debe limitarse exclusivamente a temas relacionados con código.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Discussions fijadas"
+  },
+  {
+    "id": "d9e214d5-3bbf-495d-bc7d-59b5adc7997b",
+    "question": "¿Cómo pueden los participantes de una GitHub Discussion utilizar Markdown y otras herramientas de formato para mejorar la claridad y el impacto de sus mensajes?",
+    "options": [
+      "Las Discussions requieren conocimientos de HTML para aplicar formato, ya que Markdown no es compatible con esta funcionalidad de GitHub.",
+      "Las herramientas técnicas de formato en GitHub Discussions están limitadas a contenido únicamente de texto para mantener la uniformidad entre todas las discusiones.",
+      "Markdown y las herramientas de formato están restringidos en GitHub Discussions para evitar que distraigan del contenido de los mensajes.",
+      "Utilizar sintaxis Markdown para encabezados, listas, enlaces y fragmentos de código permite estructurar claramente el contenido, haciendo que los argumentos sean más persuasivos y que la información sea más fácil de comprender para los lectores."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El uso de Markdown para dar formato a las publicaciones en GitHub Discussions puede mejorar considerablemente la claridad y efectividad de la comunicación. Los participantes pueden utilizar encabezados, texto en negrita o cursiva, listas, hipervínculos y fragmentos de código para crear publicaciones organizadas y bien estructuradas. GitHub Discussions admite Markdown, por lo que no se requiere conocimiento de HTML para este propósito.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Markdown en GitHub Discussions"
+  },
+  {
+    "id": "6e91ddcb-4209-4348-8198-82c21c60ebff",
+    "question": "¿Cómo puedes hacer fork y clone de un GitHub Gist para realizar ediciones o contribuciones personales?",
+    "options": [
+      "Los Gists no se pueden hacer fork ni clonar; están diseñados para ser inmutables con el fin de preservar la intención del autor original.",
+      "Solicitar permiso al autor original del Gist cada vez que quieras hacer fork o clonarlo.",
+      "Copiar y pegar el contenido del Gist en un nuevo Gist bajo tu cuenta para editarlo.",
+      "Para hacer fork de un Gist, hacer clic en el botón Fork en la página del Gist; y para clonarlo, utilizar la URL proporcionada con el comando `git clone` en una terminal."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los GitHub Gists permiten realizar tanto fork como clone. Para hacer fork, se utiliza el botón Fork en la página del Gist para crear una copia personal bajo la cuenta del usuario. Para clonar, se utiliza la URL proporcionada con el comando `git clone` desde una terminal. No es necesario solicitar permiso al autor original y, aunque copiar y pegar es posible, fork y clone son los métodos adecuados para trabajar con el Gist.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Gists"
+  },
+  {
+    "id": "9e14bd3e-6912-4962-a7f1-86fc4efe565a",
+    "question": "¿Qué propósito tiene la pestaña Files changed en un Pull Request de GitHub?",
+    "options": [
+      "Mostrar un resumen de las discusiones y comentarios realizados en el Pull Request.",
+      "Proporcionar una vista detallada de todas las modificaciones realizadas en el Pull Request, permitiendo comentarios y revisiones línea por línea.",
+      "Mostrar todos los archivos que actualmente están siendo ignorados por el archivo `.gitignore` en la branch del Pull Request.",
+      "Mostrar una lista de todos los mensajes de commit incluidos en el Pull Request."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La pestaña Files changed muestra todas las adiciones, eliminaciones y modificaciones realizadas dentro del Pull Request. Esta vista permite a los revisores examinar los cambios y dejar comentarios específicos línea por línea. Las discusiones se encuentran principalmente en Conversation, la lista de commits en Commits y el archivo .gitignore no es el propósito de Files changed.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Revisión de pull requests"
+  },
+  {
+    "id": "e5a1e2e9-9323-43f3-8806-ce0056369d8a",
+    "type": "multiple-choice",
+    "question": "¿Cómo pueden los usuarios suscribirse a los hilos de notificaciones de Issues o Pull Requests específicos en GitHub? (Selecciona todas las opciones que correspondan.)",
+    "options": [
+      "Los usuarios deben ser agregados como colaboradores del repositorio antes de poder suscribirse a los hilos.",
+      "Haciendo clic en el botón Subscribe en la barra lateral derecha de la página del Issue o Pull Request.",
+      "Comentando en el Issue o Pull Request, lo que suscribe automáticamente al usuario a las actualizaciones.",
+      "La suscripción a los hilos se realiza automáticamente para todos los usuarios; no existe un proceso de suscripción manual."
+    ],
+    "correctAnswers": [
+      1,
+      2
+    ],
+    "explanation": "Los usuarios pueden suscribirse a las actualizaciones de un Issue o Pull Request específico haciendo clic en el botón Subscribe de la barra lateral derecha. También quedan suscritos automáticamente al comentar en el Issue o Pull Request. No es necesario ser colaborador del repositorio para suscribirse a la mayoría de los hilos y también existe la posibilidad de suscribirse manualmente sin contribuir.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Suscripciones de notificaciones"
+  },
+  {
+    "id": "baf9e415-0b78-4eb4-b89b-38b634ab76cd",
+    "question": "¿En el contexto de GitHub, qué ventaja ofrecen los formularios de issues (Issue Forms) sobre las plantillas de issues en Markdown para los mantenedores de proyectos?",
+    "options": [
+      "Los formularios de issues proporcionan una forma estructurada e interactiva para que los colaboradores envíen issues, lo que potencialmente aumenta la integridad y consistencia de la información proporcionada.",
+      "Los formularios de issues permiten a los mantenedores ejecutar scripts arbitrarios dentro del formulario, mejorando la automatización.",
+      "Los formularios de issues proporcionan acceso exclusivo al envío de issues a usuarios verificados, reduciendo el spam.",
+      "Los formularios de issues permiten incluir contenido dinámico, como GIFs y vídeos, directamente dentro del cuerpo del issue."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los Issue Forms ofrecen una interfaz más estructurada e interactiva para enviar issues, lo que puede producir información más completa y consistente. No permiten ejecutar scripts arbitrarios, no restringen el envío a usuarios verificados y la inclusión de contenido dinámico no es su ventaja principal.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Issue Forms"
+  },
+  {
+    "id": "4edbf9d1-624b-44f8-9b47-a512070c6073",
+    "question": "¿Qué representan las ramas `base` y `compare` en un pull request de GitHub?",
+    "options": [
+      "Las ramas `base` y `compare` son sinónimas y pueden utilizarse indistintamente.",
+      "La rama `base` contiene las issues del repositorio, mientras que la rama `compare` contiene el código que se va a revisar.",
+      "La rama `base` es de donde se aplican los cambios, y la rama `compare` es hacia donde se incorporan los cambios.",
+      "La rama `base` es hacia donde se incorporan los cambios, y la rama `compare` es desde donde se proponen los cambios."
+    ],
+    "correctAnswer": 3,
+    "explanation": "En un pull request, la rama `base` es la rama destino donde se incorporarán los cambios y la rama `compare` es la rama origen desde la que se proponen los cambios.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Base y compare branches"
+  },
+  {
+    "id": "f1c40aeb-9e70-440e-9dbc-66e267728e25",
+    "question": "En el panel de Notificaciones de GitHub, ¿cómo pueden los usuarios identificar los hilos en los que han sido mencionados directamente mediante la función @mention?",
+    "options": [
+      "Revisando cada notificación individualmente para encontrar las menciones.",
+      "Aplicando un filtro de Mentions dentro del panel de Notificaciones para mostrar únicamente esas notificaciones.",
+      "Utilizando la barra de búsqueda para escribir su nombre de usuario precedido por el símbolo @.",
+      "Las notificaciones en las que el usuario ha sido mencionado mediante @ aparecen resaltadas con un color diferente para facilitar su identificación."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El panel de Notificaciones de GitHub incluye una opción de filtrado para Mentions, que permite visualizar específicamente las notificaciones en las que el usuario ha sido mencionado directamente.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Notificaciones y menciones"
+  },
+  {
+    "id": "c7a27cda-870b-4934-a611-d3f5c2e6a140",
+    "question": "¿Qué propósito cumplen las páginas Wiki de GitHub dentro del ecosistema de un repositorio?",
+    "options": [
+      "Las páginas Wiki sirven como el método principal para enviar pull requests y revisar código.",
+      "Las páginas Wiki se utilizan exclusivamente para realizar seguimiento de issues y errores del proyecto.",
+      "Las páginas Wiki son una característica redundante, ya que toda la documentación debería incluirse en el archivo README del repositorio.",
+      "Las páginas Wiki proporcionan una plataforma para documentación detallada del proyecto, que puede ser editada y mantenida colaborativamente por la comunidad del repositorio."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las páginas Wiki funcionan como una herramienta de documentación colaborativa dentro de un repositorio y permiten mantener una base de conocimiento detallada del proyecto.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Wikis"
+  },
+  {
+    "id": "0abb4a25-4ea5-4394-9a2b-307d9ecb02af",
+    "question": "En el contexto de las Wikis de GitHub, ¿qué opciones tienen los colaboradores para revertir cambios o editar versiones anteriores de una página Wiki?",
+    "options": [
+      "Una vez que se edita una página Wiki, las versiones anteriores se eliminan permanentemente y no pueden ser accedidas ni restauradas.",
+      "Los colaboradores deben copiar y pegar manualmente el contenido de versiones anteriores para revertir los cambios.",
+      "Revertir cambios en una Wiki requiere enviar una solicitud especial al soporte de GitHub para cada cambio.",
+      "Las Wikis de GitHub cuentan con un historial completo de versiones, lo que permite a los colaboradores revertir cambios o editar a partir de cualquier versión anterior directamente desde la interfaz web."
+    ],
+    "correctAnswer": 3,
+    "explanation": "GitHub mantiene un historial completo de versiones para las páginas Wiki, permitiendo consultar ediciones anteriores y revertir o modificar contenido desde la interfaz web.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Historial de versiones de Wikis"
+  },
+  {
+    "id": "af7ea421-fa40-469b-a8cc-d540994849ae",
+    "question": "¿Qué determina la visibilidad de GitHub Pages y cómo se puede ajustar?",
+    "options": [
+      "GitHub Pages hereda la configuración de visibilidad de su repositorio principal; para ajustarla, se debe cambiar el estado del repositorio entre público y privado.",
+      "Todas las páginas de GitHub Pages son públicas de forma predeterminada y su visibilidad no puede cambiarse a privada.",
+      "La configuración de visibilidad de GitHub Pages se configura por separado en los ajustes de Pages, independientemente de la visibilidad del repositorio.",
+      "La visibilidad de GitHub Pages está determinada por la fase de la luna y no puede ajustarse."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Según el material de la pregunta, la visibilidad de un sitio de GitHub Pages está directamente relacionada con la visibilidad del repositorio desde el que se sirve.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Visibilidad de GitHub Pages"
+  },
+  {
+    "id": "1c846d3a-f0c2-473b-aed9-df36560fa7b0",
+    "question": "¿Qué buenas prácticas se deben seguir al revisar pull requests para garantizar la calidad y mantener los estándares del proyecto en proyectos colaborativos en GitHub?",
+    "options": [
+      "Los mantenedores solo deberían aceptar pull requests provenientes de colaboradores que conocen personalmente y en quienes confían.",
+      "Los revisores deben comprobar minuciosamente que el código cumpla con los estándares del proyecto, ejecutar pruebas y asegurarse de que el pull request esté alineado con la dirección y los objetivos del proyecto. Las discusiones colaborativas y los comentarios también pueden ayudar a mantener altos estándares y calidad.",
+      "Las buenas prácticas para revisar pull requests incluyen omitir las revisiones de código para acelerar el proceso de merge.",
+      "Se recomienda aprobar automáticamente todos los pull requests para fomentar una atmósfera de confianza y apertura."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Una buena revisión debe comprobar el cumplimiento de estándares, ejecutar pruebas, verificar la alineación con los objetivos del proyecto y fomentar discusiones y feedback constructivos. La calidad no debe depender de la confianza personal ni de omitir revisiones.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Revisión de pull requests"
+  },
+  {
+    "id": "4d590c3f-79a0-4b6c-8821-cadfa05c1e6e",
+    "question": "¿Qué diferencia a una issue de una discussion y de un pull request en GitHub?",
+    "options": [
+      "Los pull requests son para reportar errores, las issues son para solicitar nuevas funcionalidades y las discussions son para revisiones de código.",
+      "Las discussions son la única forma de contribuir código, mientras que las issues y los pull requests son para documentación.",
+      "Las issues son para revisiones de código automatizadas, las discussions son para control de versiones y los pull requests son para redes sociales.",
+      "Las issues sirven para realizar seguimiento de tareas, errores y mejoras; las discussions sirven para preguntas y conversaciones generales sobre el proyecto; y los pull requests sirven para proponer cambios en el código."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las issues se utilizan para tareas, bugs y mejoras; las discussions para preguntas, ideas y conversaciones generales; y los pull requests para proponer, revisar y fusionar cambios de código.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Issues, Discussions y Pull Requests"
+  },
+  {
+    "id": "d1bdd81f-ee01-46c6-8632-4c583fe2444e",
+    "question": "¿Cómo puede un mantenedor de un repositorio convertir una discussion en una issue en GitHub?",
+    "options": [
+      "Exportando la discussion como PDF y subiéndola como archivo adjunto a una nueva issue.",
+      "Seleccionando la opción `Convert to issue` disponible en el menú desplegable de la discussion.",
+      "Copiando y pegando el contenido de la discussion en un nuevo formulario de issue y enlazándolo manualmente con la discussion.",
+      "Utilizando una GitHub Action que convierta automáticamente las discussions en issues basándose en palabras clave."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub proporciona una función directa para convertir una discussion en una issue mediante la opción `Convert to issue` del menú desplegable de la discussion.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Discussions e Issues"
+  },
+  {
+    "id": "189ad5f2-a3b1-42c8-89a2-ee86bcdfc5cc",
+    "question": "¿Cómo pueden los usuarios de GitHub encontrar los hilos en los que han sido mencionados con @, pero aún no han respondido?",
+    "options": [
+      "Revisando las notificaciones por correo electrónico que GitHub envía por cada mención con @.",
+      "GitHub no proporciona una forma específica de filtrar las menciones con @ que aún no han sido respondidas.",
+      "Realizando una búsqueda en todo el repositorio utilizando su nombre de usuario como palabra clave.",
+      "Consultando la pestaña `Mentions` en el panel de Notificaciones de GitHub para obtener una lista de las menciones directas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El panel de Notificaciones de GitHub incluye una pestaña `Mentions`, donde los usuarios pueden encontrar una lista consolidada de las ocasiones en las que han sido mencionados directamente.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Mentions"
+  },
+  {
+    "id": "f7729e99-95aa-4251-8444-6b6955a5626d",
+    "question": "¿Cómo se pueden utilizar palabras clave dentro de las issues de GitHub para facilitar determinadas acciones cuando se fusionan los pull requests relacionados?",
+    "options": [
+      "Las palabras clave en los comentarios de las issues activan notificaciones para todos los colaboradores del proyecto.",
+      "Utilizar palabras clave en los títulos de las issues asigna automáticamente la issue a tableros de proyecto predefinidos.",
+      "Especificar determinadas palabras clave seguidas de números de issues en las descripciones de los pull requests puede cerrar las issues vinculadas cuando el pull request se fusiona.",
+      "Las palabras clave en las issues pueden iniciar pruebas automatizadas de los pull requests."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub admite palabras clave específicas en las descripciones de los pull requests, como `fixes`, `closes` o `resolves`, seguidas del número de la issue. Al hacer merge del pull request, la issue vinculada puede cerrarse automáticamente.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Palabras clave y cierre automático de issues"
+  },
+  {
+    "id": "66e30ba3-62a0-47b7-860c-45644378cab0",
+    "question": "¿Qué ventaja ofrece utilizar los formularios de issues de GitHub frente a las plantillas tradicionales de issues en Markdown?",
+    "options": [
+      "Las plantillas Markdown permiten la ejecución de código arbitrario, mientras que los formularios de issues no.",
+      "Solo los formularios de issues son visibles para los mantenedores del repositorio; las plantillas Markdown están ocultas.",
+      "Los formularios de issues pueden solucionar automáticamente los bugs cuando se envía el formulario.",
+      "Los formularios de issues proporcionan una interfaz estructurada con campos que los colaboradores deben completar, garantizando informes de issues más consistentes y detallados."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los Issue Forms proporcionan una interfaz estructurada con campos específicos que los colaboradores deben completar, produciendo informes más consistentes y detallados que las plantillas Markdown tradicionales.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Issue Forms frente a plantillas Markdown"
+  },
+  {
+    "id": "3e1ab7f7-f669-4df1-95cd-13c897231210",
+    "question": "¿De qué manera puede un revisor de un pull request solicitar cambios en el código enviado en GitHub?",
+    "options": [
+      "Publicando comentarios generales sin especificar los cambios necesarios.",
+      "Modificando directamente el código del pull request sin el consentimiento del autor.",
+      "Mediante comunicación directa por correo electrónico con el autor del pull request.",
+      "Seleccionando `Request Changes` en el resumen de la revisión y proporcionando comentarios específicos como feedback."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Durante la revisión de un pull request, el revisor puede seleccionar `Request Changes` en el resumen de la revisión y proporcionar feedback específico y accionable en los comentarios.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Request Changes"
+  },
+  {
+    "id": "e64e0114-7f74-4a21-934d-1785501ed414",
+    "question": "¿Cuál es el proceso para buscar y filtrar issues en un repositorio de GitHub?",
+    "options": [
+      "Enviar una solicitud por correo electrónico al soporte de GitHub para que proporcione una lista de issues filtradas.",
+      "Las issues solo pueden filtrarse según su estado abierto o cerrado.",
+      "No se admite el filtrado de issues; deben buscarse manualmente una por una.",
+      "Utilizar la barra de búsqueda situada en la parte superior de la pestaña `Issues`, empleando palabras clave, etiquetas, asignados y otros criterios."
+    ],
+    "correctAnswer": 3,
+    "explanation": "GitHub permite buscar y filtrar issues desde la pestaña `Issues` utilizando palabras clave, labels, assignees, estados y otros criterios.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Búsqueda y filtrado de issues"
+  },
+  {
+    "id": "e2eff7fc-b6fd-46a1-888c-9074755ef125",
+    "question": "¿Qué errores comunes pueden encontrar los colaboradores al intentar vincular una discussion con una issue en GitHub y cómo pueden resolverlos?",
+    "options": [
+      "Puede producirse un error si el colaborador intenta vincular una discussion con una issue cerrada, ya que la política de GitHub restringe las vinculaciones únicamente a issues activas.",
+      "Los colaboradores pueden encontrar errores debido a referencias incorrectas de issues, falta de permisos o intentos de vincular una issue en un repositorio diferente que no permite la vinculación. Resolver estos errores puede implicar verificar nuevamente los números de las issues, asegurarse de tener los permisos adecuados o coordinar con los mantenedores del repositorio de destino.",
+      "El único error que puede producirse es una interrupción del sistema por parte de GitHub, que impediría realizar cualquier vinculación.",
+      "Vincular una discussion con una issue es un proceso completamente automático y sin errores conocidos, ya que GitHub lo realiza sin intervención del usuario."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los errores comunes incluyen referencias incorrectas de issues, falta de permisos y problemas al intentar vincular con otro repositorio. Se pueden resolver verificando los números de las issues, comprobando los permisos y coordinando con los mantenedores del repositorio de destino.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación de Discussions e Issues"
+  },
+  {
+    "id": "0eb5a7f0-4899-4116-957b-2a5d236d968f",
+    "question": "¿Cuál es la importancia de la pestaña `Conversation` dentro de un pull request de GitHub?",
+    "options": [
+      "Muestra el historial de commits del repositorio que no está relacionado con el pull request.",
+      "Agrupa todos los comentarios, commits y feedback de las revisiones relacionados con el pull request en un único hilo de discusión cronológico.",
+      "Muestra una lista de todos los archivos modificados en el pull request para facilitar la navegación.",
+      "Se utiliza exclusivamente para mensajes automatizados de bots y notificaciones relacionadas con el estado del pull request."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La pestaña `Conversation` centraliza la actividad relacionada con ese pull request, incluyendo comentarios, commits, feedback de revisiones y mensajes relevantes, formando un hilo de conversación cronológico.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Conversation en pull requests"
+  },
+  {
+    "id": "da5f0f65-7e57-4a6d-abf3-13ddbc15db29",
+    "question": "¿Cómo afecta al proceso de revisión convertir un pull request en un borrador (`draft`) en GitHub?",
+    "options": [
+      "Indica que el pull request no está listo para una revisión final, lo que potencialmente reduce el feedback detallado inmediato.",
+      "Bloquea el pull request, impidiendo realizar más cambios hasta que se marque como listo para revisión.",
+      "Fusiona automáticamente el pull request después de un período predeterminado.",
+      "Convierte el pull request en una issue para continuar la discusión antes de la revisión del código."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Marcar un pull request como `draft` indica que el trabajo está en progreso y no está listo para una revisión final. No bloquea el pull request, no lo convierte en una issue y no lo fusiona automáticamente.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Draft pull requests"
+  },
+  {
+    "id": "1c7f8ded-8e8f-4df3-9443-c65223c47f84",
+    "question": "¿Cuáles son las principales diferencias entre las GitHub Wikis y GitHub Pages en términos de gestión y presentación del contenido?",
+    "options": [
+      "Las Wikis están diseñadas únicamente para la colaboración interna del equipo, mientras que GitHub Pages son páginas web orientadas al público.",
+      "Las Wikis permiten colaboración y edición en tiempo real, mientras que GitHub Pages son sitios estáticos generados a partir del contenido del repositorio.",
+      "Las Wikis se utilizan para documentación detallada del proyecto, editada colaborativamente por la comunidad, mientras que GitHub Pages sirve como plataforma de alojamiento para sitios web estáticos, incluyendo páginas principales de proyectos o blogs.",
+      "GitHub Pages puede ejecutar scripts del lado del servidor, a diferencia de las Wikis, que están limitadas al contenido Markdown."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las Wikis están orientadas a documentación detallada editada colaborativamente, mientras que GitHub Pages sirve para alojar sitios web estáticos, como páginas de proyectos o blogs. GitHub Pages no ejecuta scripts del lado del servidor.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Wikis y GitHub Pages"
+  },
+  {
+    "id": "4cdd0170-7ab8-4f0e-9459-2dd25dd38589",
+    "question": "¿Cómo puede un usuario hacer fork de un GitHub Gist para contribuir con sus modificaciones o mejoras?",
+    "options": [
+      "Los Gists no pueden hacerse fork; son entidades de un solo usuario diseñadas únicamente para uso individual.",
+      "Enviando una solicitud al autor original del Gist para obtener permiso para hacer fork.",
+      "Reescribiendo manualmente el contenido del Gist en un nuevo Gist bajo la cuenta del usuario.",
+      "Haciendo clic en el botón `Fork` ubicado en la parte superior de la página del Gist, lo que crea una copia del Gist en la cuenta del usuario para realizar modificaciones personales."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los GitHub Gists pueden hacerse fork directamente. Al utilizar el botón `Fork`, se crea una copia del Gist en la cuenta del usuario, donde puede realizar sus propias modificaciones o mejoras. No es necesario pedir permiso al autor original.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "GitHub Gists"
+  },
+  {
+    "id": "f5cb20c4-30aa-467a-be5a-9cd71b9064f6",
+    "question": "¿Cuál de los siguientes fragmentos de Markdown produce el texto *Hello, **world**!* en negrita y cursiva?",
+    "options": [
+      "`*Hello, *world*!*`",
+      "`**Hello, *world*!**`",
+      "`***Hello, world!***`",
+      "`### Hello, world!`"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correcto: ***Hello, world!***. Recuerda que también puedes usar guiones bajos (_) en lugar de asteriscos si lo prefieres. Los demás fragmentos producen cursiva con asteriscos anidados, negrita con cursiva anidada o un encabezado de nivel tres, no negrita y cursiva.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Markdown"
+  },
+  {
+    "id": "c60d9468-c05d-4c19-a19e-a905cb9cc7bf",
+    "question": "¿Cómo se imprimen literalmente ciertos caracteres, como asteriscos (`*`) y guiones bajos (`_`), en el resultado?",
+    "options": [
+      "Usa tres seguidos, como `***` o `___`.",
+      "Escápalos con una barra invertida, como `\\*` o `\\_`.",
+      "Lamentablemente, esto no es compatible por el momento."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correcto: se escapan con una barra invertida, como `\\*` o `\\_`. También puedes escapar otros caracteres reservados, incluidos `{` y `#`, usando barras invertidas. Usar tres seguidos no los escapa, y esta función sí está soportada.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Markdown"
+  },
+  {
+    "id": "1ca8f52b-4255-43e8-8ed0-fe810c51754f",
+    "question": "Supongamos que hay un fragmento de HTML que quieres incluir en tu sitio de GitHub Pages, pero Markdown no ofrece una forma de representarlo. ¿Qué deberías hacer?",
+    "options": [
+      "Simplemente agregar el HTML en línea.",
+      "Eliminar el contenido. Si no es compatible con Markdown, probablemente no valga la pena incluirlo.",
+      "Abrir un issue que solicite compatibilidad con Markdown para tu escenario especializado."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Markdown no es un reemplazo completo de HTML, por lo que puedes agregar el fragmento HTML en línea. No es necesario eliminar el contenido ni abrir un issue solicitando compatibilidad con Markdown.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Markdown"
+  },
+  {
+    "id": "1c750c08-4957-4f53-9114-cdfca289a850",
+    "question": "¿Cuál NO es una buena razón para crear un pull request?",
+    "options": [
+      "Quieres recibir comentarios sobre cambios propuestos antes de fusionar tu rama de funcionalidad en `main`.",
+      "Quieres fusionar tu rama de corrección de bugs en `main`, pero no tienes permiso.",
+      "Tu rama no se puede fusionar en `main` debido a cambios upstream realizados desde que la creaste. Crear un pull request permite que el otro colaborador sepa que debe retirar sus cambios para que puedas incluir los tuyos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los pull requests no funcionan así. Además, la etiqueta correcta es asegurarte de que tu rama se pueda fusionar limpiamente en la base antes de crear un pull request. Recibir comentarios sobre cambios propuestos y no tener permiso para fusionar sí son buenas razones para crear un pull request.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Pull requests"
+  },
+  {
+    "id": "120d229c-9fd7-46ff-80ac-6a2b2cb7f7e1",
+    "question": "¿Cómo puedes asegurarte de que los pull requests de un área determinada del repositorio no se fusionen a menos que ciertos usuarios o equipos los aprueben?",
+    "options": [
+      "Explicar claramente la política de pull requests en `CONTRIBUTING.md`.",
+      "Usar un archivo `CODEOWNERS` y habilitar las revisiones obligatorias.",
+      "Agregar en `SECURITY.md` una tabla que asigne rutas de directorio a los usuarios requeridos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un archivo `CODEOWNERS` te permite asignar usuarios o equipos como revisores obligatorios usando la misma sintaxis que los archivos `.gitignore`. Aunque `CONTRIBUTING.md` y `SECURITY.md` son útiles para explicar las políticas de contribución y de seguridad, ninguno aplica nada de forma automática.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Pull requests"
+  },
+  {
+    "id": "02a37741-9b91-43f7-8168-0f02a2f35267",
+    "question": "Te piden que revises un pull request. Al leerlo, notas varios errores menores de código y errores tipográficos. ¿Cómo deberías gestionar la revisión?",
+    "options": [
+      "Iniciar una revisión y corregir los errores tipográficos obvios en línea. Agregar comentarios donde se necesite más debate o donde aporten valor educativo. Completar la revisión solicitando cambios.",
+      "Dejar comentarios individuales por cada problema que encuentres, pero sin cambiar el código. Para los errores tipográficos, incluir la ortografía correcta de la palabra como referencia. Aprobar el pull request si confías en que el autor implementará tus sugerencias.",
+      "Rechazar el pull request. No podemos arriesgarnos a que se fusionen bugs por accidente en una rama importante."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los colaboradores agradecen que los revisores muestren interés en que su código se fusione. Solo deberías aprobar un pull request cuando esté listo para fusionarse, y si los problemas de un pull request son menores, a menudo vale la pena trabajar con el colaborador para corregirlos y que los demás cambios puedan fusionarse.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Revisión de pull requests"
+  },
+  {
+    "id": "83684445-b589-44f6-8f46-9f0c907e8505",
+    "question": "¿En qué se diferencia la barra de búsqueda de nivel superior de GitHub de las opciones de búsqueda disponibles en las pestañas de un repositorio?",
+    "options": [
+      "Aparte de estar ubicadas en partes diferentes de la interfaz, por lo demás son iguales.",
+      "Admiten opciones de sintaxis de filtros diferentes.",
+      "La barra de búsqueda de nivel superior permite buscar todo en todo GitHub, mientras que las búsquedas de las pestañas del repositorio están limitadas a tipos específicos dentro del repositorio actual."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La búsqueda de nivel superior ofrece la mayor flexibilidad, ya que permite buscar todo en GitHub, mientras que las búsquedas con alcance limitado de las pestañas ofrecen menús desplegables de filtros populares para refinar más fácilmente. Ambas admiten el mismo modelo de sintaxis de filtros; difieren en su alcance.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Búsqueda en GitHub"
+  },
+  {
+    "id": "283078fc-04dc-4b16-9462-3d28fb579975",
+    "question": "¿Qué hace `git blame`?",
+    "options": [
+      "Crea un bug asignado a la última persona que hizo commit de cambios en el archivo especificado.",
+      "Muestra el historial de commits del archivo.",
+      "Revierte los efectos de un comando `git praise`."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A pesar de su nombre acusatorio, `git blame` es simplemente un comando para mostrar el historial de commits de un archivo. En algunos sistemas, `git praise` es un alias más amigable para el comando `git blame`.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Historial de repositorio"
+  },
+  {
+    "id": "3790f9b7-014c-4bfc-92cc-d1f01ebb5961",
+    "question": "Supongamos que se reporta un issue de bug en tu proyecto y sabes qué pull request introdujo el problema. ¿Cuál de las siguientes opciones NO es una buena práctica de vinculación cruzada (cross-linking)?",
+    "options": [
+      "No crear vínculos cruzados cuando la causa raíz del issue ya se conoce.",
+      "Agregar un comentario al reporte de bug que mencione al autor del pull request mediante un @mention.",
+      "Agregar un comentario al reporte de bug que enlace el pull request usando la sintaxis #ID."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Es una buena práctica agregar siempre vínculos cruzados por si tú u otra persona necesita el contexto más adelante. Mencionar al autor del pull request y enlazarlo con la sintaxis #ID son buenas prácticas de vinculación.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Vinculación cruzada"
+  },
+  {
+    "id": "0b7133a4-47b5-4234-8bee-ba86cf811002",
+    "question": "¿Cuál es un beneficio de asignar un milestone a issues o pull requests?",
+    "options": [
+      "Impide que otros usuarios editen el issue o el PR.",
+      "Ayuda a realizar un seguimiento del progreso hacia un objetivo compartido, como una versión.",
+      "Envía notificaciones por correo electrónico a todo el repositorio."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los milestones agrupan issues y pull requests para hacer seguimiento de la consecución de objetivos. Se usan para agrupar, no para gestionar permisos, y no cambian el comportamiento de las notificaciones.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Milestones"
+  },
+  {
+    "id": "da90d95b-f888-425a-92ac-19e366713d5e",
+    "question": "¿Qué consulta muestra todos los issues abiertos etiquetados como bugs en un milestone específico?",
+    "options": [
+      "is: open is: issue label: bug milestone:\"Sprint 1\"",
+      "Label: bug milestone: closed",
+      "Is: pr label: bug"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La consulta `is: open is: issue label: bug milestone:\"Sprint 1\"` filtra por etiqueta y milestone a la vez. `milestone: closed` no es un valor válido, y `is: pr` filtra pull requests, no issues.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Búsqueda y filtrado de issues"
+  },
+  {
+    "id": "52668552-d4fc-4d86-833f-588812b77936",
+    "question": "¿Cómo insertas una respuesta guardada (saved reply) en un comentario de un issue o pull request?",
+    "options": [
+      "Hacer clic en el ícono de respuestas guardadas en el campo de comentario y seleccionar entre tus respuestas guardadas.",
+      "Escribir `@saved` y seleccionar en el menú desplegable de respuestas.",
+      "Usar el comando de barra `/reply` para abrir tus respuestas guardadas."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El ícono de respuestas guardadas (una burbuja de diálogo) te permite seleccionar entre respuestas predefinidas. No existe un atajo `@saved` para las respuestas y GitHub no admite comandos de barra para las respuestas guardadas.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Respuestas guardadas"
+  },
+  {
+    "id": "fb3ba4a8-22db-4c30-8cec-1c8d36ca1cf8",
+    "question": "¿Qué indica asignar a alguien a un issue o pull request?",
+    "options": [
+      "Que esa persona es responsable de trabajar en él.",
+      "Que esa persona es el autor original.",
+      "Que esa persona recibirá automáticamente una insignia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Asignar a un usuario muestra que se espera que asuma la responsabilidad de trabajarlo. La autoría y la asignación son cosas separadas, y GitHub no otorga insignias por las asignaciones.",
+    "examId": "github-foundations",
+    "categoryId": "collaboration-features",
+    "topic": "Asignaciones"
+  }
+]

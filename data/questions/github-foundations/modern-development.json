@@ -1,0 +1,189 @@
+[
+  {
+    "id": "102dd6dc-16e0-407a-a904-219758715779",
+    "question": "¿Qué es GitHub Copilot?",
+    "options": [
+      "GitHub Copilot es un programador de IA en pareja que puedes usar para obtener sugerencias de código.",
+      "GitHub Copilot es OpenAI Codex, un nuevo sistema de IA que creó OpenAI.",
+      "GitHub Copilot es un repositorio público de JavaScript y uno de los lenguajes mejor soportados.",
+      "GitHub Copilot puede escribir un comentario que describe la lógica, y tú puedes agregar el código sugerido para implementar la solución."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Copilot es un programador de IA en pareja que puedes usar para obtener sugerencias de líneas completas o de funciones enteras directamente en tu editor. Funciona con OpenAI Codex, pero no es Codex en sí. JavaScript es uno de los lenguajes mejor soportados, y puedes escribir un comentario que describa la lógica que deseas para que Copilot sugiera el código que la implemente.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "GitHub Copilot"
+  },
+  {
+    "id": "cb482222-512c-42a8-93e6-16326e4599af",
+    "question": "¿Cuáles son las extensiones de IDE compatibles con GitHub Copilot?",
+    "options": [
+      "VS Code y Visual Studio",
+      "GitHub.com, VS Code, Visual Studio, Neovim y JetBrains",
+      "VS Code, Visual Studio, Neovim y JetBrains"
+    ],
+    "correctAnswer": 2,
+    "explanation": "VS Code, Visual Studio, Neovim y JetBrains cuentan con extensiones compatibles con GitHub Copilot. Aunque GitHub.com admite Copilot, no requiere una extensión, por lo que no se incluye entre ellas.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "GitHub Copilot"
+  },
+  {
+    "id": "2bb37c25-09fa-490e-bb0e-06b327011551",
+    "question": "¿Cuál es la diferencia entre GitHub Copilot Business y GitHub Copilot Enterprise?",
+    "options": [
+      "GitHub Copilot Enterprise tiene finalizaciones de código, mientras que GitHub Copilot Business no.",
+      "GitHub Copilot Enterprise tiene chat en el IDE y el móvil, mientras que GitHub Copilot Business no.",
+      "GitHub Copilot Enterprise tiene una capa adicional de personalización. Las organizaciones usan su propio código base para entrenar GitHub Copilot.",
+      "GitHub Copilot Enterprise tiene una capa adicional de seguridad, con indemnización de IP y seguridad, protección y privacidad de nivel empresarial."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub Copilot Enterprise permite a las organizaciones tener una experiencia más inteligente y personalizada al usar su propio código base para entrenarlo, una capa adicional de personalización. Copilot Business también incluye finalizaciones de código, chat en el IDE y el móvil, e indemnización de IP con seguridad, protección y privacidad de nivel empresarial.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "GitHub Copilot Plans"
+  },
+  {
+    "id": "7e2d35e8-054b-42cf-ba5a-c7fbcda9aef8",
+    "question": "¿Qué plan incluye todas las funciones de Pro, además de uso premium adicional y acceso prioritario a la infraestructura?",
+    "options": [
+      "GitHub Copilot Free",
+      "GitHub Copilot Pro",
+      "GitHub Copilot Pro+",
+      "GitHub Copilot Enterprise"
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub Copilot Pro+ incluye todas las funciones de Pro, además de uso premium adicional y acceso prioritario a la infraestructura. Copilot Free no incluye funciones Pro ni uso premium; Copilot Pro incluye funciones avanzadas, pero no uso premium ni acceso prioritario a la infraestructura; y Copilot Enterprise está diseñado para organizaciones.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "GitHub Copilot Plans"
+  },
+  {
+    "id": "9ee48d8f-485e-4c80-a08f-796de23282a0",
+    "question": "¿En qué directorio se coloca el clon después de crear un Codespace?",
+    "options": [
+      "Directorio /workspaces",
+      "Directorio /temp",
+      "Directorio ~/.bashrc",
+      "Directorio Linux"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Después de crear un Codespace, el clon se coloca en el directorio /workspaces. Los demás directorios no son donde se coloca el contenido clonado.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "Codespaces"
+  },
+  {
+    "id": "7f9f5e06-aebb-4bde-b5f9-a23e3838e620",
+    "question": "¿Cuál es el número máximo de Codespaces que puedes crear por repositorio o rama?",
+    "options": [
+      "Solo puedes crear dos Codespaces.",
+      "Puedes crear un total de 10 Codespaces.",
+      "Puedes crear un total de 30 Codespaces.",
+      "Puedes crear un número ilimitado de Codespaces por repositorio o rama, según el espacio disponible. Cuando alcanzas un límite de recursos, aparece un mensaje que indica que debe quitarse o eliminarse un Codespace existente antes de poder crear uno nuevo."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Puedes tener un número ilimitado de Codespaces por repositorio o incluso por rama. Sin embargo, existen límites en la cantidad de Codespaces que puedes crear y ejecutar al mismo tiempo.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "Codespaces"
+  },
+  {
+    "id": "ac780998-b7d7-4c5e-9b4d-9d5dca4236db",
+    "question": "¿Qué ocurre cuando un Codespace pierde la conectividad a Internet?",
+    "options": [
+      "Si se pierde la conexión a Internet mientras se trabaja en un Codespace, no puedes acceder a tu Codespace.",
+      "El Codespace no requiere conexión a Internet. Puedo acceder a mi Codespace aunque pierda la conectividad.",
+      "Si pierdes la conexión a Internet mientras trabajas en tu Codespace, tus cambios no se guardan."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un Codespace requiere conexión a Internet. Si se pierde la conexión mientras trabajas en un Codespace, no puedes acceder a él. Los cambios no confirmados se guardan, por lo que al restablecerse la conexión puedes acceder al Codespace en el mismo estado en que estaba cuando se perdió.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "Codespaces"
+  },
+  {
+    "id": "dc4b5743-d36a-472b-8158-7eff22fcbc34",
+    "question": "¿Qué define el inicio del ciclo de vida de un Codespace?",
+    "options": [
+      "El ciclo de vida de un Codespace comienza cuando creas un Codespace y termina cuando lo eliminas.",
+      "El ciclo de vida de un Codespace comienza inmediatamente al abrir GitHub y termina al cerrar el software.",
+      "El ciclo de vida de un Codespace comienza cuando se crea un repositorio y termina cuando lo eliminas."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El ciclo de vida de un Codespace comienza cuando creas un Codespace y termina cuando lo eliminas. No comienza al abrir GitHub ni al crear un repositorio.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "Codespaces"
+  },
+  {
+    "id": "cbfd3e44-36e0-4cca-bc1e-06887fd85e9d",
+    "question": "¿Cómo funciona GitHub Copilot?",
+    "options": [
+      "GitHub Copilot usa prompts y texto en lenguaje natural que escribes para ofrecer sugerencias de código.",
+      "GitHub Copilot usa resaltados que seleccionas y ofrece sugerencias basadas en lo que resaltas.",
+      "GitHub Copilot usa radio language que escribes y ofrece sugerencias basadas en lo que escribes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Copilot está entrenado con miles de millones de líneas de código y convierte prompts en lenguaje natural en sugerencias de código para decenas de lenguajes. Usa prompts y texto en lenguaje natural que tú escribes, no resaltados ni \"radio language\".",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "GitHub Copilot"
+  },
+  {
+    "id": "1e87555d-4d02-4ed0-8f22-68c90e99a57c",
+    "question": "¿Cuáles son algunas características de GitHub Copilot Free?",
+    "options": [
+      "Es una herramienta de IA gratuita y sin restricciones que funciona independientemente de los editores de código.",
+      "Ofrece varias sugerencias y chats al mes directamente en tu IDE y en github.com.",
+      "Una opción para habilitar respuestas más lentas, preservando tu cuota de Copilot Pro."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Copilot Free ofrece varias sugerencias y chats al mes directamente en tu IDE y en github.com; también admite edición de varios archivos y cambio de modelos. No es una herramienta sin restricciones, ya que tiene una cuota de finalizaciones de código y mensajes de chat, y es Copilot Pro el que ofrece sugerencias y chat ilimitados.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "GitHub Copilot"
+  },
+  {
+    "id": "1f24ab0d-461f-4422-ba65-f29a5bf1808f",
+    "question": "¿Cómo puedes aceptar las sugerencias de GitHub Copilot?",
+    "options": [
+      "Presionando la tecla `Tab`.",
+      "Presionando la tecla `F1`.",
+      "Presionando la tecla `F4`."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Copilot te ofrece una sugerencia, que aparece como código gris si usas negro como color de texto. Para aceptarla, debes presionar la tecla `Tab`. Las teclas `F1` y `F4` no sirven para aceptar sugerencias de GitHub Copilot.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "GitHub Copilot"
+  },
+  {
+    "id": "d94f2d68-ddf9-4f59-9869-564fc70fdc56",
+    "question": "Identifica qué afirmación es válida y selecciona la respuesta correcta:",
+    "options": [
+      "Un prompt, que es nuestra salida, es una colección de canciones que le dice a nuestro copilot qué generar.",
+      "Un prompt, que es nuestra entrada, es una colección de instrucciones o pautas que le dicen a nuestro copilot qué generar.",
+      "Un prompt, que es nuestro documento, es una colección de laptops que le dice a nuestro Copilot qué generar."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un prompt es nuestra entrada y consiste en una colección de instrucciones o pautas que le dicen a Copilot qué generar. El prompt es crucial para obtener respuestas específicas de Copilot; puede ser un comentario que guíe a Copilot a generar código o código que Copilot autocomplete.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "Prompts de Copilot"
+  },
+  {
+    "id": "cba0d134-1015-4e5a-91dd-e9e533b7b6c5",
+    "question": "¿De qué depende la calidad del resultado de GitHub Copilot?",
+    "options": [
+      "De tu editor de código.",
+      "De qué tan bien se instalaron tus extensiones.",
+      "De qué tan bien redactas tu prompt."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Diseñar un prompt eficaz es crucial para lograr los resultados deseados; cuanto más detallado sea tu prompt, mejor. La calidad no depende del editor de código ni de la instalación de las extensiones.",
+    "examId": "github-foundations",
+    "categoryId": "modern-development",
+    "topic": "Prompts de Copilot"
+  }
+]

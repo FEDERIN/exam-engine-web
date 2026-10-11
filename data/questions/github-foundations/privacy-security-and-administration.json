@@ -1,0 +1,279 @@
+[
+  {
+    "id": "298292dc-1781-4548-b0fb-059d319043d7",
+    "question": "Cuando el análisis de código está habilitado, ¿cuál es un evento predeterminado que desencadena un análisis?",
+    "options": [
+      "Crear una nueva rama.",
+      "Enviar un cambio (push).",
+      "Eliminar una rama."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enviar un cambio y abrir un pull request activan un análisis de forma predeterminada cuando el análisis de código está habilitado. Crear o eliminar una rama no activa un análisis de forma predeterminada, aunque puede configurarse para hacerlo.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Code Scanning"
+  },
+  {
+    "id": "c2f6d651-3fa8-4fca-b298-28cc90467f0e",
+    "question": "¿Cuáles de las siguientes son las herramientas que se usan para cargar un archivo SARIF?",
+    "options": [
+      "Las herramientas son GitHub Actions, la API de análisis de código y la CLI de CodeQL.",
+      "Las herramientas son GitHub Actions, la herramienta de análisis ESLint, la API de análisis de código y la CLI de CodeQL.",
+      "Las herramientas son la propiedad partialFingerprints, GitHub Actions, la API de análisis de código y la CLI de CodeQL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Actions, la API de análisis de código y la CLI de CodeQL son herramientas que puedes usar para cargar un archivo SARIF. El mejor método de carga depende de cuál de las herramientas utilices.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "SARIF"
+  },
+  {
+    "id": "9dd783b8-8497-437a-b614-fab7fd8dddad",
+    "question": "¿Cuál es la diferencia entre los eventos programados y los eventos desencadenados en el análisis de código?",
+    "options": [
+      "Los eventos programados son más difíciles de configurar que los eventos desencadenados.",
+      "Los eventos programados se ejecutan según una programación especificada y los eventos desencadenados se ejecutan ante eventos de código como un push.",
+      "Los eventos desencadenados se ejecutan con menos frecuencia que los eventos programados."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los eventos programados se ejecutan según una programación especificada, y los eventos desencadenados se ejecutan ante eventos de código como un push. Los eventos programados no son más difíciles de configurar que los desencadenados: los desencadenados se establecen de forma predeterminada pero también pueden configurarse por el desarrollador, y la frecuencia de ambos varía según la frecuencia con que se producen los push y los pull requests.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Code Scanning Events"
+  },
+  {
+    "id": "f66ec93d-31d9-403d-bb02-0531081d198e",
+    "question": "¿Cuál es la mejor forma de asegurarte de integrar las versiones más seguras de las dependencias de tu proyecto?",
+    "options": [
+      "Configurar tus archivos de paquetes para usar siempre las versiones más recientes de las dependencias.",
+      "Revisar detenidamente los detalles de seguridad de cada proyecto antes de agregarlo como dependencia, confirmando el estado de su versión en varios sitios de avisos.",
+      "Habilitar **Dependabot** en tu repositorio."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dependabot analiza los manifiestos de dependencias de tu repositorio y te notifica mediante un pull request cada vez que una versión de la que dependes se marca como insegura. Usar siempre las últimas versiones puede introducir cambios disruptivos o comportamientos inesperados, y revisar manualmente cada dependencia no te protege de vulnerabilidades futuras, ya que tendrías que monitorear constantemente cada paquete.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Seguridad de dependencias"
+  },
+  {
+    "id": "90740c55-f68e-4445-bd4a-d13a52157815",
+    "question": "Supongamos que uno de tus proyectos de código depende de secretos guardados en una carpeta llamada `.secrets`. Quieres asegurarte de que los archivos de esta carpeta en las máquinas de desarrollo no se confirmen por error en el repositorio. ¿Cuál de estos archivos ayuda mejor a aplicar esta política?",
+    "options": [
+      "`SECURITY.md`",
+      "`.gitignore`",
+      "`CONTRIBUTING.md`"
+    ],
+    "correctAnswer": 1,
+    "explanation": "`.gitignore` se puede usar para aplicar qué archivos se incluyen en los commits por parte de las herramientas que lo respetan. Sin embargo, la política la aplica el cliente y no impide necesariamente que los usuarios confirmen archivos que la incumplan. `SECURITY.md` explica la política de seguridad del proyecto y `CONTRIBUTING.md` su política de contribución, pero ninguno automatiza nada.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Archivos de seguridad"
+  },
+  {
+    "id": "54b0b8f4-088d-4e0d-8479-5133bcd9a2dd",
+    "question": "¿Qué hace el análisis de secretos (secret scanning)?",
+    "options": [
+      "Busca secretos o credenciales conocidas confirmadas dentro del repositorio.",
+      "Analiza y encuentra vulnerabilidades de seguridad y errores en el código de un repositorio de GitHub.",
+      "Usa CodeQL para consultar tu código como datos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El secret scanning busca secretos o credenciales conocidas que se hayan confirmado dentro del repositorio, con el fin de prevenir usos fraudulentos y proteger la integridad de los datos sensibles. El análisis que busca vulnerabilidades y errores en el código es el análisis de código (code scanning), que puede usar CodeQL para consultar el código como datos.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Secret scanning"
+  },
+  {
+    "id": "e5f53f79-8429-4b98-9f6e-7899e905ff71",
+    "question": "Quieres otorgar a un usuario los permisos necesarios para agregar y quitar miembros de la organización de un equipo. ¿Qué permiso deberías otorgarle?",
+    "options": [
+      "El permiso admin en un repositorio.",
+      "El permiso maintain en un repositorio.",
+      "Organization billing manager.",
+      "Team maintainer."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Como Team maintainer, el usuario puede agregar y quitar miembros de la organización de un equipo. El permiso admin en un repositorio solo permite realizar tareas administrativas en un repositorio específico y no afecta la pertenencia a un equipo; el permiso maintain también se limita a un repositorio; y el rol Organization billing manager solo permite gestionar tareas de facturación.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Roles y permisos de organización"
+  },
+  {
+    "id": "e6de67ae-9795-456c-8f7d-2a4c1bbe7382",
+    "question": "Como propietario de una organización, quieres asegurarte de que todas las personas que han iniciado sesión en tu red corporativa puedan acceder al sitio web de GitHub sin requerir un segundo inicio de sesión. ¿Qué tecnología habilitarías para lograrlo?",
+    "options": [
+      "Single sign-on.",
+      "Autenticación de dos factores.",
+      "Personal Access Tokens.",
+      "Claves SSH."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Single sign-on (SSO) es la tecnología adecuada para permitir que los usuarios de la red accedan al sitio web de GitHub sin inicios de sesión adicionales. La autenticación de dos factores requiere que cada usuario se identifique con un segundo método; los Personal Access Tokens dan acceso al cliente de Git o a la API web mediante una clave criptográfica, y las claves SSH dan acceso al cliente de Git; ninguna de estas opciones evita el segundo inicio de sesión en el sitio web.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Autenticación y SSO"
+  },
+  {
+    "id": "20725d2c-4b0a-4f83-8536-42e0100e05a3",
+    "question": "¿Cuál es el nivel de permiso de repositorio apropiado para los colaboradores que necesitan hacer push de cambios activamente a tu repositorio?",
+    "options": [
+      "Admin.",
+      "Write.",
+      "Triage.",
+      "Maintain."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El permiso Write es el nivel adecuado para quienes necesitan hacer push de cambios. Admin otorga demasiado acceso a las funciones administrativas del repositorio; Triage es para gestionar issues y pull requests sin hacer cambios en el código; y Maintain permite gestionar el repositorio sin acceso a acciones sensibles o destructivas, lo que también sería un acceso excesivo para otros usuarios.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Roles y permisos de repositorio"
+  },
+  {
+    "id": "6bef5c32-ade2-4a00-8b3e-e793630a89a5",
+    "question": "¿Qué rol dentro de un equipo puede agregar o quitar miembros del equipo?",
+    "options": [
+      "Team Maintainer.",
+      "Team Member.",
+      "Organization Owner.",
+      "Billing Manager."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los Team Maintainers pueden agregar o quitar miembros del equipo y editar la configuración del equipo. Los Team Members pueden ver y participar en las conversaciones del equipo, pero no gestionar su pertenencia; los Organization Owners tienen privilegios administrativos más amplios pero no son específicos de la gestión de equipos; y los Billing Managers se centran en los detalles de facturación.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Roles y permisos de equipo"
+  },
+  {
+    "id": "97924fdb-b3f6-4b52-a8e5-629c62400acf",
+    "question": "¿Qué nivel de permiso es mejor para los gerentes de proyecto que necesitan clasificar y organizar issues sin contribuir código?",
+    "options": [
+      "Triage.",
+      "Read.",
+      "Write.",
+      "Maintain."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El nivel de permiso Triage permite gestionar issues y pull requests sin hacer push de cambios al repositorio, lo cual es ideal para clasificar y organizar. Read solo permite ver y clonar el repositorio y comentar en issues y pull requests; Write permite hacer push a las ramas y gestionar issues y pull requests; y Maintain permite gestionar la configuración del repositorio, los issues y los pull requests, pero no eliminar ni transferir el repositorio.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Roles y permisos de repositorio"
+  },
+  {
+    "id": "b3371214-9159-4fc5-a04d-3ffb94ca7b0b",
+    "question": "¿Cuál es un beneficio de integrar Active Directory (AD) para la sincronización de equipos?",
+    "options": [
+      "Gestión centralizada de identidades.",
+      "Mayor carga administrativa.",
+      "Administración descentralizada.",
+      "Aislamiento mejorado."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integrar AD aprovecha la infraestructura existente para lograr identidades de usuario coherentes, es decir, una gestión centralizada de identidades. La integración de AD busca reducir la carga administrativa, no aumentarla, y centraliza la gestión de identidades en lugar de descentralizarla; el aislamiento mejorado no es un beneficio directo de esta integración.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Sincronización de equipos"
+  },
+  {
+    "id": "c1885e20-4c26-4fed-bd96-4bc1bc533416",
+    "question": "¿Cuál de las siguientes acciones es exclusiva de los Organization Owners en GitHub?",
+    "options": [
+      "Colaborar en repositorios según los roles asignados o la pertenencia a equipos.",
+      "Contribuir código y participar en las conversaciones.",
+      "Gestionar la configuración de la organización, incluida la seguridad y la facturación.",
+      "Acceder a los recursos según los permisos definidos a nivel de equipo o de repositorio."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Solo los Organization Owners tienen la autoridad para gestionar la configuración de toda la organización, incluidas las políticas de seguridad y las configuraciones de facturación. Los miembros de la organización pueden colaborar en repositorios, contribuir código y acceder a recursos según los roles o permisos que se les otorguen.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Roles de organización"
+  },
+  {
+    "id": "8b743e63-bb6e-46ad-8560-99ca7b7f5928",
+    "question": "¿Cuál es una diferencia clave entre un miembro de la organización y un colaborador externo (outside collaborator)?",
+    "options": [
+      "Los miembros de la organización se incluyen en el directorio interno de la organización.",
+      "Los colaboradores externos tienen acceso a todos los repositorios.",
+      "Los miembros de la organización no aparecen en la lista interna de miembros de la organización.",
+      "Los colaboradores externos heredan la configuración de toda la organización."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los miembros de la organización se incluyen en el directorio interno y se les puede asignar a equipos, mientras que los colaboradores externos no. Los colaboradores externos solo tienen acceso explícito a repositorios específicos y no heredan la configuración de toda la organización; además, los miembros sí aparecen en la lista interna de miembros.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Miembros y colaboradores"
+  },
+  {
+    "id": "b7f24121-9444-48a7-9759-4772c5fe971c",
+    "question": "¿Qué nivel de permiso permite a los usuarios gestionar la configuración del repositorio, pero no eliminar ni transferir el repositorio?",
+    "options": [
+      "Maintain.",
+      "Write.",
+      "Admin.",
+      "Triage."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El nivel de permiso Maintain permite gestionar la configuración del repositorio sin eliminar ni transferirlo. Write permite hacer push de código y gestionar issues y pull requests, pero no la configuración del repositorio; Admin otorga control total, incluido eliminar o transferir el repositorio; y Triage solo permite gestionar issues y pull requests.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Roles y permisos de repositorio"
+  },
+  {
+    "id": "cf022255-1e75-4bf7-a835-e388308e51bf",
+    "question": "¿Qué tipo de autenticación de usuario se usa para verificar la identidad de un usuario contra un proveedor de identidades conocido?",
+    "options": [
+      "Autenticación de dos factores (2FA).",
+      "Contraseña de un solo uso basada en tiempo (TOTP).",
+      "SAML Single Sign-on (SAML SSO).",
+      "Servicio de mensajes cortos (SMS)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La autenticación SAML es el proceso que se usa para verificar la identidad y las credenciales del usuario contra un proveedor de identidades (IdP) conocido. La autenticación de dos factores es una capa de seguridad adicional para las cuentas de GitHub Enterprise; TOTP es un método para configurar 2FA; y SMS es una alternativa para quienes no pueden usar una app TOTP.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Autenticación SAML"
+  },
+  {
+    "id": "b9173e13-0aae-46c9-bc27-b507555123e8",
+    "question": "Eres administrador y quieres habilitar la sincronización de equipos para tu organización. ¿Qué permisos de instalación necesitas para configurar la sincronización de equipos con Microsoft Entra ID?",
+    "options": [
+      "Proporcionar la URL del inquilino (tenant).",
+      "Leer todos los perfiles completos de los usuarios.",
+      "Generar un token SSWS (Single Sign-on for Web Systems) válido.",
+      "Habilitar SAML Single Sign-on (SSO)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Para habilitar la sincronización de equipos con Microsoft Entra ID, la instalación necesita los siguientes permisos: leer todos los perfiles completos de los usuarios, iniciar sesión y leer el perfil de usuario, y leer los datos del directorio. Las demás opciones corresponden a la configuración de la sincronización de equipos con Okta.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Sincronización de equipos"
+  },
+  {
+    "id": "54b53242-ba39-4ef0-861f-5061b9475adb",
+    "question": "¿Dónde se autentica un usuario después de habilitar SAML Single sign-on?",
+    "options": [
+      "Con un inicio de sesión de GitHub.",
+      "Con las credenciales de la organización.",
+      "Con el proveedor de identidades (IdP)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cuando un miembro accede a recursos dentro de una organización que usa SAML SSO, GitHub lo redirige al IdP para autenticarse. El inicio de sesión de GitHub y las credenciales de la organización son formas de autenticación diferentes.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Autenticación SAML"
+  },
+  {
+    "id": "dcc457da-122d-440a-8d66-22cf6152fb7d",
+    "question": "¿Qué método de autenticación de dos factores admite la copia de seguridad segura de tus códigos de autenticación en la nube?",
+    "options": [
+      "Contraseña de un solo uso basada en tiempo (TOTP).",
+      "Servicio de mensajes cortos (SMS).",
+      "Llave de seguridad (Security Key)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las apps TOTP admiten la copia de seguridad segura de tus códigos de autenticación en la nube y se pueden restaurar si pierdes el acceso a tu dispositivo. El SMS se basa en que el usuario es la única persona con acceso a su dispositivo móvil, y una llave de seguridad es un método distinto que se registra desde la configuración del perfil.",
+    "examId": "github-foundations",
+    "categoryId": "privacy-security-and-administration",
+    "topic": "Autenticación de dos factores"
+  }
+]

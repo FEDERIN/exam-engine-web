@@ -1,0 +1,860 @@
+[
+  {
+    "id": "c03fb250-4af4-4f1d-b3b1-f793f2474bd6",
+    "question": "¿Qué producto de GitHub ofrece funciones avanzadas de colaboración para equipos, incluyendo discusiones en equipo y tableros de proyectos, bajo las cuentas de la organización?",
+    "options": [
+      "GitHub Free para organizaciones",
+      "GitHub Teams",
+      "GitHub Enterprise",
+      "GitHub Pro"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub Teams ofrece funciones avanzadas de colaboración para los miembros de una organización, como discusiones en equipo y herramientas para gestionar proyectos. GitHub Free proporciona funciones básicas, Enterprise se enfoca en capacidades avanzadas para grandes organizaciones y GitHub Pro está orientado principalmente a usuarios individuales.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Teams"
+  },
+  {
+    "id": "8818bc97-44d8-449e-a993-19d205078cf3",
+    "question": "¿Cuál es el propósito de utilizar backticks (`) en GitHub Markdown?",
+    "options": [
+      "Resaltar sintaxis o fragmentos de código",
+      "Crear hipervínculos",
+      "Indicar elementos de una lista con viñetas",
+      "Poner texto en cursiva"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En GitHub Markdown, los backticks se utilizan para mostrar código. Un solo backtick permite mostrar código en línea, mientras que tres backticks permiten crear bloques de código. Los hipervínculos utilizan corchetes y paréntesis, las listas usan normalmente guiones, asteriscos o signos más, y la cursiva se consigue con asteriscos o guiones bajos.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Markdown"
+  },
+  {
+    "id": "d38ad725-33b3-48b8-97a7-bac601943813",
+    "question": "¿Cuáles son las principales diferencias entre las cuentas personales, de organización y Enterprise de GitHub?",
+    "options": [
+      "Las cuentas personales son para uso individual, las cuentas de organización son para proyectos colaborativos y las cuentas Enterprise ofrecen funciones avanzadas de seguridad para equipos grandes.",
+      "Las cuentas Enterprise son el único tipo que permite utilizar GitHub Actions.",
+      "Las cuentas de organización permiten repositorios privados ilimitados, mientras que las cuentas personales y Enterprise no.",
+      "Las cuentas personales son gratuitas, mientras que las cuentas de organización y Enterprise requieren una suscripción mensual."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las cuentas personales están diseñadas para desarrolladores individuales. Las organizaciones permiten administrar equipos y proyectos colaborativos. Enterprise añade capacidades avanzadas de seguridad, cumplimiento, administración y soporte para organizaciones grandes. GitHub Actions puede utilizarse en diferentes tipos de cuentas y existen opciones gratuitas y de pago según el plan.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Accounts"
+  },
+  {
+    "id": "8f1f6175-cc52-437c-84c8-ffba30404139",
+    "question": "¿Cuál es la función principal de un sistema de control de versiones en el desarrollo de software?",
+    "options": [
+      "Supervisar las interacciones de los usuarios con el software en tiempo real",
+      "Compilar y ejecutar el código de manera más eficiente",
+      "Registrar y gestionar los cambios realizados en el código fuente",
+      "Distribuir el software a los usuarios finales"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La función principal de un sistema de control de versiones es registrar y gestionar los cambios realizados en el código. Esto permite mantener un historial, colaborar con otros desarrolladores, trabajar con ramas y recuperar versiones anteriores cuando sea necesario.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Version Control"
+  },
+  {
+    "id": "62d84627-6f99-4d4c-954d-6624b7996d30",
+    "question": "¿En qué se diferencia un repositorio de GitHub de un repositorio de Git?",
+    "options": [
+      "Un repositorio de GitHub es un servicio de alojamiento basado en la nube que ofrece funciones de colaboración, mientras que un repositorio de Git es un directorio que mantiene el historial de versiones.",
+      "Un repositorio de Git se utiliza principalmente para el seguimiento de issues, mientras que un repositorio de GitHub se utiliza para almacenar código.",
+      "Un repositorio de GitHub solo puede contener archivos de texto, mientras que un repositorio de Git puede contener cualquier tipo de archivo.",
+      "Un repositorio de Git permite editar archivos directamente desde una interfaz web, mientras que un repositorio de GitHub no."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Git es el sistema de control de versiones que mantiene el historial del proyecto. GitHub es una plataforma que puede alojar repositorios Git y añade herramientas de colaboración como Pull Requests, Issues, revisión de código y una interfaz web. Git y GitHub están relacionados, pero no son lo mismo.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Git vs GitHub"
+  },
+  {
+    "id": "16683fbb-0b57-4f1f-a480-d7786cf1a03d",
+    "question": "¿Cómo pueden los usuarios de la aplicación GitHub Mobile participar en las discusiones de un repositorio cuando están lejos de su computadora?",
+    "options": [
+      "Mediante comandos de voz para publicar y responder comentarios",
+      "Viendo, comentando y reaccionando a discusiones y comentarios",
+      "Publicando comentarios en las discusiones mediante SMS",
+      "Solo leyendo las discusiones; no se permite publicar comentarios"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub Mobile permite participar activamente en las discusiones de los repositorios desde un dispositivo móvil. Los usuarios pueden ver discusiones, escribir comentarios y reaccionar a comentarios y discusiones. No se basa en SMS ni requiere comandos de voz.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Mobile"
+  },
+  {
+    "id": "dbd1a063-0330-459a-b5d2-104420c4bece",
+    "question": "¿Cuál es una característica clave de GitHub Desktop que simplifica el proceso de contribuir a proyectos para principiantes?",
+    "options": [
+      "Pipelines de integración y despliegue continuos (CI/CD) integrados",
+      "Proceso simplificado de configuración e inicialización de repositorios",
+      "Optimización y refactorización automática del código",
+      "Una herramienta de sugerencias de código basada en aprendizaje automático"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub Desktop proporciona una interfaz gráfica que facilita operaciones de Git como configurar repositorios, realizar commits, hacer push y pull y trabajar con ramas. Esto reduce la necesidad de utilizar la línea de comandos, lo que resulta especialmente útil para principiantes.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Desktop"
+  },
+  {
+    "id": "975f97da-f29a-4cdb-a0c6-466893558e39",
+    "question": "¿Qué es un commit en la terminología de Git?",
+    "options": [
+      "Una solicitud para combinar cambios de una rama con otra",
+      "Un mensaje de chat en tiempo real enviado dentro de un proyecto de GitHub",
+      "Un comando para clonar un repositorio de GitHub en una máquina local",
+      "Un cambio guardado o una instantánea del estado actual del proyecto en el repositorio Git"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un commit registra una instantánea de los cambios del proyecto en un momento determinado. Forma parte del historial de Git y permite identificar, revisar y recuperar estados anteriores. No debe confundirse con clone, que copia un repositorio, ni con Pull Request, que solicita integrar cambios entre ramas.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Commits"
+  },
+  {
+    "id": "3e230ef2-368c-43c7-873e-cbc5d30774a9",
+    "question": "¿Qué funcionalidad proporciona la opción Star en el contexto de los repositorios de GitHub?",
+    "options": [
+      "Permite a los usuarios marcar repositorios con una estrella para mostrar interés o reconocimiento, de forma similar a guardarlos como referencia.",
+      "Permite a GitHub otorgar estrellas a los repositorios que cumplen determinados estándares de calidad y actividad.",
+      "Permite a los usuarios calificar la calidad de un repositorio en una escala de cinco estrellas.",
+      "Permite a los usuarios destacar repositorios que requieren atención inmediata del equipo de soporte de GitHub."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La estrella de GitHub sirve para que los usuarios indiquen interés o reconocimiento por un repositorio y para encontrarlo posteriormente con mayor facilidad. No es una valoración de una a cinco estrellas ni es un premio otorgado automáticamente por GitHub.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Stars"
+  },
+  {
+    "id": "437c6739-cba2-47fb-8895-e85d54ed17f8",
+    "question": "¿Cómo se pueden utilizar los comandos slash en Issues y Pull Requests de GitHub?",
+    "options": [
+      "Para ejecutar scripts del servidor directamente desde los comentarios",
+      "Para combinar automáticamente Pull Requests sin revisión",
+      "Para insertar texto preformateado o plantillas en los comentarios",
+      "Para realizar acciones, como cerrar Issues, añadir etiquetas o asignar usuarios, directamente desde el cuadro de comentarios"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los comandos slash permiten ejecutar determinadas acciones desde el cuadro de comentarios utilizando comandos que comienzan con '/'. Dependiendo del contexto y de las funciones disponibles, pueden utilizarse para acciones como cerrar Issues, añadir etiquetas o asignar usuarios. No permiten ejecutar scripts del servidor ni saltarse las revisiones de Pull Requests.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Slash Commands"
+  },
+  {
+    "id": "07aa594c-d20b-41d1-a091-ca76d8e949b3",
+    "question": "¿Cuál de las siguientes características es exclusiva de las cuentas GitHub Pro en comparación con las cuentas personales gratuitas de GitHub?",
+    "options": [
+      "La capacidad de utilizar GitHub Actions y GitHub Packages",
+      "Acceso a GitHub Pages",
+      "Colaboradores ilimitados en repositorios privados",
+      "La capacidad de crear repositorios privados"
+    ],
+    "correctAnswer": 2,
+    "explanation": "“Unlimited collaborators in private repositories” es la opción correcta según la imagen proporcionada. La explicación indica que GitHub Pro permite colaboradores ilimitados en repositorios privados. Tanto las cuentas gratuitas como Pro pueden crear repositorios privados; GitHub Pages y GitHub Actions/Packages también están disponibles para ambas, aunque pueden existir diferencias en límites de uso.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Plans"
+  },
+  {
+    "id": "a91ce0c0-6e85-493b-8264-60cce5376df0",
+    "question": "¿Cuál es el propósito de crear ramas (branching) en Git?",
+    "options": [
+      "Registrar el número de commits realizados por cada desarrollador",
+      "Combinar diferentes proyectos en un único repositorio",
+      "Eliminar versiones obsoletas del software",
+      "Crear un entorno paralelo para desarrollar nuevas funcionalidades o corregir errores"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El branching en Git permite crear versiones paralelas de un proyecto, de modo que los desarrolladores puedan trabajar en nuevas funcionalidades, mejoras o correcciones de errores sin afectar la rama principal.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Branches"
+  },
+  {
+    "id": "a1b5bf73-5978-4db6-aa6a-6ed120776d26",
+    "question": "¿Dónde se encuentra en GitHub la barra de formato de texto que ayuda a dar estilo a los comentarios de Issues y Pull Requests?",
+    "options": [
+      "Dentro de la pestaña GitHub Actions",
+      "En el tablero del proyecto",
+      "En el menú de configuración del repositorio",
+      "En los cuadros de comentarios de Issues y Pull Requests"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La barra de formato de texto está disponible en los cuadros de comentarios de Issues y Pull Requests. Permite dar formato al texto, insertar enlaces, formatear código y utilizar otras opciones sin tener que escribir manualmente la sintaxis Markdown.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Markdown Formatting"
+  },
+  {
+    "id": "3a15bb4e-cc20-4007-966e-5818b2e1781f",
+    "question": "En el contexto de GitHub, ¿qué funcionalidad proporciona la característica Issues para un proyecto?",
+    "options": [
+      "Automatiza el despliegue de proyectos a servidores en producción.",
+      "Permite a los usuarios resaltar errores de sintaxis directamente en el código.",
+      "Sirve como plataforma de control de versiones, reemplazando la necesidad de Git.",
+      "Proporciona un espacio para discutir mejoras, errores y tareas relacionadas con el proyecto."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Issues proporciona un espacio colaborativo donde los desarrolladores pueden crear, discutir y gestionar tareas, mejoras y errores relacionados con el proyecto, facilitando la comunicación entre los colaboradores.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Issues"
+  },
+  {
+    "id": "eda2577c-266b-4deb-ac6d-0729b0790fb1",
+    "question": "¿Por qué se recomienda realizar commits frecuentes en Git?",
+    "options": [
+      "Para evitar conflictos con cambios realizados por otros desarrolladores",
+      "Para garantizar que los cambios estén bien documentados y puedan revertirse fácilmente si es necesario",
+      "Para mejorar el rendimiento del software Git",
+      "Para aumentar el tamaño del repositorio lo más rápido posible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los commits frecuentes ayudan a mantener un historial detallado de los cambios, facilitando entender qué cambios se realizaron, cuándo y por qué, y permitiendo revertir cambios específicos si es necesario.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Commits"
+  },
+  {
+    "id": "7c88cb67-5ab5-4f96-81e2-92554427f131",
+    "question": "¿Cómo se diferencia el producto gratuito de GitHub para cuentas personales de la suscripción GitHub Pro en cuanto a la funcionalidad de los repositorios privados?",
+    "options": [
+      "GitHub Free permite repositorios públicos ilimitados, pero limita el número de repositorios privados.",
+      "No existe diferencia; ambos ofrecen la misma funcionalidad para repositorios privados.",
+      "Solo las cuentas GitHub Pro pueden crear repositorios privados.",
+      "GitHub Pro proporciona funciones avanzadas de colaboración en repositorios privados, como protección de ramas y code owners."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La explicación de la imagen indica que GitHub Pro mejora la funcionalidad de los repositorios privados ofreciendo características avanzadas de colaboración como branch protections y code owners. Tanto GitHub Free como GitHub Pro permiten crear repositorios privados.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Plans"
+  },
+  {
+    "id": "4bd07d98-3358-4c7e-afc8-6678c2a6eb7d",
+    "question": "¿Qué sintaxis se utiliza en GitHub Markdown para crear una lista de tareas?",
+    "options": [
+      "* [ ] Task 1",
+      "{ } Task 1",
+      "<checkbox>Task 1</checkbox>",
+      "( ) Task 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En GitHub Markdown, una lista de tareas se crea usando asteriscos (*) para los elementos de lista seguidos de corchetes con un espacio ([ ]) para tareas sin marcar. Para una tarea marcada se utiliza [x]. Este formato permite mostrar casillas de verificación interactivas en Issues, Pull Requests y archivos Markdown.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Task Lists"
+  },
+  {
+    "id": "b5d5b666-0f02-4b59-88a7-aa47646a5eb5",
+    "question": "¿Cuáles son las diferencias principales entre GitHub Desktop y github.com?",
+    "options": [
+      "github.com es exclusivamente para proyectos de código abierto, mientras que GitHub Desktop puede utilizarse para proyectos privados y comerciales.",
+      "GitHub Desktop es un cliente gráfico que proporciona una interfaz de escritorio para operaciones de Git y GitHub, mientras que github.com es la interfaz web para acceder y gestionar repositorios de GitHub en línea.",
+      "GitHub Desktop y github.com son aplicaciones de escritorio para control de versiones, sin diferencias significativas.",
+      "GitHub Desktop es una interfaz web para gestionar repositorios, mientras que github.com proporciona una aplicación de escritorio para la gestión de repositorios sin conexión."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub Desktop es una aplicación con interfaz gráfica (GUI) que simplifica los comandos de Git para el control de versiones y la colaboración. github.com es la plataforma web que permite acceder y gestionar los repositorios directamente desde un navegador, ofreciendo funciones más amplias que el simple control de versiones.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Desktop"
+  },
+  {
+    "id": "5fddb59e-cdee-48b2-98f9-de54988c2ade",
+    "question": "¿Qué significa “staging” en Git y cómo se realiza?",
+    "options": [
+      "El staging consiste en seleccionar y marcar los cambios que se incluirán en el próximo commit, utilizando el comando git add.",
+      "Se refiere a marcar determinados commits para futuras referencias utilizando el comando git tag.",
+      "Es el proceso de sincronizar un repositorio local con su contraparte remota utilizando el comando git sync.",
+      "Staging es el proceso de publicar un repositorio en GitHub mediante la interfaz web de GitHub."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El staging en Git consiste en utilizar el comando git add para seleccionar y guardar temporalmente los cambios que se incluirán en el próximo commit, permitiendo decidir qué cambios forman parte de cada commit.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Staging"
+  },
+  {
+    "id": "86847073-ddee-4555-a06b-532fd12758af",
+    "question": "¿Cómo se diferencia el control de versiones distribuido del control de versiones centralizado?",
+    "options": [
+      "Requiere una conexión a un servidor central para realizar commits.",
+      "Permite realizar commits sin conexión y disponer de copias locales del repositorio.",
+      "Solo realiza seguimiento de los cambios hechos por el desarrollador principal del proyecto.",
+      "Restringe el acceso al código fuente a un único repositorio central."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los sistemas de control de versiones distribuidos, como Git, permiten que cada usuario tenga una copia local completa del repositorio, habilitando commits sin conexión y favoreciendo la colaboración y la redundancia.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Distributed Version Control"
+  },
+  {
+    "id": "0011a761-eef0-4052-9091-2a26668acb34",
+    "question": "¿Qué es un Pull Request en GitHub?",
+    "options": [
+      "Un método para descargar la última versión de un proyecto desde GitHub",
+      "Un mensaje enviado al responsable de un repositorio solicitando acceso de lectura a los archivos del proyecto",
+      "Un comando que trae todas las ramas de un repositorio a la máquina local",
+      "Una solicitud de un desarrollador para integrar sus cambios en el proyecto principal, facilitando la revisión y discusión del código"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un Pull Request permite que un colaborador notifique a los responsables del proyecto sobre cambios que ha enviado al repositorio, facilitando la revisión y discusión del código y, finalmente, la integración de esos cambios en el proyecto principal.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Pull Requests"
+  },
+  {
+    "id": "39f1631f-6ef2-45e3-aedb-b1ed44ff8a91",
+    "question": "¿Cómo integra el comando git merge los cambios de una rama en otra?",
+    "options": [
+      "Copia los cambios de una rama y los pega en la rama activa, sobrescribiendo cualquier archivo existente.",
+      "Mueve todos los commits de la rama destino a la rama origen, invirtiendo efectivamente sus roles.",
+      "Crea una copia directa de la rama origen y reemplaza la rama destino con esta copia.",
+      "Aplica los cambios de una rama a otra creando un nuevo commit que representa la culminación de los historiales de ambas ramas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "git merge integra los cambios de una rama en otra combinando los historiales de ambas ramas y creando un nuevo commit que representa el estado combinado, manteniendo el historial de las dos ramas.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Git Merge"
+  },
+  {
+    "id": "5cde204c-3075-44f4-97cb-fcc190fce30f",
+    "question": "¿Qué opciones de despliegue están disponibles para los clientes de GitHub Enterprise?",
+    "options": [
+      "Nube pública alojada por GitHub, nube privada y centro de datos on-premises.",
+      "Solo nube pública alojada por GitHub.",
+      "Nube pública alojada por terceros y GitHub Marketplace.",
+      "Solo centro de datos on-premises."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Enterprise ofrece opciones flexibles de despliegue que incluyen la nube pública de GitHub, un entorno de nube privada o un centro de datos on-premises de la organización.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Enterprise"
+  },
+  {
+    "id": "9e4dd087-2265-4ac8-909b-0199ef6f3b5a",
+    "question": "¿Cuál de las siguientes funciones está disponible mediante la aplicación GitHub Mobile?",
+    "options": [
+      "Edición directa de código en todos los lenguajes de programación.",
+      "Visualización y combinación (merge) de pull requests.",
+      "Acceso y modificación de la configuración de los repositorios.",
+      "Ejecución de workflows de GitHub Actions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "GitHub Mobile permite ver y gestionar pull requests, incluyendo revisar cambios de código, comentar y hacer merge de pull requests desde un dispositivo móvil.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Mobile"
+  },
+  {
+    "id": "6d2e69f3-ea7c-429e-b62a-03682099f0dd",
+    "question": "¿Qué es Markdown y cómo se utiliza dentro de GitHub?",
+    "options": [
+      "Un lenguaje de consultas de bases de datos para el motor de búsqueda interno de GitHub.",
+      "Una herramienta para gestionar dependencias de proyectos dentro de repositorios de GitHub.",
+      "Un lenguaje de marcado ligero para crear texto formateado usando un editor de texto plano.",
+      "Un lenguaje de programación utilizado para implementar GitHub Actions."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Markdown es un lenguaje de marcado ligero que permite crear texto formateado usando un editor de texto plano. En GitHub se utiliza ampliamente en documentación, comentarios, Issues, Pull Requests y archivos README.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Markdown"
+  },
+  {
+    "id": "3699b469-0be8-4b55-9366-1e2446cba7ad",
+    "question": "¿Cómo mejora la aplicación GitHub Mobile la experiencia de gestión de notificaciones para los usuarios?",
+    "options": [
+      "Proporciona una bandeja de entrada unificada para las notificaciones de GitHub con capacidades de filtrado y búsqueda.",
+      "Se integra con el correo electrónico para gestionar directamente las notificaciones de GitHub desde la bandeja de entrada del usuario.",
+      "Las notificaciones solo pueden visualizarse, pero no interactuar con ellas, mediante la aplicación.",
+      "Ofrece notificaciones push personalizables para cada repositorio."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Mobile incluye una bandeja de entrada unificada para las notificaciones, permitiendo gestionarlas, filtrarlas y buscarlas directamente desde la aplicación.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Mobile"
+  },
+  {
+    "id": "ba6b0ad9-e006-4a65-82db-56fdc71ac588",
+    "question": "Para las cuentas de organización de GitHub, ¿cuál es el principal beneficio del producto Teams frente al producto Free for organizations?",
+    "options": [
+      "El producto Teams proporciona funciones avanzadas de seguridad, como SAML single sign-on, que no están disponibles en Free for organizations.",
+      "El producto Teams permite únicamente repositorios públicos, mientras que Free for organizations admite repositorios públicos y privados.",
+      "Solo el producto Teams permite utilizar GitHub Actions y Packages.",
+      "Teams ofrece análisis e información más completos sobre los repositorios y las actividades de los miembros del equipo."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El producto Teams ofrece funciones adicionales de seguridad, como SAML single sign-on y permisos de usuario, que no están disponibles en Free for organizations.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "SAML / Authentication"
+  },
+  {
+    "id": "67dc3fa6-99e4-4694-848e-50e1fed3ac46",
+    "question": "En Git, ¿cuál es la diferencia entre los comandos git fetch y git pull?",
+    "options": [
+      "git fetch combina los cambios de un repositorio remoto con la rama actual, mientras que git pull solo los descarga.",
+      "git fetch descarga los cambios de un repositorio remoto sin combinarlos, mientras que git pull los descarga y los combina inmediatamente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "git fetch descarga cambios del repositorio remoto y actualiza las referencias locales sin combinarlos con la rama actual. git pull realiza ambas operaciones: fetch y merge.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Git Fetch / Git Pull"
+  },
+  {
+    "id": "6433ba25-021a-4e2d-b36b-60ec6ac37bee",
+    "question": "¿Qué es un remote en la terminología de Git?",
+    "options": [
+      "Una copia de seguridad del repositorio local almacenada en un disco duro externo.",
+      "Una versión del proyecto que existe en la computadora de otro desarrollador.",
+      "Una herramienta utilizada para revisar cambios de código antes de hacer commit.",
+      "Un repositorio alojado en una red o en Internet que puede sincronizarse con copias locales."
+    ],
+    "correctAnswer": 3,
+    "explanation": "En Git, un remote es un repositorio alojado en una red o en Internet que permite sincronizar cambios con los repositorios locales.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Git Remotes"
+  },
+  {
+    "id": "90bd4f0f-a60c-44a7-bb2a-3e62e80194ad",
+    "question": "¿Qué es Git?",
+    "options": [
+      "Un sistema de control de versiones distribuido utilizado para realizar seguimiento de cambios en el código fuente.",
+      "Un servicio de alojamiento web para sitios que utilizan control de versiones.",
+      "Una interfaz gráfica para gestionar proyectos de software.",
+      "Un lenguaje de programación optimizado para desarrollo web."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Git es un sistema de control de versiones distribuido utilizado para realizar seguimiento de cambios en el código fuente.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Git"
+  },
+  {
+    "id": "74e88cf3-2c91-4673-ace6-69c0649811b1",
+    "question": "En el contexto de Git, ¿qué significa hacer “fork” de un repositorio y en qué se diferencia de clonarlo?",
+    "options": [
+      "Forking crea una copia vinculada de un repositorio en GitHub para modificación personal, mientras que cloning crea una copia local de un repositorio.",
+      "Forking elimina el repositorio original y transfiere la propiedad al fork, mientras que cloning no lo hace.",
+      "Forking crea una copia privada del repositorio en la máquina local, mientras que cloning crea una copia pública.",
+      "Forking y cloning son idénticos en función y resultado dentro de Git y GitHub."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Forking crea una copia personal del repositorio en GitHub que permanece vinculada al original. Cloning crea una copia local en la computadora.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Forks"
+  },
+  {
+    "id": "1c9fb1a4-05dc-4b94-a3ae-ee1316850fc2",
+    "question": "¿Cómo se crea un hipervínculo en GitHub Markdown?",
+    "options": [
+      "http://example.com - Example",
+      "<a href=\"http://example.com\">Example</a>",
+      "\"Example\":http://example.com",
+      "[Example](http://example.com)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "En GitHub Markdown, un hipervínculo se crea colocando el texto del enlace entre corchetes, seguido de la URL entre paréntesis: [Example](http://example.com).",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Markdown"
+  },
+  {
+    "id": "6f174bcf-a655-4a43-991b-be9097e52b14",
+    "question": "¿Cuál de las siguientes funciones está disponible en GitHub Desktop?",
+    "options": [
+      "Clonar repositorios a la máquina local para desarrollo sin conexión.",
+      "Revisión automática de código y resolución automática de conflictos de merge.",
+      "Alojamiento de sitios web en vivo.",
+      "Edición directa de código en el navegador."
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub Desktop permite clonar repositorios desde GitHub a la máquina local, facilitando el desarrollo sin conexión, las operaciones de control de versiones y la posterior sincronización con el repositorio online.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Desktop"
+  },
+  {
+    "id": "4e31537c-33ee-4cdb-a540-b490d07b3f04",
+    "question": "¿Cuál de las siguientes es la sintaxis correcta para crear un encabezado en un archivo Markdown de GitHub?",
+    "options": [
+      "::Heading::",
+      "# Heading",
+      "Heading ======",
+      "<h1>Heading</h1>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "\"# Heading\" es correcto. En Markdown, los encabezados se crean colocando un símbolo numeral (#) antes del texto del encabezado. El número de símbolos numerales indica el nivel del encabezado, donde un solo símbolo representa el nivel más alto o el encabezado más grande. \"::Heading::\" no es una sintaxis reconocida en Markdown. Aunque \"Heading ======\" puede utilizarse para un encabezado de nivel superior en algunas variantes de Markdown, \"# Heading\" es la sintaxis estándar de GitHub Markdown para crear encabezados. \"<h1>Heading</h1>\" es sintaxis HTML, no Markdown.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Markdown"
+  },
+  {
+    "id": "f0c5a8a8-c28f-4e9f-8811-e30ec92dcd54",
+    "question": "¿Cuál de los siguientes elementos de Markdown permite crear comentarios que son visibles en el código fuente Markdown pero no se muestran en la interfaz de GitHub?",
+    "options": [
+      "* This is a comment",
+      "<!-- This is a comment -->",
+      "# This is a comment",
+      "// This is a comment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "\"<!-- This is a comment -->\" es correcto. En GitHub Markdown, los comentarios HTML son visibles en el código fuente Markdown pero no se muestran en la vista renderizada de GitHub. Pueden utilizarse para notas o recordatorios que pueden ver quienes consulten el código fuente. \"// This is a comment\" se utiliza para comentarios de una sola línea en muchos lenguajes de programación, pero no en Markdown. \"# This is a comment\" se utiliza para crear encabezados. \"* This is a comment\" se utiliza para crear listas con viñetas.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Markdown"
+  },
+  {
+    "id": "79ab1c7c-8bb2-42e9-b079-77c019fe17c7",
+    "question": "¿Qué función cumple el archivo .gitignore en un repositorio de Git?",
+    "options": [
+      "Contiene metadatos para realizar el seguimiento del historial de versiones del repositorio.",
+      "Describe las directrices de contribución del proyecto.",
+      "Enumera los archivos y directorios que Git debe ignorar y no rastrear.",
+      "Especifica las convenciones de nombres de ramas del repositorio."
+    ],
+    "correctAnswer": 2,
+    "explanation": "\"Enumera los archivos y directorios que Git debe ignorar y no rastrear\" es correcto. El archivo .gitignore se utiliza para indicar los archivos y directorios que Git debe ignorar y no rastrear, como binarios compilados, archivos temporales o información sensible. Las convenciones de nombres de ramas son una política o convención del proyecto. Los metadatos del historial se almacenan en el directorio .git y las directrices de contribución suelen estar en CONTRIBUTING.md.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": ".gitignore"
+  },
+  {
+    "id": "ad4ca53c-a6e3-4770-8079-1cbc3c184db9",
+    "question": "¿Qué es GitHub Flow?",
+    "options": [
+      "Un flujo de desarrollo colaborativo que enfatiza la integración continua.",
+      "Un modelo de desarrollo lineal en el que los desarrolladores trabajan directamente en la rama principal.",
+      "Un modelo de branching diseñado alrededor de ramas de corta duración que incluye desarrollo de funcionalidades, revisión e integración.",
+      "Un proceso de desarrollo centralizado utilizado exclusivamente para proyectos de código abierto."
+    ],
+    "correctAnswer": 2,
+    "explanation": "\"Un modelo de branching diseñado alrededor de ramas de corta duración que incluye desarrollo de funcionalidades, revisión e integración\" es correcto. GitHub Flow implica crear ramas para nuevas funcionalidades, revisar los cambios mediante pull requests e integrar esos cambios en la rama principal. Trabajar directamente sobre la rama principal generalmente se desaconseja en proyectos colaborativos. GitHub Flow no es exclusivo de proyectos de código abierto y, aunque admite integración continua, esta no es su característica definitoria.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Flow"
+  },
+  {
+    "id": "ba672ce7-a258-4b82-a6b4-353e46769966",
+    "question": "¿Cómo ayuda GitHub Desktop a los usuarios a gestionar los conflictos de merge?",
+    "options": [
+      "Enviando una notificación por correo electrónico al propietario del repositorio por cada conflicto detectado.",
+      "Proporcionando una interfaz visual para comparar cambios en conflicto y seleccionar manualmente el código deseado.",
+      "Redirigiendo a los usuarios a github.com para resolver los conflictos en línea.",
+      "Combinando automáticamente todos los conflictos sin intervención del usuario."
+    ],
+    "correctAnswer": 1,
+    "explanation": "\"Proporcionando una interfaz visual para comparar cambios en conflicto y seleccionar manualmente el código deseado\" es correcto. GitHub Desktop proporciona una interfaz visual para revisar conflictos de merge, mostrar las diferencias entre cambios en conflicto y permitir seleccionar manualmente el código deseado. No resuelve automáticamente todos los conflictos, no obliga a resolverlos en github.com y no envía un correo al propietario por cada conflicto.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Conflictos de merge"
+  },
+  {
+    "id": "c723e6f5-993c-444d-b780-1edb55449265",
+    "question": "¿Cuál es la importancia del comando git status en el flujo de trabajo de Git?",
+    "options": [
+      "Muestra el estado actual de la red y la conectividad con el servidor de GitHub.",
+      "Enumera todas las ramas del repositorio local y muestra la rama activa actual.",
+      "Restablece el HEAD actual al estado especificado.",
+      "Muestra el estado actual del directorio de trabajo y del área de staging, incluidos los archivos modificados, preparados y no rastreados."
+    ],
+    "correctAnswer": 3,
+    "explanation": "\"Muestra el estado actual del directorio de trabajo y del área de staging, incluidos los archivos modificados, preparados y no rastreados\" es correcto. git status proporciona un resumen de los cambios del directorio de trabajo y del área de staging, incluidos los archivos no rastreados. No comprueba la conectividad de red, no tiene como función principal listar ramas y no restablece HEAD; esto último corresponde a git reset.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "git status"
+  },
+  {
+    "id": "8c832451-32f9-463e-abeb-22a2c69096ef",
+    "question": "¿Qué capacidad ofrece la aplicación GitHub Mobile para gestionar issues y pull requests mientras se está fuera de la computadora?",
+    "options": [
+      "Crear y asignar issues a usuarios, pero no cerrarlos.",
+      "Solo visualizar el estado de los pull requests sin posibilidad de interactuar.",
+      "Visualizar y comentar pull requests e issues, pero no crearlos.",
+      "Gestionar completamente el ciclo de vida de issues y pull requests, incluyendo su creación, comentarios y cierre."
+    ],
+    "correctAnswer": 3,
+    "explanation": "\"Gestionar completamente el ciclo de vida de issues y pull requests, incluyendo su creación, comentarios y cierre\" es correcto. GitHub Mobile permite crear, visualizar, comentar y cerrar issues y pull requests directamente desde la aplicación. Sus capacidades no se limitan a visualizar o comentar.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Issues y pull requests"
+  },
+  {
+    "id": "5499942e-dc11-413b-9a8e-78ddb9904f1d",
+    "question": "¿Cuál es el propósito del comando git clone en Git?",
+    "options": [
+      "Crea una copia local de un repositorio remoto, incluidos todos sus archivos y su historial de versiones.",
+      "Archiva el proyecto con fines de respaldo en un servidor remoto.",
+      "Duplica un repositorio dentro de GitHub para crear una versión privada para uso personal.",
+      "Actualiza un repositorio local con los cambios de su contraparte remota."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Crea una copia local de un repositorio remoto, incluidos todos sus archivos y su historial de versiones\" es correcto. git clone crea una copia local de un repositorio remoto, incluyendo sus archivos y su historial de versiones. Archivar para respaldo no es su función; actualizar un repositorio existente corresponde a git pull; y duplicar un repositorio dentro de GitHub para uso personal describe un fork.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "git clone"
+  },
+  {
+    "id": "0d8d789c-5bba-4163-99b7-44fe89c96be0",
+    "question": "¿Cuál es la diferencia entre Git y GitHub?",
+    "options": [
+      "Git permite trabajar con una o varias ramas locales y enviar cambios a un repositorio remoto. GitHub actúa como ese repositorio remoto, al que se accede mediante un sitio web o herramientas de línea de comandos.",
+      "Git es un sistema de control de versiones distribuido (DVCS) que se ejecuta en la nube. GitHub es una capa de interfaz que proporciona acceso a la tecnología de Git.",
+      "Git lo usa un colaborador individual. GitHub lo usan varios colaboradores para simplificar el trabajo de desarrollo en grupo."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Git es la herramienta que permite trabajar con una rama local y enviar cambios a un repositorio remoto; GitHub actúa como ese repositorio remoto. Git se ejecuta localmente en el equipo, no en la nube, y GitHub es una plataforma en la nube que utiliza Git como tecnología principal. Tanto Git como GitHub los usan colaboradores individuales y equipos que trabajan juntos.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Git vs GitHub"
+  },
+  {
+    "id": "8cdf7180-2dea-4b44-9b47-2f18d0d29413",
+    "question": "¿Qué elementos se pueden encontrar en los metadatos del perfil de un usuario de GitHub?",
+    "options": [
+      "Contraseña y dirección de correo electrónico.",
+      "Información de tarjeta de crédito y dirección de facturación.",
+      "Feed de actividad en tiempo real y sistema de mensajería directa.",
+      "Lista de seguidores y usuarios seguidos, ubicación y fecha de incorporación."
+    ],
+    "correctAnswer": 3,
+    "explanation": "\"Lista de seguidores y usuarios seguidos, ubicación y fecha de incorporación\" es correcta. Un perfil de usuario de GitHub incluye metadatos como seguidores, usuarios seguidos, ubicación y fecha de incorporación. Las contraseñas, la información financiera y los datos de facturación son privados y no forman parte de los metadatos públicos del perfil.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Metadatos del perfil"
+  },
+  {
+    "id": "e083182e-d696-43ae-a4e7-08012275aeed",
+    "question": "¿Cómo funciona el comando git pull en el flujo de trabajo de Git?",
+    "options": [
+      "Archiva el estado actual del proyecto con fines de respaldo.",
+      "Actualiza el repositorio local para que coincida con un repositorio remoto obteniendo y combinando los cambios.",
+      "Crea una nueva rama en el repositorio local basada en una rama remota.",
+      "Envía una solicitud para combinar los cambios de la rama local en el repositorio remoto."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Actualiza el repositorio local para que coincida con un repositorio remoto obteniendo y combinando los cambios\" es correcto. git pull obtiene los cambios del repositorio remoto y luego los combina con la rama local. Enviar cambios al remoto corresponde a git push. Crear una nueva rama es una operación independiente y archivar para respaldo no es la función de git pull.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "git pull"
+  },
+  {
+    "id": "8ddd0a8d-543a-4662-948d-cd703ede9f79",
+    "question": "¿Cuál es la mejor forma de reportar un issue a un proyecto de GitHub?",
+    "options": [
+      "Enviar un correo electrónico al propietario del proyecto.",
+      "No molestar en reportar bugs de software porque no hay transparencia y nunca se corrigen.",
+      "Buscar el issue en los issues existentes del proyecto y crear uno nuevo si aún no se ha notificado."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub ofrece una infraestructura para informar, gestionar y realizar el seguimiento de issues. Buscar primero en los issues existentes evita duplicados y puede revelar una solución ya disponible; si el issue no se ha notificado, puedes crear y seguir un nuevo issue. El correo electrónico no aprovecha esta infraestructura y los issues sí se resuelven con la ayuda de la comunidad.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Issues"
+  },
+  {
+    "id": "dbb4f460-fc54-4cc9-959f-c3250b0119cf",
+    "question": "Supongamos que creaste una corrección de errores en una nueva rama y quieres que forme parte de la próxima compilación de producción generada desde la rama `main`. ¿Qué deberías hacer a continuación?",
+    "options": [
+      "Copiar los cambios de tu rama y confirmarlos directamente en la rama `main`.",
+      "Crear un pull request para combinar tu nueva rama con la rama `main`.",
+      "Pensándolo mejor, quizá no compartas esta corrección. La pondrás solo en tu propia versión privada del código fuente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los pull requests son la forma correcta de comunicar que los commits están listos para su revisión e inclusión en la rama `main`. Confirmar directamente en `main` omite la revisión, y mantener la corrección en una versión privada implica que no se incluirá en las compilaciones futuras.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Pull Requests"
+  },
+  {
+    "id": "caf0e58f-fcd4-4191-9ded-c35bb0def04e",
+    "question": "Supongamos que quieres trabajar con un proyecto de GitHub, pero no tienes acceso de escritura a él. ¿Qué puedes hacer para contribuir?",
+    "options": [
+      "Hacer un fork del repositorio del proyecto en tu cuenta de GitHub, clonar el repositorio bifurcado en tu equipo local, enviar cambios a tu repositorio y enviar un pull request al repositorio de destino (upstream).",
+      "Clonar el proyecto en tu equipo local y enviar las actualizaciones directamente al repositorio del proyecto.",
+      "Usar comandos de git para hacer una copia del proyecto que te permita trabajar localmente. Enviar un issue para que tus cambios lleguen al repositorio de destino."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hacer un fork crea una copia remota del proyecto en tu cuenta que puedes clonar localmente, de modo que puedes trabajar sin acceso de escritura y luego enviar un pull request al repositorio upstream. No puedes enviar cambios directamente a un repositorio a menos que seas el propietario o tengas acceso de escritura, y abrir un issue no es la forma de contribuir con cambios.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Forks"
+  },
+  {
+    "id": "c32c0fba-a425-4f46-956b-f2b03f735764",
+    "question": "¿Cuál es la diferencia entre las cuentas de organización de GitHub y las cuentas personales/de usuario de GitHub?",
+    "options": [
+      "Las cuentas de organización son cuentas compartidas, mientras que las cuentas personales/de usuario son para individuos.",
+      "Las cuentas de organización cuestan más que las cuentas personales/de usuario.",
+      "Son exactamente iguales.",
+      "Las cuentas personales/de usuario tienen más acceso que las cuentas de organización."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las organizaciones son cuentas compartidas en las que un número ilimitado de personas puede colaborar en muchos proyectos a la vez. A diferencia de las cuentas personales/de usuario, los permisos en las cuentas de organización se gestionan con un enfoque por niveles. Según el plan, tanto las cuentas de organización como las personales pueden ser gratuitas o tener costos similares, y las cuentas de organización no otorgan más acceso que las personales.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Accounts"
+  },
+  {
+    "id": "90d15037-b662-416e-b251-2da3740ecd41",
+    "question": "¿Cuál es la mejor razón para decidir actualizar al producto GitHub Enterprise?",
+    "options": [
+      "Porque quieres usar GitHub Actions y Codespaces.",
+      "Porque tu responsable necesita usar GitHub Insights.",
+      "Porque quieres administrar de forma centralizada usuarios y repositorios en varias organizaciones.",
+      "Porque quieres usar la característica de revisores de pull requests de equipo."
+    ],
+    "correctAnswer": 2,
+    "explanation": "GitHub Enterprise permite reunir varias organizaciones para su administración centralizada. No necesitas GitHub Enterprise para usar GitHub Actions o Codespaces; GitHub Insights forma parte del producto GitHub One; y los revisores de pull requests de equipo están disponibles en los niveles GitHub Pro y GitHub Team.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Enterprise"
+  },
+  {
+    "id": "f7b12db3-9a0c-41e4-84f1-158163303523",
+    "question": "¿Cuál es el propósito de un equipo (team)?",
+    "options": [
+      "Un equipo permite administrar una cuenta de organización.",
+      "Un equipo permite controlar los niveles de permisos de una empresa.",
+      "Un equipo permite que un solo usuario inicie sesión con credenciales de cuentas diferentes.",
+      "Un equipo está pensado para reflejar la estructura de una empresa o grupo. Se utiliza para proporcionar permisos de acceso en cascada y facilitar la notificación de todos los miembros del equipo mediante menciones."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un equipo refleja la estructura de una empresa o grupo. Se utiliza para proporcionar permisos de acceso en cascada y facilitar la notificación de todos los miembros del equipo mediante menciones. Un equipo no administra una cuenta de organización, no controla los niveles de permisos de una empresa ni permite que un solo usuario inicie sesión con credenciales distintas.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Teams"
+  },
+  {
+    "id": "2e2fb7bc-31ac-418e-a1aa-0445feb490d4",
+    "question": "¿Qué función puedes ejecutar en GitHub Mobile?",
+    "options": [
+      "Cambiar de rama con pull requests y ver los estados de CI.",
+      "Comparar imágenes modificadas.",
+      "Agregar y clonar repositorios.",
+      "Gestionar, clasificar y borrar notificaciones de github.com."
+    ],
+    "correctAnswer": 3,
+    "explanation": "En GitHub Mobile puedes gestionar, clasificar y borrar notificaciones de github.com. Cambiar de rama con pull requests, ver estados de CI, comparar imágenes modificadas y agregar o clonar repositorios son funciones de GitHub Desktop.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Mobile"
+  },
+  {
+    "id": "273d1b30-7d17-4a65-9862-045db88f90f8",
+    "question": "¿Cuál de estas características es exclusiva de GitHub Enterprise Cloud (GHEC)?",
+    "options": [
+      "Requiere implementación local y administración de la infraestructura",
+      "Proporciona administración centralizada de usuarios con integración de proveedores de identidad",
+      "Debe instalarlo y mantenerlo el equipo de TI de la organización",
+      "Funciona por completo dentro de un entorno de nube privada"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GHEC admite la administración centralizada de usuarios y se integra con proveedores de identidad mediante SAML para SSO y SCIM para el aprovisionamiento de usuarios, una característica clave de las soluciones empresariales alojadas en la nube. GHEC está hospedado y administrado por GitHub en la nube pública de GitHub, por lo que no requiere instalación ni administración de infraestructura por parte del equipo de TI de la organización.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Enterprise Cloud"
+  },
+  {
+    "id": "a2efd37b-bba4-46f5-93ea-c144b0916b71",
+    "question": "¿Qué acciones puedes realizar a nivel empresarial para administrar el uso de GitHub Actions en tu instancia empresarial?",
+    "options": [
+      "Crear plantillas de workflow",
+      "Configurar una política de uso de GitHub Actions",
+      "Sincronizar manualmente las acciones públicas en Enterprise Cloud"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las políticas de uso de GitHub Actions te permiten restringir el acceso a GitHub Actions a organizaciones específicas de tu instancia. Las plantillas de workflow se crean a nivel de organización, y las acciones públicas se sincronizan automáticamente en Enterprise Cloud (la sincronización manual solo es posible con Enterprise Server).",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "GitHub Actions Policies"
+  },
+  {
+    "id": "5dd295c9-2166-486a-bc1e-40af11dd6a1b",
+    "question": "¿Qué acciones puedes realizar para configurar runners autohospedados para el uso empresarial?",
+    "options": [
+      "Crear y agregar etiquetas personalizadas a tus runners",
+      "Agregar configuraciones de proxy a tus runners después de que se inicien.",
+      "Agregar la dirección IP o el rango de direcciones IP de tus runners a nivel de repositorio."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las etiquetas personalizadas pueden usarse cuando necesitas ejecutar jobs en runners con capacidades específicas. Todas las configuraciones de proxy deben agregarse antes de iniciar un runner autohospedado, y si tu organización configura una lista de IP permitidas, debes agregar la dirección o el rango de IP del runner a la lista de permitidas de la organización, que se encuentra en la configuración de la organización.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Self-hosted Runners"
+  },
+  {
+    "id": "736edcae-45e4-4061-9373-52a576257f46",
+    "question": "¿Qué son los secretos cifrados?",
+    "options": [
+      "Los secretos cifrados son tokens de autenticación que puedes generar en la configuración de tu cuenta.",
+      "Los secretos cifrados son el equivalente de las claves SSH en GitHub.",
+      "Los secretos cifrados son variables de entorno cifradas que puedes crear para almacenar información confidencial."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los secretos cifrados son variables de entorno cifradas que se utilizan para almacenar información confidencial. Una vez creados, están disponibles para usarse en tus workflows y acciones en el nivel en que se crearon (organización o repositorio). Los tokens de autenticación que se crean en la configuración de la cuenta son tokens de acceso personal (PAT), y las claves SSH simplemente se llaman claves SSH en GitHub.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Encrypted Secrets"
+  },
+  {
+    "id": "2af38790-178b-42d2-bc66-56e82dac8faa",
+    "question": "¿Cuál de los siguientes escenarios es un caso de uso común de un sistema de control de versiones?",
+    "options": [
+      "Eliminar las versiones anteriores de un proyecto o archivo, para estar seguro de trabajar solo con la versión más reciente.",
+      "Realizar cambios experimentales en el proyecto en una rama aislada.",
+      "Reunir los requisitos funcionales de un proyecto grande y comunicarlos a las partes interesadas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los sistemas de control de versiones conservan deliberadamente las versiones anteriores de un archivo o proyecto para poder acceder a ellas cuando sea necesario. Crear ramas para realizar conjuntos de cambios aislados en un proyecto es un caso de uso clave del control de versiones. Los sistemas de control de versiones no están diseñados para reunir requisitos funcionales y comunicarlos a las partes interesadas.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Version Control"
+  },
+  {
+    "id": "3eb91e55-875f-4935-ad3e-a8aac710bc36",
+    "question": "¿Qué disciplina más amplia suele incluir el control de versiones?",
+    "options": [
+      "Software de gestión de versiones (VMS)",
+      "Sistema de gestión de control de software (SCM)",
+      "Sistema de gestión de configuración de software (SCM)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El control de versiones es una de las prácticas incluidas en la gestión de configuración de software (SCM). «Software de gestión de versiones (VMS)» y «sistema de gestión de control de software (SCM)» no son las disciplinas correctas.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Version Control"
+  },
+  {
+    "id": "42444803-031f-42b9-934e-47298a5a430d",
+    "question": "¿Qué comando de Git proporciona información sobre cómo usar Git?",
+    "options": [
+      "`git init`",
+      "`git status`",
+      "`git help`"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Usa `git help` para ver información sobre cómo usar Git. `git init` inicializa un nuevo repositorio Git y `git status` muestra el estado del árbol de trabajo y del área de staging.",
+    "examId": "github-foundations",
+    "categoryId": "introduction-to-git-and-github",
+    "topic": "Git Help"
+  }
+]
