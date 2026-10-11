@@ -130,8 +130,24 @@ screen.
    [`exam-engine-data`](https://github.com/FEDERIN/exam-engine-data) repo (or in
    the local `data/exams/` for development).
 2. Add `questions/<id>/*.json` with the questions.
-3. Register it in the `exams` array of
-   `src/features/exam/catalog/loadExamCatalog.ts`.
+
+**No code change is needed.** Exams and questions are discovered from the
+file system at build time (`import.meta.glob` in
+`src/features/exam/catalog/loadExamCatalog.ts`), so any definition dropped
+into `data/exams/` shows up in the app on the next deploy. Exams are listed
+alphabetically by name.
+
+The catalog is validated on load, and a broken file fails the build with a
+readable error instead of silently disappearing:
+
+- An invalid exam definition (missing `id`, `name`, or `categories`, a
+  duplicated category id, a non-numeric weight) fails the build.
+- Duplicate exam ids fail the build.
+- Questions whose `examId` has no matching definition fail the build, which
+  catches the case where you add questions before the exam definition.
+
+An exam with a definition but no questions is allowed: it is listed as
+unavailable and cannot be started.
 
 ## Persistence
 
