@@ -3,6 +3,14 @@
 Project instructions for OpenCode. Human-facing docs live in `README.md`;
 this file covers what an agent needs to work in this repo without guessing.
 
+## Memory
+
+- At the start, read `MEMORY.md` for current state and past decisions.
+- When a task finishes, update it: current state, decisions with rationale, mistakes to avoid.
+- Keep it short (max ~50 lines); drop what no longer adds value.
+- If something becomes a permanent rule, move it to `AGENTS.md` instead.
+- Never store sensitive data (keys, tokens, personal data).
+
 ## What this is
 
 A browser-only practice exam engine. React 19 + TypeScript (strict) + Vite 8,
